@@ -12,9 +12,9 @@ This repository contains the code, prompts, and artifacts used to generate a hie
 ├── prompts/
 │   └── domain_spec_prompt.txt
 ├── scripts/
-│   └── hierarchy_from_rdflib.py
-├── data/
-├── outputs/
+│   └── hierarchy.py
+│   └── ontology_classification.py
+├── ontology4.0.txt/
 └── appendix/
 ```
 
