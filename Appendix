@@ -21,9 +21,7 @@
   * B.2 File layout (repo)
   * B.3 How to run the pipeline (commands)
   * B.4 Validation: OOPS! & HermiT (how-to)
-  * B.5 Evaluation protocol (small-sample experiment)
-  * B.6 Expected outputs & troubleshooting
-  * B.7 License & contact
+  * B.5 Expected outputs & troubleshooting
 
 ---
 
@@ -150,27 +148,13 @@ If you used a different LLM client (e.g., `openai` vs `openai-client`), adjust a
 ```
 /aiact-ontology-repo/
 ├── README.md
-├── requirements.txt
-├── LICENSE
-├── data/
-│   ├── ai_act_toc.json          # table-of-contents / chunk manifest
-│   ├── chunks/                  # chunked legal texts (chapter/article-level)
-│   └── gold_annotations.json    # small sample gold set for evaluation
 ├── prompts/
 │   ├── domain_spec_prompt.txt
-│   ├── class_extraction_prompt.txt
-│   └── owl_generation_prompt.txt
-├── scripts/
-│   ├── generate_ontology.py     # main pipeline orchestrator
-│   ├── parse_chunk.py           # chunk -> JSON extractor
-│   ├── rdflib_writer.py         # converts JSON -> RDFLib graph -> turtle/owl
-│   └── canonicalize_iris.py     # cleans up IRIs and naming
-├── outputs/
-│   ├── ontology4.0.owl
-│   └── logs/
-├── appendix/                    # this document and sample outputs
-└── tests/
-    └── test_pipeline.py
+├── python_code/
+│   ├── ontology_classification.py     
+│   ├── hierchy.py           # chunk -> JSON extractor
+├── ontology4.0.owl
+├── appendix/
 ```
 
 ## B.3 How to run the pipeline (commands)
@@ -184,14 +168,7 @@ OPENAI_API_KEY=sk-xxxxxxxxxxxxxxxx
 2. **Run the full pipeline (example):**
 
 ```bash
-python scripts/generate_ontology.py --input data/ai_act_toc.json --out outputs/ontology4.0.owl --prompts prompts/
-```
-
-3. **Per-chunk run (recommended during development):**
-
-```bash
-python scripts/parse_chunk.py --chunk data/chunks/chapter_3.txt --out outputs/chapter_3.json
-python scripts/rdflib_writer.py --input outputs/chapter_3.json --out outputs/chapter_3.ttl
+python python_code/ontology_classification.py --input ontology.txt --output ontology.txt
 ```
 
 4. **Combine TTLs and serialize to OWL/XML:**
@@ -220,57 +197,13 @@ python scripts/merge_graphs.py --inputs outputs/*.ttl --out outputs/ontology4.0.
 
 Include both OOPS! and HermiT outputs in the appendix to show how you corrected issues discovered.
 
-## B.5 Evaluation protocol (small-sample experiment)
 
-**Goal:** Provide quantitative evidence for ChatGPT-assisted extraction quality.
+## B.5 Expected outputs & troubleshooting
 
-**Dataset:** Create `data/gold_annotations.json` with a small annotated sample (e.g., 20 articles): each entry contains the ground-truth classes/properties/individuals expected.
-
-**Metrics:**
-
-* **Precision/Recall** for class extraction: match extracted class labels to gold labels (string-normalized)
-* **Property correctness:** proportion of properties where both domain & range match gold
-* **IRI cleanliness:** count of malformed IRIs (non-canonical characters or double underscores)
-* **Reasoner failures found:** number of unsatisfiable classes after reasoning
-
-**Procedure:**
-
-1. Run the pipeline to extract from the chosen 20 articles → produce `outputs/extracted_sample.json`.
-2. Run `scripts/evaluate_sample.py --gold data/gold_annotations.json --pred outputs/extracted_sample.json` and record the metrics.
-3. Report results in a table and discuss common failure modes (e.g., missed domain/range, misclassified individuals).
-
-**Statistical note:** with a small sample, report absolute counts and qualitative examples rather than heavy statistical claims.
-
-## B.6 Expected outputs & troubleshooting
-
-* **Expected files after a successful run:** `outputs/ontology4.0.owl`, `outputs/ontology4.0.ttl`, `outputs/pipeline_log.txt`.
+* **Expected files after a successful run:** `outputs/ontology4.0.owl`
 * **Common errors & fixes:**
 
   * *RDFLib parse errors:* run canonicalize\_iris.py to remove illegal characters, then reserialize.
   * *Duplicated IRIs:* run dedupe step (scripts/canonicalize\_iris.py) to merge or rename duplicates.
   * *Model forgetting IRIs across prompts:* include a persistent manifest (`data/ai_act_toc.json`) and pass `existing_iris` in the prompt to preserve identity.
 
-## B.7 License & contact
-
-* **License:** Add a license file (MIT or your preferred academic license) in the repo root.
-* **Contact:** For questions about the reproducibility steps contact: `charikleia.spanou@example.edu` (replace with your academic email).
-
----
-
-## Appendix — Example minimal `generate_ontology.py` outline (pseudo-code)
-
-```python
-# PSEUDO-CODE
-# load toc.json
-# for chunk in chunks:
-#   call LLM with domain_spec_prompt + chunk
-#   save extraction json
-#   canonicalize IRIs
-#   convert json -> RDFLib Graph
-# merge Graphs
-# serialize to turtle and owl/xml
-```
-
----
-
-*End of Appendix A & Reproducibility README*
