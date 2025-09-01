@@ -1,0 +1,4356 @@
+<?xml version="1.0"?>
+<rdf:RDF xmlns="http://www.w3.org/2002/07/owl#"
+     xml:base="http://www.w3.org/2002/07/owl"
+     xmlns:owl="http://www.w3.org/2002/07/owl#"
+     xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+     xmlns:xml="http://www.w3.org/XML/1998/namespace"
+     xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
+     xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#">
+    <Ontology/>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Classes
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- http://www.w3.org/2002/07/owl#Class -->
+
+    <Class rdf:about="http://www.w3.org/2002/07/owl#Class"/>
+    
+
+
+    <!-- https://w3id.org/dpv/legal/eu/aiact#annex_1 -->
+
+    <Class rdf:about="https://w3id.org/dpv/legal/eu/aiact#annex_1">
+        <rdfs:subClassOf rdf:resource="https://w3id.org/dpv/legal/eu/aiact#regulation_eu"/>
+        <rdfs:label>annex 1</rdfs:label>
+    </Class>
+    
+
+
+    <!-- https://w3id.org/dpv/legal/eu/aiact#annex_10 -->
+
+    <Class rdf:about="https://w3id.org/dpv/legal/eu/aiact#annex_10">
+        <rdfs:subClassOf rdf:resource="https://w3id.org/dpv/legal/eu/aiact#regulation_eu"/>
+        <rdfs:label>annex 10</rdfs:label>
+    </Class>
+    
+
+
+    <!-- https://w3id.org/dpv/legal/eu/aiact#annex_11 -->
+
+    <Class rdf:about="https://w3id.org/dpv/legal/eu/aiact#annex_11">
+        <rdfs:subClassOf rdf:resource="https://w3id.org/dpv/legal/eu/aiact#regulation_eu"/>
+        <rdfs:label>annex 11</rdfs:label>
+    </Class>
+    
+
+
+    <!-- https://w3id.org/dpv/legal/eu/aiact#annex_12 -->
+
+    <Class rdf:about="https://w3id.org/dpv/legal/eu/aiact#annex_12">
+        <rdfs:subClassOf rdf:resource="https://w3id.org/dpv/legal/eu/aiact#regulation_eu"/>
+        <rdfs:label>annex 12</rdfs:label>
+    </Class>
+    
+
+
+    <!-- https://w3id.org/dpv/legal/eu/aiact#annex_13 -->
+
+    <Class rdf:about="https://w3id.org/dpv/legal/eu/aiact#annex_13">
+        <rdfs:subClassOf rdf:resource="https://w3id.org/dpv/legal/eu/aiact#regulation_eu"/>
+        <rdfs:label>annex 13</rdfs:label>
+    </Class>
+    
+
+
+    <!-- https://w3id.org/dpv/legal/eu/aiact#annex_2 -->
+
+    <Class rdf:about="https://w3id.org/dpv/legal/eu/aiact#annex_2">
+        <rdfs:subClassOf rdf:resource="https://w3id.org/dpv/legal/eu/aiact#regulation_eu"/>
+        <rdfs:label>annex 2</rdfs:label>
+    </Class>
+    
+
+
+    <!-- https://w3id.org/dpv/legal/eu/aiact#annex_3 -->
+
+    <Class rdf:about="https://w3id.org/dpv/legal/eu/aiact#annex_3">
+        <rdfs:subClassOf rdf:resource="https://w3id.org/dpv/legal/eu/aiact#regulation_eu"/>
+        <rdfs:label>annex 3</rdfs:label>
+    </Class>
+    
+
+
+    <!-- https://w3id.org/dpv/legal/eu/aiact#annex_4 -->
+
+    <Class rdf:about="https://w3id.org/dpv/legal/eu/aiact#annex_4">
+        <rdfs:subClassOf rdf:resource="https://w3id.org/dpv/legal/eu/aiact#regulation_eu"/>
+        <rdfs:label>annex 4</rdfs:label>
+    </Class>
+    
+
+
+    <!-- https://w3id.org/dpv/legal/eu/aiact#annex_5 -->
+
+    <Class rdf:about="https://w3id.org/dpv/legal/eu/aiact#annex_5">
+        <rdfs:subClassOf rdf:resource="https://w3id.org/dpv/legal/eu/aiact#regulation_eu"/>
+        <rdfs:label>annex 5</rdfs:label>
+    </Class>
+    
+
+
+    <!-- https://w3id.org/dpv/legal/eu/aiact#annex_6 -->
+
+    <Class rdf:about="https://w3id.org/dpv/legal/eu/aiact#annex_6">
+        <rdfs:subClassOf rdf:resource="https://w3id.org/dpv/legal/eu/aiact#regulation_eu"/>
+        <rdfs:label>annex 6</rdfs:label>
+    </Class>
+    
+
+
+    <!-- https://w3id.org/dpv/legal/eu/aiact#annex_7 -->
+
+    <Class rdf:about="https://w3id.org/dpv/legal/eu/aiact#annex_7">
+        <rdfs:subClassOf rdf:resource="https://w3id.org/dpv/legal/eu/aiact#regulation_eu"/>
+        <rdfs:label>annex 7</rdfs:label>
+    </Class>
+    
+
+
+    <!-- https://w3id.org/dpv/legal/eu/aiact#annex_8 -->
+
+    <Class rdf:about="https://w3id.org/dpv/legal/eu/aiact#annex_8">
+        <rdfs:subClassOf rdf:resource="https://w3id.org/dpv/legal/eu/aiact#regulation_eu"/>
+        <rdfs:label>annex 8</rdfs:label>
+    </Class>
+    
+
+
+    <!-- https://w3id.org/dpv/legal/eu/aiact#annex_9 -->
+
+    <Class rdf:about="https://w3id.org/dpv/legal/eu/aiact#annex_9">
+        <rdfs:subClassOf rdf:resource="https://w3id.org/dpv/legal/eu/aiact#regulation_eu"/>
+        <rdfs:label>annex 9</rdfs:label>
+    </Class>
+    
+
+
+    <!-- https://w3id.org/dpv/legal/eu/aiact#article_100__Administrative_fines_on_Union_institutions_bodies_offices_and_agencies -->
+
+    <Class rdf:about="https://w3id.org/dpv/legal/eu/aiact#article_100__Administrative_fines_on_Union_institutions_bodies_offices_and_agencies">
+        <rdfs:subClassOf rdf:resource="https://w3id.org/dpv/legal/eu/aiact#chapter_12"/>
+        <rdfs:label>article 100 -Administrative fines on Union institutions, bodies, offices and agencies</rdfs:label>
+    </Class>
+    
+
+
+    <!-- https://w3id.org/dpv/legal/eu/aiact#article_101__Fines_for_providers_of_general_purpose_AI_models -->
+
+    <Class rdf:about="https://w3id.org/dpv/legal/eu/aiact#article_101__Fines_for_providers_of_general_purpose_AI_models">
+        <rdfs:subClassOf rdf:resource="https://w3id.org/dpv/legal/eu/aiact#chapter_12"/>
+        <rdfs:label>article 101 - Fines for providers of general-purpose AI models </rdfs:label>
+    </Class>
+
+    <!-- https://w3id.org/dpv/legal/eu/aiact#article_102__Amendment_to_Regulation_(EC)_No_300/2008 -->
+
+    <Class rdf:about="https://w3id.org/dpv/legal/eu/aiact#article_102__Amendment_to_Regulation_(EC)_No_300/2008">
+        <rdfs:subClassOf rdf:resource="https://w3id.org/dpv/legal/eu/aiact#chapter_13"/>
+        <rdfs:label>article 102 - Amendment to Regulation (EC) No 300/2008 </rdfs:label>
+    </Class>
+
+    <!-- https://w3id.org/dpv/legal/eu/aiact#article_103__Amendment_to_Regulation_(EU)_No_167/2013 -->
+
+    <Class rdf:about="https://w3id.org/dpv/legal/eu/aiact#article_103__Amendment_to_Regulation_(EU)_No_167/2013">
+        <rdfs:subClassOf rdf:resource="https://w3id.org/dpv/legal/eu/aiact#chapter_13"/>
+        <rdfs:label>article 103 - Amendment to Regulation (EU) No 167/2013 </rdfs:label>
+    </Class>
+    
+    <!-- https://w3id.org/dpv/legal/eu/aiact#article_104__Amendment_to_Regulation_(EU)_No_168/2013 -->
+
+    <Class rdf:about="https://w3id.org/dpv/legal/eu/aiact#article_104__Amendment_to_Regulation_(EU)_No_168/2013">
+        <rdfs:subClassOf rdf:resource="https://w3id.org/dpv/legal/eu/aiact#chapter_13"/>
+        <rdfs:label>article 104 - Amendment to Regulation (EU) No 168/2013 </rdfs:label>
+    </Class>
+
+    <!-- https://w3id.org/dpv/legal/eu/aiact#article_105__Amendment_to_Directive_2014/90/EU -->
+
+    <Class rdf:about="https://w3id.org/dpv/legal/eu/aiact#article_105__Amendment_to_Directive_2014/90/EU">
+        <rdfs:subClassOf rdf:resource="https://w3id.org/dpv/legal/eu/aiact#chapter_13"/>
+        <rdfs:label>article 105 - Amendment to Directive 2014/90/EU </rdfs:label>
+    </Class>
+
+    <!-- https://w3id.org/dpv/legal/eu/aiact#article_106__Amendment_to_Directive_(EU)_2016/797 -->
+
+    <Class rdf:about="https://w3id.org/dpv/legal/eu/aiact#article_106__Amendment_to_Directive_(EU)_2016/797">
+        <rdfs:subClassOf rdf:resource="https://w3id.org/dpv/legal/eu/aiact#chapter_13"/>
+        <rdfs:label>article 106 - Amendment to Directive 2014/90/EU </rdfs:label>
+    </Class>
+
+
+    <!-- https://w3id.org/dpv/legal/eu/aiact#article_107__Amendment_to_Regulation_(EU)_2018/858 -->
+
+    <Class rdf:about="https://w3id.org/dpv/legal/eu/aiact#article_107__Amendment_to_Regulation_(EU)_2018/858">
+        <rdfs:subClassOf rdf:resource="https://w3id.org/dpv/legal/eu/aiact#chapter_13"/>
+        <rdfs:label>article 107 - Amendment to Regulation (EU) 2018/858 </rdfs:label>
+    </Class>
+
+    <!-- https://w3id.org/dpv/legal/eu/aiact#article_108__Amendments_to_Regulation_(EU)_2018/1139 -->
+
+    <Class rdf:about="https://w3id.org/dpv/legal/eu/aiact#article_108__Amendments_to_Regulation_(EU)_2018/1139">
+        <rdfs:subClassOf rdf:resource="https://w3id.org/dpv/legal/eu/aiact#chapter_13"/>
+        <rdfs:label>article 108 - Amendments to Regulation (EU) 2018/1139 </rdfs:label>
+    </Class>
+    
+    <!-- https://w3id.org/dpv/legal/eu/aiact#article_109__Amendment_to_Regulation_(EU)_2019/2144 -->
+
+    <Class rdf:about="https://w3id.org/dpv/legal/eu/aiact#article_109__Amendment_to_Regulation_(EU)_2019/2144">
+        <rdfs:subClassOf rdf:resource="https://w3id.org/dpv/legal/eu/aiact#chapter_13"/>
+        <rdfs:label>article 109 - Amendment to Regulation (EU) 2019/2144 </rdfs:label>
+    </Class>
+
+    <!-- https://w3id.org/dpv/legal/eu/aiact#article_110__Amendment_to_Directive_(EU)_2020/1828 -->
+
+    <Class rdf:about="https://w3id.org/dpv/legal/eu/aiact#article_110__Amendment_to_Directive_(EU)_2020/1828">
+        <rdfs:subClassOf rdf:resource="https://w3id.org/dpv/legal/eu/aiact#chapter_13"/>
+        <rdfs:label>article 110 - Amendment to Directive (EU) 2020/1828 </rdfs:label>
+    </Class>
+
+    <!-- https://w3id.org/dpv/legal/eu/aiact#article_111__AI_systems_already_placed_on_the_market_or_put_into_service_and_general_purpose_AI_models_already_placed_on_the_marked -->
+
+    <Class rdf:about="https://w3id.org/dpv/legal/eu/aiact#article_111__AI_systems_already_placed_on_the_market_or_put_into_service_and_general_purpose_AI_models_already_placed_on_the_marked">
+        <rdfs:subClassOf rdf:resource="https://w3id.org/dpv/legal/eu/aiact#chapter_13"/>
+        <rdfs:label>article 111 - AI systems already placed on the market or put into service and general-purpose AI models already placed on the marked </rdfs:label>
+    </Class>
+
+
+    <!-- https://w3id.org/dpv/legal/eu/aiact#article_112__Evaluation_and_review -->
+
+    <Class rdf:about="https://w3id.org/dpv/legal/eu/aiact#article_112__Evaluation_and_review">
+        <rdfs:subClassOf rdf:resource="https://w3id.org/dpv/legal/eu/aiact#chapter_13"/>
+        <rdfs:label>article 112 - Evaluation and review </rdfs:label>
+    </Class>
+
+    <!-- https://w3id.org/dpv/legal/eu/aiact#article_113__Entry_into_force_and_application -->
+
+    <Class rdf:about="https://w3id.org/dpv/legal/eu/aiact#article_113__Entry_into_force_and_application">
+        <rdfs:subClassOf rdf:resource="https://w3id.org/dpv/legal/eu/aiact#chapter_13"/>
+        <rdfs:label>article 113 - Entry into force and application </rdfs:label>
+    </Class>
+
+    <!-- https://w3id.org/dpv/legal/eu/aiact#article_10__data_and_data_governance -->
+
+    <Class rdf:about="https://w3id.org/dpv/legal/eu/aiact#article_10__data_and_data_governance">
+        <rdfs:subClassOf rdf:resource="https://w3id.org/dpv/legal/eu/aiact#chapter_3_section_2"/>
+        <rdfs:label>article 10 - Data and data governance</rdfs:label>
+    </Class>
+    
+
+
+    <!-- https://w3id.org/dpv/legal/eu/aiact#article_11__technical_documentation -->
+
+    <Class rdf:about="https://w3id.org/dpv/legal/eu/aiact#article_11__technical_documentation">
+        <rdfs:subClassOf rdf:resource="https://w3id.org/dpv/legal/eu/aiact#chapter_3_section_2"/>
+        <rdfs:label>article 11 - Technical documentation</rdfs:label>
+    </Class>
+    
+
+
+    <!-- https://w3id.org/dpv/legal/eu/aiact#article_12__recordkeeping -->
+
+    <Class rdf:about="https://w3id.org/dpv/legal/eu/aiact#article_12__recordkeeping">
+        <rdfs:subClassOf rdf:resource="https://w3id.org/dpv/legal/eu/aiact#chapter_3_section_2"/>
+        <rdfs:label>article 12 - Record-keeping</rdfs:label>
+    </Class>
+    
+
+
+    <!-- https://w3id.org/dpv/legal/eu/aiact#article_13__transparency_and_provision_of_information_to_users -->
+
+    <Class rdf:about="https://w3id.org/dpv/legal/eu/aiact#article_13__transparency_and_provision_of_information_to_users">
+        <rdfs:subClassOf rdf:resource="https://w3id.org/dpv/legal/eu/aiact#chapter_3_section_2"/>
+        <rdfs:label>article 13 - Transparency and provision of information to users</rdfs:label>
+    </Class>
+    
+
+
+    <!-- https://w3id.org/dpv/legal/eu/aiact#article_14__human_oversight -->
+
+    <Class rdf:about="https://w3id.org/dpv/legal/eu/aiact#article_14__human_oversight">
+        <rdfs:subClassOf rdf:resource="https://w3id.org/dpv/legal/eu/aiact#chapter_3_section_2"/>
+        <rdfs:label>article 14 - Human oversight</rdfs:label>
+    </Class>
+    
+
+
+    <!-- https://w3id.org/dpv/legal/eu/aiact#article_16__obligations_of_providers -->
+
+    <Class rdf:about="https://w3id.org/dpv/legal/eu/aiact#article_16__obligations_of_providers">
+        <rdfs:subClassOf rdf:resource="https://w3id.org/dpv/legal/eu/aiact#chapter_3_section_3"/>
+        <rdfs:label>article 16 - Obligations of providers</rdfs:label>
+    </Class>
+    
+
+
+    <!-- https://w3id.org/dpv/legal/eu/aiact#article_17__quality_management_system -->
+
+    <Class rdf:about="https://w3id.org/dpv/legal/eu/aiact#article_17__quality_management_system">
+        <rdfs:subClassOf rdf:resource="https://w3id.org/dpv/legal/eu/aiact#chapter_3_section_3"/>
+        <rdfs:label>article 17 - Quality management system</rdfs:label>
+    </Class>
+    
+
+
+    <!-- https://w3id.org/dpv/legal/eu/aiact#article_18__documentation_obligations -->
+
+    <Class rdf:about="https://w3id.org/dpv/legal/eu/aiact#article_18__documentation_obligations">
+        <rdfs:subClassOf rdf:resource="https://w3id.org/dpv/legal/eu/aiact#chapter_3_section_3"/>
+        <rdfs:label>article 18 - Documentation obligations</rdfs:label>
+    </Class>
+    
+
+
+    <!-- https://w3id.org/dpv/legal/eu/aiact#article_19__automatic_monitoring_and_control_systems -->
+
+    <Class rdf:about="https://w3id.org/dpv/legal/eu/aiact#article_19__automatic_monitoring_and_control_systems">
+        <rdfs:subClassOf rdf:resource="https://w3id.org/dpv/legal/eu/aiact#chapter_3_section_3"/>
+        <rdfs:label>article 19 - Automatic monitoring and control systems</rdfs:label>
+    </Class>
+    
+
+
+    <!-- https://w3id.org/dpv/legal/eu/aiact#article_1__subject_matter -->
+
+    <Class rdf:about="https://w3id.org/dpv/legal/eu/aiact#article_1__subject_matter">
+        <rdfs:subClassOf rdf:resource="https://w3id.org/dpv/legal/eu/aiact#chapter_1"/>
+        <rdfs:label>article 1 - Subject matter</rdfs:label>
+    </Class>
+    
+
+
+    <!-- https://w3id.org/dpv/legal/eu/aiact#article_20__corrective_actions -->
+
+    <Class rdf:about="https://w3id.org/dpv/legal/eu/aiact#article_20__corrective_actions">
+        <rdfs:subClassOf rdf:resource="https://w3id.org/dpv/legal/eu/aiact#chapter_3_section_3"/>
+        <rdfs:label>article 20 - Corrective actions</rdfs:label>
+    </Class>
+    
+
+
+    <!-- https://w3id.org/dpv/legal/eu/aiact#article_21__cooperation_with_national_authorities -->
+
+    <Class rdf:about="https://w3id.org/dpv/legal/eu/aiact#article_21__cooperation_with_national_authorities">
+        <rdfs:subClassOf rdf:resource="https://w3id.org/dpv/legal/eu/aiact#chapter_3_section_3"/>
+        <rdfs:label>article 21 - Cooperation with national authorities</rdfs:label>
+    </Class>
+    
+
+
+    <!-- https://w3id.org/dpv/legal/eu/aiact#article_22__authorised_representatives -->
+
+    <Class rdf:about="https://w3id.org/dpv/legal/eu/aiact#article_22__authorised_representatives">
+        <rdfs:subClassOf rdf:resource="https://w3id.org/dpv/legal/eu/aiact#chapter_3_section_3"/>
+        <rdfs:label>article 22 - Authorised representatives</rdfs:label>
+    </Class>
+    
+
+
+    <!-- https://w3id.org/dpv/legal/eu/aiact#article_23__obligations_of_importers -->
+
+    <Class rdf:about="https://w3id.org/dpv/legal/eu/aiact#article_23__obligations_of_importers">
+        <rdfs:subClassOf rdf:resource="https://w3id.org/dpv/legal/eu/aiact#chapter_3_section_3"/>
+        <rdfs:label>article 23 - Obligations of importers</rdfs:label>
+    </Class>
+    
+
+
+    <!-- https://w3id.org/dpv/legal/eu/aiact#article_24__obligations_of_distributors -->
+
+    <Class rdf:about="https://w3id.org/dpv/legal/eu/aiact#article_24__obligations_of_distributors">
+        <rdfs:subClassOf rdf:resource="https://w3id.org/dpv/legal/eu/aiact#chapter_3_section_3"/>
+        <rdfs:label>article 24 - Obligations of distributors</rdfs:label>
+    </Class>
+    
+
+
+    <!-- https://w3id.org/dpv/legal/eu/aiact#article_25__responsibilities_of_operators_placing_on_the_market_in_third_countries -->
+
+    <Class rdf:about="https://w3id.org/dpv/legal/eu/aiact#article_25__responsibilities_of_operators_placing_on_the_market_in_third_countries">
+        <rdfs:subClassOf rdf:resource="https://w3id.org/dpv/legal/eu/aiact#chapter_3_section_3"/>
+        <rdfs:label>article 25 - Responsibilities of operators placing on the market in third countries</rdfs:label>
+    </Class>
+    
+
+
+    <!-- https://w3id.org/dpv/legal/eu/aiact#article_26__obligations_of_users -->
+
+    <Class rdf:about="https://w3id.org/dpv/legal/eu/aiact#article_26__obligations_of_users">
+        <rdfs:subClassOf rdf:resource="https://w3id.org/dpv/legal/eu/aiact#chapter_3_section_3"/>
+        <rdfs:label>article 26 - Obligations of users</rdfs:label>
+    </Class>
+    
+
+
+    <!-- https://w3id.org/dpv/legal/eu/aiact#article_27__fundamental_rights_impact_assessments -->
+
+    <Class rdf:about="https://w3id.org/dpv/legal/eu/aiact#article_27__fundamental_rights_impact_assessments">
+        <rdfs:subClassOf rdf:resource="https://w3id.org/dpv/legal/eu/aiact#chapter_3_section_3"/>
+        <rdfs:label>article 27 - Fundamental rights impact assessments</rdfs:label>
+    </Class>
+    
+
+
+    <!-- https://w3id.org/dpv/legal/eu/aiact#article_28__notifying_highrisk_ai_systems -->
+
+    <Class rdf:about="https://w3id.org/dpv/legal/eu/aiact#article_28__notifying_highrisk_ai_systems">
+        <rdfs:subClassOf rdf:resource="https://w3id.org/dpv/legal/eu/aiact#chapter_3_section_4"/>
+        <rdfs:label>article 28 - Notifying high-risk AI systems</rdfs:label>
+    </Class>
+    
+
+
+    <!-- https://w3id.org/dpv/legal/eu/aiact#article_29__application_of_simplified_procedure -->
+
+    <Class rdf:about="https://w3id.org/dpv/legal/eu/aiact#article_29__application_of_simplified_procedure">
+        <rdfs:subClassOf rdf:resource="https://w3id.org/dpv/legal/eu/aiact#chapter_3_section_4"/>
+        <rdfs:label>article 29 - Application of simplified procedure</rdfs:label>
+    </Class>
+    
+
+
+    <!-- https://w3id.org/dpv/legal/eu/aiact#article_2__scope -->
+
+    <Class rdf:about="https://w3id.org/dpv/legal/eu/aiact#article_2__scope">
+        <rdfs:subClassOf rdf:resource="https://w3id.org/dpv/legal/eu/aiact#chapter_1"/>
+        <rdfs:label>article 2 - Scope</rdfs:label>
+    </Class>
+    
+
+
+    <!-- https://w3id.org/dpv/legal/eu/aiact#article_30__notification_by_providers -->
+
+    <Class rdf:about="https://w3id.org/dpv/legal/eu/aiact#article_30__notification_by_providers">
+        <rdfs:subClassOf rdf:resource="https://w3id.org/dpv/legal/eu/aiact#chapter_3_section_4"/>
+        <rdfs:label>article 30 - Notification by providers</rdfs:label>
+    </Class>
+    
+
+
+    <!-- https://w3id.org/dpv/legal/eu/aiact#article_31__requirements_for_notifying_bodies -->
+
+    <Class rdf:about="https://w3id.org/dpv/legal/eu/aiact#article_31__requirements_for_notifying_bodies">
+        <rdfs:subClassOf rdf:resource="https://w3id.org/dpv/legal/eu/aiact#chapter_3_section_4"/>
+        <rdfs:label>article 31 - Requirements for notifying bodies</rdfs:label>
+    </Class>
+    
+
+
+    <!-- https://w3id.org/dpv/legal/eu/aiact#article_32__presumption_of_conformity -->
+
+    <Class rdf:about="https://w3id.org/dpv/legal/eu/aiact#article_32__presumption_of_conformity">
+        <rdfs:subClassOf rdf:resource="https://w3id.org/dpv/legal/eu/aiact#chapter_3_section_4"/>
+        <rdfs:label>article 32 - Presumption of conformity</rdfs:label>
+    </Class>
+    
+
+
+    <!-- https://w3id.org/dpv/legal/eu/aiact#article_33__subsidiaries_of_providers -->
+
+    <Class rdf:about="https://w3id.org/dpv/legal/eu/aiact#article_33__subsidiaries_of_providers">
+        <rdfs:subClassOf rdf:resource="https://w3id.org/dpv/legal/eu/aiact#chapter_3_section_4"/>
+        <rdfs:label>article 33 - Subsidiaries of providers</rdfs:label>
+    </Class>
+    
+
+
+    <!-- https://w3id.org/dpv/legal/eu/aiact#article_34__operational_cooperation -->
+
+    <Class rdf:about="https://w3id.org/dpv/legal/eu/aiact#article_34__operational_cooperation">
+        <rdfs:subClassOf rdf:resource="https://w3id.org/dpv/legal/eu/aiact#chapter_3_section_4"/>
+        <rdfs:label>article 34 - Operational cooperation</rdfs:label>
+    </Class>
+    
+
+
+    <!-- https://w3id.org/dpv/legal/eu/aiact#article_35__identification_of_notified_bodies -->
+
+    <Class rdf:about="https://w3id.org/dpv/legal/eu/aiact#article_35__identification_of_notified_bodies">
+        <rdfs:subClassOf rdf:resource="https://w3id.org/dpv/legal/eu/aiact#chapter_3_section_4"/>
+        <rdfs:label>article 35 - Identification of notified bodies</rdfs:label>
+    </Class>
+    
+
+
+    <!-- https://w3id.org/dpv/legal/eu/aiact#article_37__challenge_to_the_designation -->
+
+    <Class rdf:about="https://w3id.org/dpv/legal/eu/aiact#article_37__challenge_to_the_designation">
+        <rdfs:subClassOf rdf:resource="https://w3id.org/dpv/legal/eu/aiact#chapter_3_section_4"/>
+        <rdfs:label>article 37 - Challenge to the designation</rdfs:label>
+    </Class>
+    
+
+
+    <!-- https://w3id.org/dpv/legal/eu/aiact#article_38__coordination_of_notified_bodies -->
+
+    <Class rdf:about="https://w3id.org/dpv/legal/eu/aiact#article_38__coordination_of_notified_bodies">
+        <rdfs:subClassOf rdf:resource="https://w3id.org/dpv/legal/eu/aiact#chapter_3_section_4"/>
+        <rdfs:label>article 38 - Coordination of notified bodies</rdfs:label>
+    </Class>
+    
+
+
+    <!-- https://w3id.org/dpv/legal/eu/aiact#article_39__conformity_assessment_procedures -->
+
+    <Class rdf:about="https://w3id.org/dpv/legal/eu/aiact#article_39__conformity_assessment_procedures">
+        <rdfs:subClassOf rdf:resource="https://w3id.org/dpv/legal/eu/aiact#chapter_3_section_4"/>
+        <rdfs:label>article 39 - Conformity assessment procedures</rdfs:label>
+    </Class>
+    
+
+
+    <!-- https://w3id.org/dpv/legal/eu/aiact#article_3__definitions -->
+
+    <Class rdf:about="https://w3id.org/dpv/legal/eu/aiact#article_3__definitions">
+        <rdfs:subClassOf rdf:resource="https://w3id.org/dpv/legal/eu/aiact#chapter_1"/>
+        <rdfs:label>article 3 - Definitions</rdfs:label>
+    </Class>
+    
+
+
+    <!-- https://w3id.org/dpv/legal/eu/aiact#article_40__harmonised_standards -->
+
+    <Class rdf:about="https://w3id.org/dpv/legal/eu/aiact#article_40__harmonised_standards">
+        <rdfs:subClassOf rdf:resource="https://w3id.org/dpv/legal/eu/aiact#chapter_3_section_5"/>
+        <rdfs:label>article 40 - Harmonised standards</rdfs:label>
+    </Class>
+    
+
+
+    <!-- https://w3id.org/dpv/legal/eu/aiact#article_41__common_specifications -->
+
+    <Class rdf:about="https://w3id.org/dpv/legal/eu/aiact#article_41__common_specifications">
+        <rdfs:subClassOf rdf:resource="https://w3id.org/dpv/legal/eu/aiact#chapter_3_section_5"/>
+        <rdfs:label>article 41 - Common specifications</rdfs:label>
+    </Class>
+    
+
+
+    <!-- https://w3id.org/dpv/legal/eu/aiact#article_42__presumption_of_conformity -->
+
+    <Class rdf:about="https://w3id.org/dpv/legal/eu/aiact#article_42__presumption_of_conformity">
+        <rdfs:subClassOf rdf:resource="https://w3id.org/dpv/legal/eu/aiact#chapter_3_section_5"/>
+        <rdfs:label>article 42 - Presumption of conformity</rdfs:label>
+    </Class>
+    
+
+
+    <!-- https://w3id.org/dpv/legal/eu/aiact#article_43__conformity_assessment_modules -->
+
+    <Class rdf:about="https://w3id.org/dpv/legal/eu/aiact#article_43__conformity_assessment_modules">
+        <rdfs:subClassOf rdf:resource="https://w3id.org/dpv/legal/eu/aiact#chapter_3_section_5"/>
+        <rdfs:label>article 43 - Conformity assessment modules</rdfs:label>
+    </Class>
+    
+
+
+    <!-- https://w3id.org/dpv/legal/eu/aiact#article_44__certificates_issued_by_notified_bodies -->
+
+    <Class rdf:about="https://w3id.org/dpv/legal/eu/aiact#article_44__certificates_issued_by_notified_bodies">
+        <rdfs:subClassOf rdf:resource="https://w3id.org/dpv/legal/eu/aiact#chapter_3_section_5"/>
+        <rdfs:label>article 44 - Certificates issued by notified bodies</rdfs:label>
+    </Class>
+    
+
+
+    <!-- https://w3id.org/dpv/legal/eu/aiact#article_45__information_exchange_on_standards -->
+
+    <Class rdf:about="https://w3id.org/dpv/legal/eu/aiact#article_45__information_exchange_on_standards">
+        <rdfs:subClassOf rdf:resource="https://w3id.org/dpv/legal/eu/aiact#chapter_3_section_5"/>
+        <rdfs:label>article 45 - Information exchange on standards</rdfs:label>
+    </Class>
+    
+
+
+    <!-- https://w3id.org/dpv/legal/eu/aiact#article_46__derogation_from_conformity_with_harmonised_standards -->
+
+    <Class rdf:about="https://w3id.org/dpv/legal/eu/aiact#article_46__derogation_from_conformity_with_harmonised_standards">
+        <rdfs:subClassOf rdf:resource="https://w3id.org/dpv/legal/eu/aiact#chapter_3_section_5"/>
+        <rdfs:label>article 46 - Derogation from conformity with harmonised standards</rdfs:label>
+    </Class>
+    
+
+
+    <!-- https://w3id.org/dpv/legal/eu/aiact#article_47__eu_declaration_of_conformity -->
+
+    <Class rdf:about="https://w3id.org/dpv/legal/eu/aiact#article_47__eu_declaration_of_conformity">
+        <rdfs:subClassOf rdf:resource="https://w3id.org/dpv/legal/eu/aiact#chapter_3_section_5"/>
+        <rdfs:label>article 47 - EU declaration of conformity</rdfs:label>
+    </Class>
+    
+
+
+    <!-- https://w3id.org/dpv/legal/eu/aiact#article_48__ce_marking -->
+
+    <Class rdf:about="https://w3id.org/dpv/legal/eu/aiact#article_48__ce_marking">
+        <rdfs:subClassOf rdf:resource="https://w3id.org/dpv/legal/eu/aiact#chapter_3_section_5"/>
+        <rdfs:label>article 48 - CE marking</rdfs:label>
+    </Class>
+    
+
+
+    <!-- https://w3id.org/dpv/legal/eu/aiact#article_49__registration_in_the_eu_database -->
+
+    <Class rdf:about="https://w3id.org/dpv/legal/eu/aiact#article_49__registration_in_the_eu_database">
+        <rdfs:subClassOf rdf:resource="https://w3id.org/dpv/legal/eu/aiact#chapter_3_section_5"/>
+        <rdfs:label>article 49 - Registration in the EU database</rdfs:label>
+    </Class>
+    
+
+
+    <!-- https://w3id.org/dpv/legal/eu/aiact#article_4__ai_literacy -->
+
+    <Class rdf:about="https://w3id.org/dpv/legal/eu/aiact#article_4__ai_literacy">
+        <rdfs:subClassOf rdf:resource="https://w3id.org/dpv/legal/eu/aiact#chapter_1"/>
+        <rdfs:label>article 4 - AI literacy</rdfs:label>
+    </Class>
+    
+
+
+    <!-- https://w3id.org/dpv/legal/eu/aiact#article_50__transparency_obligations -->
+
+    <Class rdf:about="https://w3id.org/dpv/legal/eu/aiact#article_50__transparency_obligations">
+        <rdfs:subClassOf rdf:resource="https://w3id.org/dpv/legal/eu/aiact#chapter_4"/>
+        <rdfs:label>article 50 - Transparency obligations</rdfs:label>
+    </Class>
+    
+
+
+    <!-- https://w3id.org/dpv/legal/eu/aiact#article_51__classification_of_generalpurpose_ai_systems -->
+
+    <Class rdf:about="https://w3id.org/dpv/legal/eu/aiact#article_51__classification_of_generalpurpose_ai_systems">
+        <rdfs:subClassOf rdf:resource="https://w3id.org/dpv/legal/eu/aiact#chapter_5_section_1"/>
+        <rdfs:label>article 51 - Classification of general-purpose AI systems</rdfs:label>
+    </Class>
+    
+
+
+    <!-- https://w3id.org/dpv/legal/eu/aiact#article_52__procedure -->
+
+    <Class rdf:about="https://w3id.org/dpv/legal/eu/aiact#article_52__procedure">
+        <rdfs:subClassOf rdf:resource="https://w3id.org/dpv/legal/eu/aiact#chapter_5_section_1"/>
+        <rdfs:label>article 52 - Procedure</rdfs:label>
+    </Class>
+    
+
+
+    <!-- https://w3id.org/dpv/legal/eu/aiact#article_53__obligations_for_providers_of_generalpurpose_ai_systems -->
+
+    <Class rdf:about="https://w3id.org/dpv/legal/eu/aiact#article_53__obligations_for_providers_of_generalpurpose_ai_systems">
+        <rdfs:subClassOf rdf:resource="https://w3id.org/dpv/legal/eu/aiact#chapter_5_section_2"/>
+        <rdfs:label>article 53 - Obligations for providers of general-purpose AI systems</rdfs:label>
+    </Class>
+    
+
+
+    <!-- https://w3id.org/dpv/legal/eu/aiact#article_54__authorised_representatives -->
+
+    <Class rdf:about="https://w3id.org/dpv/legal/eu/aiact#article_54__authorised_representatives">
+        <rdfs:subClassOf rdf:resource="https://w3id.org/dpv/legal/eu/aiact#chapter_5_section_2"/>
+        <rdfs:label>article 54 - Authorised representatives</rdfs:label>
+    </Class>
+    
+
+
+    <!-- https://w3id.org/dpv/legal/eu/aiact#article_55__obligations_of_users_of_generalpurpose_ai_systems -->
+
+    <Class rdf:about="https://w3id.org/dpv/legal/eu/aiact#article_55__obligations_of_users_of_generalpurpose_ai_systems">
+        <rdfs:subClassOf rdf:resource="https://w3id.org/dpv/legal/eu/aiact#chapter_5_section_3"/>
+        <rdfs:label>article 55 - Obligations of users of general-purpose AI systems</rdfs:label>
+    </Class>
+    
+
+
+    <!-- https://w3id.org/dpv/legal/eu/aiact#article_56__codes_of_practice -->
+
+    <Class rdf:about="https://w3id.org/dpv/legal/eu/aiact#article_56__codes_of_practice">
+        <rdfs:subClassOf rdf:resource="https://w3id.org/dpv/legal/eu/aiact#chapter_5_section_4"/>
+        <rdfs:label>article 56 - Codes of practice</rdfs:label>
+    </Class>
+    
+
+
+    <!-- https://w3id.org/dpv/legal/eu/aiact#article_57__ai_regulatory_sandboxes -->
+
+    <Class rdf:about="https://w3id.org/dpv/legal/eu/aiact#article_57__ai_regulatory_sandboxes">
+        <rdfs:subClassOf rdf:resource="https://w3id.org/dpv/legal/eu/aiact#chapter_6"/>
+        <rdfs:label>article 57 - AI regulatory sandboxes</rdfs:label>
+    </Class>
+    
+
+
+    <!-- https://w3id.org/dpv/legal/eu/aiact#article_58__detailed_rules_for_sandboxes -->
+
+    <Class rdf:about="https://w3id.org/dpv/legal/eu/aiact#article_58__detailed_rules_for_sandboxes">
+        <rdfs:subClassOf rdf:resource="https://w3id.org/dpv/legal/eu/aiact#chapter_6"/>
+        <rdfs:label>article 58 - Detailed rules for sandboxes</rdfs:label>
+    </Class>
+    
+
+
+    <!-- https://w3id.org/dpv/legal/eu/aiact#article_59__further_processing_of_data -->
+
+    <Class rdf:about="https://w3id.org/dpv/legal/eu/aiact#article_59__further_processing_of_data">
+        <rdfs:subClassOf rdf:resource="https://w3id.org/dpv/legal/eu/aiact#chapter_6"/>
+        <rdfs:label>article 59 - Further processing of data</rdfs:label>
+    </Class>
+    
+
+
+    <!-- https://w3id.org/dpv/legal/eu/aiact#article_5__prohibited_ai_practices -->
+
+    <Class rdf:about="https://w3id.org/dpv/legal/eu/aiact#article_5__prohibited_ai_practices">
+        <rdfs:subClassOf rdf:resource="https://w3id.org/dpv/legal/eu/aiact#chapter_2"/>
+        <rdfs:label>article 5 - Prohibited AI practices</rdfs:label>
+    </Class>
+    
+
+
+    <!-- https://w3id.org/dpv/legal/eu/aiact#article_60__testing_of_ai_systems -->
+
+    <Class rdf:about="https://w3id.org/dpv/legal/eu/aiact#article_60__testing_of_ai_systems">
+        <rdfs:subClassOf rdf:resource="https://w3id.org/dpv/legal/eu/aiact#chapter_6"/>
+        <rdfs:label>article 60 - Testing of AI systems</rdfs:label>
+    </Class>
+    
+
+
+    <!-- https://w3id.org/dpv/legal/eu/aiact#article_61__informed_consent_to_use_of_data -->
+
+    <Class rdf:about="https://w3id.org/dpv/legal/eu/aiact#article_61__informed_consent_to_use_of_data">
+        <rdfs:subClassOf rdf:resource="https://w3id.org/dpv/legal/eu/aiact#chapter_6"/>
+        <rdfs:label>article 61 - Informed consent to use of data</rdfs:label>
+    </Class>
+    
+
+
+    <!-- https://w3id.org/dpv/legal/eu/aiact#article_62__measures_for_small_and_mediumsized_enterprises -->
+
+    <Class rdf:about="https://w3id.org/dpv/legal/eu/aiact#article_62__measures_for_small_and_mediumsized_enterprises">
+        <rdfs:subClassOf rdf:resource="https://w3id.org/dpv/legal/eu/aiact#chapter_6"/>
+        <rdfs:label>article 62 - Measures for small and medium-sized enterprises</rdfs:label>
+    </Class>
+    
+
+
+    <!-- https://w3id.org/dpv/legal/eu/aiact#article_63__derogations_for_certain_ai_systems -->
+
+    <Class rdf:about="https://w3id.org/dpv/legal/eu/aiact#article_63__derogations_for_certain_ai_systems">
+        <rdfs:subClassOf rdf:resource="https://w3id.org/dpv/legal/eu/aiact#chapter_6"/>
+        <rdfs:label>article 63 - Derogations for certain AI systems</rdfs:label>
+    </Class>
+    
+
+
+    <!-- https://w3id.org/dpv/legal/eu/aiact#article_64__ai_office -->
+
+    <Class rdf:about="https://w3id.org/dpv/legal/eu/aiact#article_64__ai_office">
+        <rdfs:subClassOf rdf:resource="https://w3id.org/dpv/legal/eu/aiact#chapter_7_section_1"/>
+        <rdfs:label>article 64 - AI Office</rdfs:label>
+    </Class>
+    
+
+
+    <!-- https://w3id.org/dpv/legal/eu/aiact#article_65__establishment_and_composition_of_the_european_ai_board -->
+
+    <Class rdf:about="https://w3id.org/dpv/legal/eu/aiact#article_65__establishment_and_composition_of_the_european_ai_board">
+        <rdfs:subClassOf rdf:resource="https://w3id.org/dpv/legal/eu/aiact#chapter_7_section_1"/>
+        <rdfs:label>article 65 - Establishment and composition of the European AI Board</rdfs:label>
+    </Class>
+    
+
+
+    <!-- https://w3id.org/dpv/legal/eu/aiact#article_66__tasks_of_the_board -->
+
+    <Class rdf:about="https://w3id.org/dpv/legal/eu/aiact#article_66__tasks_of_the_board">
+        <rdfs:subClassOf rdf:resource="https://w3id.org/dpv/legal/eu/aiact#chapter_7_section_1"/>
+        <rdfs:label>article 66 - Tasks of the Board</rdfs:label>
+    </Class>
+    
+
+
+    <!-- https://w3id.org/dpv/legal/eu/aiact#article_67__advisory_forum -->
+
+    <Class rdf:about="https://w3id.org/dpv/legal/eu/aiact#article_67__advisory_forum">
+        <rdfs:subClassOf rdf:resource="https://w3id.org/dpv/legal/eu/aiact#chapter_7_section_1"/>
+        <rdfs:label>article 67 - Advisory forum</rdfs:label>
+    </Class>
+    
+
+
+    <!-- https://w3id.org/dpv/legal/eu/aiact#article_68__scientific_panel_of_the_board -->
+
+    <Class rdf:about="https://w3id.org/dpv/legal/eu/aiact#article_68__scientific_panel_of_the_board">
+        <rdfs:subClassOf rdf:resource="https://w3id.org/dpv/legal/eu/aiact#chapter_7_section_1"/>
+        <rdfs:label>article 68 - Scientific panel of the Board</rdfs:label>
+    </Class>
+    
+
+
+    <!-- https://w3id.org/dpv/legal/eu/aiact#article_69__access_to_the_pool_of_experts -->
+
+    <Class rdf:about="https://w3id.org/dpv/legal/eu/aiact#article_69__access_to_the_pool_of_experts">
+        <rdfs:subClassOf rdf:resource="https://w3id.org/dpv/legal/eu/aiact#chapter_7_section_1"/>
+        <rdfs:label>article 69 - Access to the pool of experts</rdfs:label>
+    </Class>
+    
+
+
+    <!-- https://w3id.org/dpv/legal/eu/aiact#article_6__classification_rules_for_highrisk_ai_systems -->
+
+    <Class rdf:about="https://w3id.org/dpv/legal/eu/aiact#article_6__classification_rules_for_highrisk_ai_systems">
+        <rdfs:subClassOf rdf:resource="https://w3id.org/dpv/legal/eu/aiact#chapter_3_section_1"/>
+        <rdfs:label>article 6 - Classification rules for high-risk AI systems</rdfs:label>
+    </Class>
+    
+
+
+    <!-- https://w3id.org/dpv/legal/eu/aiact#article_7 -->
+
+    <Class rdf:about="https://w3id.org/dpv/legal/eu/aiact#article_7__amendments_to_annex_iii"/>
+    
+
+
+    <!-- https://w3id.org/dpv/legal/eu/aiact#article_70__designation_of_national_competent_authorities -->
+
+    <Class rdf:about="https://w3id.org/dpv/legal/eu/aiact#article_70__designation_of_national_competent_authorities">
+        <rdfs:subClassOf rdf:resource="https://w3id.org/dpv/legal/eu/aiact#chapter_7_section_2"/>
+        <rdfs:label>article 70 - Designation of national competent authorities</rdfs:label>
+    </Class>
+    
+
+
+    <!-- https://w3id.org/dpv/legal/eu/aiact#article_71__eu_database_for_highrisk_ai_systems -->
+
+    <Class rdf:about="https://w3id.org/dpv/legal/eu/aiact#article_71__eu_database_for_highrisk_ai_systems">
+        <rdfs:subClassOf rdf:resource="https://w3id.org/dpv/legal/eu/aiact#chapter_8"/>
+        <rdfs:label>article 71 - EU database for high-risk AI systems</rdfs:label>
+    </Class>
+    
+
+
+    <!-- https://w3id.org/dpv/legal/eu/aiact#article_72__postmarket_monitoring_obligations -->
+
+    <Class rdf:about="https://w3id.org/dpv/legal/eu/aiact#article_72__postmarket_monitoring_obligations">
+        <rdfs:subClassOf rdf:resource="https://w3id.org/dpv/legal/eu/aiact#chapter_9_section_1"/>
+        <rdfs:label>article 72 - Post-market monitoring obligations</rdfs:label>
+    </Class>
+    
+
+
+    <!-- https://w3id.org/dpv/legal/eu/aiact#article_73__reporting_of_serious_incidents_and_malfunctioning -->
+
+    <Class rdf:about="https://w3id.org/dpv/legal/eu/aiact#article_73__reporting_of_serious_incidents_and_malfunctioning">
+        <rdfs:subClassOf rdf:resource="https://w3id.org/dpv/legal/eu/aiact#chapter_9_section_2"/>
+        <rdfs:label>article 73 - Reporting of serious incidents and malfunctioning</rdfs:label>
+    </Class>
+    
+
+
+    <!-- https://w3id.org/dpv/legal/eu/aiact#article_74__market_surveillance_authorities -->
+
+    <Class rdf:about="https://w3id.org/dpv/legal/eu/aiact#article_74__market_surveillance_authorities">
+        <rdfs:subClassOf rdf:resource="https://w3id.org/dpv/legal/eu/aiact#chapter_9_section_3"/>
+        <rdfs:label>article 74 - Market surveillance authorities</rdfs:label>
+    </Class>
+    
+
+
+    <!-- https://w3id.org/dpv/legal/eu/aiact#article_76__supervision_of_providers_and_users -->
+
+    <Class rdf:about="https://w3id.org/dpv/legal/eu/aiact#article_76__supervision_of_providers_and_users">
+        <rdfs:subClassOf rdf:resource="https://w3id.org/dpv/legal/eu/aiact#chapter_9_section_3"/>
+        <rdfs:label>article 76 - Supervision of providers and users</rdfs:label>
+    </Class>
+    
+
+
+    <!-- https://w3id.org/dpv/legal/eu/aiact#article_77__powers_of_national_authorities -->
+
+    <Class rdf:about="https://w3id.org/dpv/legal/eu/aiact#article_77__powers_of_national_authorities">
+        <rdfs:subClassOf rdf:resource="https://w3id.org/dpv/legal/eu/aiact#chapter_9_section_3"/>
+        <rdfs:label>article 77 - Powers of national authorities</rdfs:label>
+    </Class>
+    
+
+
+    <!-- https://w3id.org/dpv/legal/eu/aiact#article_78__confidentiality -->
+
+    <Class rdf:about="https://w3id.org/dpv/legal/eu/aiact#article_78__confidentiality">
+        <rdfs:subClassOf rdf:resource="https://w3id.org/dpv/legal/eu/aiact#chapter_9_section_3"/>
+        <rdfs:label>article 78 - Confidentiality</rdfs:label>
+    </Class>
+    
+
+
+    <!-- https://w3id.org/dpv/legal/eu/aiact#article_79__procedure_at_national_level -->
+
+    <Class rdf:about="https://w3id.org/dpv/legal/eu/aiact#article_79__procedure_at_national_level">
+        <rdfs:subClassOf rdf:resource="https://w3id.org/dpv/legal/eu/aiact#chapter_9_section_3"/>
+        <rdfs:label>article 79 - Procedure at national level</rdfs:label>
+    </Class>
+    
+
+
+    <!-- https://w3id.org/dpv/legal/eu/aiact#article_7__amendments_to_annex_iii -->
+
+    <Class rdf:about="https://w3id.org/dpv/legal/eu/aiact#article_7__amendments_to_annex_iii">
+        <rdfs:subClassOf rdf:resource="https://w3id.org/dpv/legal/eu/aiact#chapter_3_section_1"/>
+        <rdfs:label>article 7 - Amendments to Annex III</rdfs:label>
+    </Class>
+    
+
+
+    <!-- https://w3id.org/dpv/legal/eu/aiact#article_80__procedure_for_implementing_union_safeguard_clause -->
+
+    <Class rdf:about="https://w3id.org/dpv/legal/eu/aiact#article_80__procedure_for_implementing_union_safeguard_clause">
+        <rdfs:subClassOf rdf:resource="https://w3id.org/dpv/legal/eu/aiact#chapter_9_section_3"/>
+        <rdfs:label>article 80 - Procedure for implementing Union safeguard clause</rdfs:label>
+    </Class>
+    
+
+
+    <!-- https://w3id.org/dpv/legal/eu/aiact#article_81__union_safeguard -->
+
+    <Class rdf:about="https://w3id.org/dpv/legal/eu/aiact#article_81__union_safeguard">
+        <rdfs:subClassOf rdf:resource="https://w3id.org/dpv/legal/eu/aiact#chapter_9_section_3"/>
+        <rdfs:label>article 81 - Union safeguard</rdfs:label>
+    </Class>
+    
+
+
+    <!-- https://w3id.org/dpv/legal/eu/aiact#article_82__compliance_ai_tools -->
+
+    <Class rdf:about="https://w3id.org/dpv/legal/eu/aiact#article_82__compliance_ai_tools">
+        <rdfs:subClassOf rdf:resource="https://w3id.org/dpv/legal/eu/aiact#chapter_9_section_3"/>
+        <rdfs:label>article 82 - Compliance AI tools</rdfs:label>
+    </Class>
+    
+
+
+    <!-- https://w3id.org/dpv/legal/eu/aiact#article_83__formal_notices_and_penalties -->
+
+    <Class rdf:about="https://w3id.org/dpv/legal/eu/aiact#article_83__formal_notices_and_penalties">
+        <rdfs:subClassOf rdf:resource="https://w3id.org/dpv/legal/eu/aiact#chapter_9_section_3"/>
+        <rdfs:label>article 83 - Formal notices and penalties</rdfs:label>
+    </Class>
+    
+
+
+    <!-- https://w3id.org/dpv/legal/eu/aiact#article_84__union_ai_testing_and_evaluation -->
+
+    <Class rdf:about="https://w3id.org/dpv/legal/eu/aiact#article_84__union_ai_testing_and_evaluation">
+        <rdfs:subClassOf rdf:resource="https://w3id.org/dpv/legal/eu/aiact#chapter_9_section_3"/>
+        <rdfs:label>article 84 - Union AI testing and evaluation</rdfs:label>
+    </Class>
+    
+
+
+    <!-- https://w3id.org/dpv/legal/eu/aiact#article_85__right_to_lodge_a_complaint -->
+
+    <Class rdf:about="https://w3id.org/dpv/legal/eu/aiact#article_85__right_to_lodge_a_complaint">
+        <rdfs:subClassOf rdf:resource="https://w3id.org/dpv/legal/eu/aiact#chapter_9_section_4"/>
+        <rdfs:label>article 85 - Right to lodge a complaint</rdfs:label>
+    </Class>
+    
+
+
+    <!-- https://w3id.org/dpv/legal/eu/aiact#article_86__right_to_an_effective_remedy -->
+
+    <Class rdf:about="https://w3id.org/dpv/legal/eu/aiact#article_86__right_to_an_effective_remedy">
+        <rdfs:subClassOf rdf:resource="https://w3id.org/dpv/legal/eu/aiact#chapter_9_section_4"/>
+        <rdfs:label>article 86 - Right to an effective remedy</rdfs:label>
+    </Class>
+    
+
+
+    <!-- https://w3id.org/dpv/legal/eu/aiact#article_89__monitoring_actions -->
+
+    <Class rdf:about="https://w3id.org/dpv/legal/eu/aiact#article_89__monitoring_actions">
+        <rdfs:subClassOf rdf:resource="https://w3id.org/dpv/legal/eu/aiact#chapter_9_section_5"/>
+        <rdfs:label>article 89 - Monitoring actions</rdfs:label>
+    </Class>
+    
+
+
+    <!-- https://w3id.org/dpv/legal/eu/aiact#article_8__compliance_with_the_requirements -->
+
+    <Class rdf:about="https://w3id.org/dpv/legal/eu/aiact#article_8__compliance_with_the_requirements">
+        <rdfs:subClassOf rdf:resource="https://w3id.org/dpv/legal/eu/aiact#chapter_3_section_2"/>
+        <rdfs:label>article 8 - Compliance with the requirements</rdfs:label>
+    </Class>
+    
+
+
+    <!-- https://w3id.org/dpv/legal/eu/aiact#article_95__codes_of_conduct_for_voluntary_application_of_specific_requirements-->
+
+    <Class rdf:about="https://w3id.org/dpv/legal/eu/aiact#article_95__codes_of_conduct_for_voluntary_application_of_specific_requirements">
+        <rdfs:subClassOf rdf:resource="https://w3id.org/dpv/legal/eu/aiact#chapter_10"/>
+        <rdfs:label>article 95 - Codes of conduct for voluntary application of specific requirements</rdfs:label>
+    </Class>
+    
+
+
+    <!-- https://w3id.org/dpv/legal/eu/aiact#article_98__committee_procedure -->
+
+    <Class rdf:about="https://w3id.org/dpv/legal/eu/aiact#article_98__committee_procedure">
+        <rdfs:subClassOf rdf:resource="https://w3id.org/dpv/legal/eu/aiact#chapter_11"/>
+        <rdfs:label>article 98 - Committee procedure</rdfs:label>
+    </Class>
+    
+
+
+    <!-- https://w3id.org/dpv/legal/eu/aiact#article_99__penalties -->
+
+    <Class rdf:about="https://w3id.org/dpv/legal/eu/aiact#article_99__penalties">
+        <rdfs:subClassOf rdf:resource="https://w3id.org/dpv/legal/eu/aiact#chapter_12"/>
+        <rdfs:label>article 99 - Penalties</rdfs:label>
+    </Class>
+    
+
+
+    <!-- https://w3id.org/dpv/legal/eu/aiact#article_9__risk_management_system -->
+
+    <Class rdf:about="https://w3id.org/dpv/legal/eu/aiact#article_9__risk_management_system">
+        <rdfs:subClassOf rdf:resource="https://w3id.org/dpv/legal/eu/aiact#chapter_3_section_2"/>
+        <rdfs:label>article 9 - Risk management system</rdfs:label>
+    </Class>
+    
+
+
+    <!-- https://w3id.org/dpv/legal/eu/aiact#chapter_1 -->
+
+    <Class rdf:about="https://w3id.org/dpv/legal/eu/aiact#chapter_1">
+        <rdfs:subClassOf rdf:resource="https://w3id.org/dpv/legal/eu/aiact#enacting_terms"/>
+        <rdfs:label>chapter I - GENERAL PROVISIONS</rdfs:label>
+    </Class>
+    
+
+
+    <!-- https://w3id.org/dpv/legal/eu/aiact#chapter_10 -->
+
+    <Class rdf:about="https://w3id.org/dpv/legal/eu/aiact#chapter_10">
+        <rdfs:subClassOf rdf:resource="https://w3id.org/dpv/legal/eu/aiact#enacting_terms"/>
+        <rdfs:label>chapter X - CODES OF CONDUCT AND GUIDELINES</rdfs:label>
+    </Class>
+    
+
+
+    <!-- https://w3id.org/dpv/legal/eu/aiact#chapter_11 -->
+
+    <Class rdf:about="https://w3id.org/dpv/legal/eu/aiact#chapter_11">
+        <rdfs:subClassOf rdf:resource="https://w3id.org/dpv/legal/eu/aiact#enacting_terms"/>
+        <rdfs:label>chapter XI - DELEGATION OF POWER</rdfs:label>
+    </Class>
+    
+
+
+    <!-- https://w3id.org/dpv/legal/eu/aiact#chapter_12 -->
+
+    <Class rdf:about="https://w3id.org/dpv/legal/eu/aiact#chapter_12">
+        <rdfs:subClassOf rdf:resource="https://w3id.org/dpv/legal/eu/aiact#enacting_terms"/>
+        <rdfs:label>chapter XII - PENALTIES</rdfs:label>
+    </Class>
+    
+
+
+    <!-- https://w3id.org/dpv/legal/eu/aiact#chapter_13 -->
+
+    <Class rdf:about="https://w3id.org/dpv/legal/eu/aiact#chapter_13">
+        <rdfs:subClassOf rdf:resource="https://w3id.org/dpv/legal/eu/aiact#enacting_terms"/>
+        <rdfs:label>chapter XIII - FINAL PROVISIONS</rdfs:label>
+    </Class>
+    
+
+
+    <!-- https://w3id.org/dpv/legal/eu/aiact#chapter_2 -->
+
+    <Class rdf:about="https://w3id.org/dpv/legal/eu/aiact#chapter_2">
+        <rdfs:subClassOf rdf:resource="https://w3id.org/dpv/legal/eu/aiact#enacting_terms"/>
+        <rdfs:label>chapter II - PROHIBITED AI PRACTICES</rdfs:label>
+    </Class>
+    
+
+
+    <!-- https://w3id.org/dpv/legal/eu/aiact#chapter_3 -->
+
+    <Class rdf:about="https://w3id.org/dpv/legal/eu/aiact#chapter_3">
+        <rdfs:subClassOf rdf:resource="https://w3id.org/dpv/legal/eu/aiact#enacting_terms"/>
+        <rdfs:label>chapter III - HIGH-RISK AI SYSTEMS</rdfs:label>
+    </Class>
+    
+
+
+    <!-- https://w3id.org/dpv/legal/eu/aiact#chapter_3_section_1 -->
+
+    <Class rdf:about="https://w3id.org/dpv/legal/eu/aiact#chapter_3_section_1">
+        <rdfs:subClassOf rdf:resource="https://w3id.org/dpv/legal/eu/aiact#chapter_3"/>
+        <rdfs:label>section 1 - Classification of high-risk AI systems</rdfs:label>
+    </Class>
+    
+
+
+    <!-- https://w3id.org/dpv/legal/eu/aiact#chapter_3_section_2 -->
+
+    <Class rdf:about="https://w3id.org/dpv/legal/eu/aiact#chapter_3_section_2">
+        <rdfs:subClassOf rdf:resource="https://w3id.org/dpv/legal/eu/aiact#chapter_3"/>
+        <rdfs:label>section 2 - Requirements for high-risk AI systems</rdfs:label>
+    </Class>
+    
+
+
+    <!-- https://w3id.org/dpv/legal/eu/aiact#chapter_3_section_3 -->
+
+    <Class rdf:about="https://w3id.org/dpv/legal/eu/aiact#chapter_3_section_3">
+        <rdfs:subClassOf rdf:resource="https://w3id.org/dpv/legal/eu/aiact#chapter_3"/>
+        <rdfs:label>section 3 - Obligations of economic operators and other stakeholders</rdfs:label>
+    </Class>
+    
+
+
+    <!-- https://w3id.org/dpv/legal/eu/aiact#chapter_3_section_4 -->
+
+    <Class rdf:about="https://w3id.org/dpv/legal/eu/aiact#chapter_3_section_4">
+        <rdfs:subClassOf rdf:resource="https://w3id.org/dpv/legal/eu/aiact#chapter_3"/>
+        <rdfs:label>section 4 - Notifying and registration</rdfs:label>
+    </Class>
+    
+
+
+    <!-- https://w3id.org/dpv/legal/eu/aiact#chapter_3_section_5 -->
+
+    <Class rdf:about="https://w3id.org/dpv/legal/eu/aiact#chapter_3_section_5">
+        <rdfs:subClassOf rdf:resource="https://w3id.org/dpv/legal/eu/aiact#chapter_3"/>
+        <rdfs:label>section 5 - Standards, harmonised specifications and CE marking</rdfs:label>
+    </Class>
+    
+
+
+    <!-- https://w3id.org/dpv/legal/eu/aiact#chapter_4 -->
+
+    <Class rdf:about="https://w3id.org/dpv/legal/eu/aiact#chapter_4">
+        <rdfs:subClassOf rdf:resource="https://w3id.org/dpv/legal/eu/aiact#enacting_terms"/>
+        <rdfs:label>chapter IV - TRANSPARENCY OBLIGATIONS FOR PROVIDERS OF GENERAL-PURPOSE AI SYSTEMS</rdfs:label>
+    </Class>
+    
+
+
+    <!-- https://w3id.org/dpv/legal/eu/aiact#chapter_5 -->
+
+    <Class rdf:about="https://w3id.org/dpv/legal/eu/aiact#chapter_5">
+        <rdfs:subClassOf rdf:resource="https://w3id.org/dpv/legal/eu/aiact#enacting_terms"/>
+        <rdfs:label>chapter V - GENERAL-PURPOSE AI SYSTEMS</rdfs:label>
+    </Class>
+    
+
+
+    <!-- https://w3id.org/dpv/legal/eu/aiact#chapter_5_section_1 -->
+
+    <Class rdf:about="https://w3id.org/dpv/legal/eu/aiact#chapter_5_section_1">
+        <rdfs:subClassOf rdf:resource="https://w3id.org/dpv/legal/eu/aiact#chapter_5"/>
+        <rdfs:label>section 1 - Classification rules</rdfs:label>
+    </Class>
+    
+
+
+    <!-- https://w3id.org/dpv/legal/eu/aiact#chapter_5_section_2 -->
+
+    <Class rdf:about="https://w3id.org/dpv/legal/eu/aiact#chapter_5_section_2">
+        <rdfs:subClassOf rdf:resource="https://w3id.org/dpv/legal/eu/aiact#chapter_5"/>
+        <rdfs:label>section 2 - Obligations for providers</rdfs:label>
+    </Class>
+    
+
+
+    <!-- https://w3id.org/dpv/legal/eu/aiact#chapter_5_section_3 -->
+
+    <Class rdf:about="https://w3id.org/dpv/legal/eu/aiact#chapter_5_section_3">
+        <rdfs:subClassOf rdf:resource="https://w3id.org/dpv/legal/eu/aiact#chapter_5"/>
+        <rdfs:label>section 3 - Obligations of users</rdfs:label>
+    </Class>
+    
+
+
+    <!-- https://w3id.org/dpv/legal/eu/aiact#chapter_5_section_4 -->
+
+    <Class rdf:about="https://w3id.org/dpv/legal/eu/aiact#chapter_5_section_4">
+        <rdfs:subClassOf rdf:resource="https://w3id.org/dpv/legal/eu/aiact#chapter_5"/>
+        <rdfs:label>section 4 - Codes of practice</rdfs:label>
+    </Class>
+    
+
+
+    <!-- https://w3id.org/dpv/legal/eu/aiact#chapter_6 -->
+
+    <Class rdf:about="https://w3id.org/dpv/legal/eu/aiact#chapter_6">
+        <rdfs:subClassOf rdf:resource="https://w3id.org/dpv/legal/eu/aiact#enacting_terms"/>
+        <rdfs:label>chapter VI - MEASURES IN SUPPORT OF INNOVATION</rdfs:label>
+    </Class>
+    
+
+
+    <!-- https://w3id.org/dpv/legal/eu/aiact#chapter_7 -->
+
+    <Class rdf:about="https://w3id.org/dpv/legal/eu/aiact#chapter_7">
+        <rdfs:subClassOf rdf:resource="https://w3id.org/dpv/legal/eu/aiact#enacting_terms"/>
+        <rdfs:label>chapter VII - GOVERNANCE</rdfs:label>
+    </Class>
+    
+
+
+    <!-- https://w3id.org/dpv/legal/eu/aiact#chapter_7_section_1 -->
+
+    <Class rdf:about="https://w3id.org/dpv/legal/eu/aiact#chapter_7_section_1">
+        <rdfs:subClassOf rdf:resource="https://w3id.org/dpv/legal/eu/aiact#chapter_7"/>
+        <rdfs:label>section 1 - Governance at Union level</rdfs:label>
+    </Class>
+    
+
+
+    <!-- https://w3id.org/dpv/legal/eu/aiact#chapter_7_section_2 -->
+
+    <Class rdf:about="https://w3id.org/dpv/legal/eu/aiact#chapter_7_section_2">
+        <rdfs:subClassOf rdf:resource="https://w3id.org/dpv/legal/eu/aiact#chapter_7"/>
+        <rdfs:label>section 2 - National competent authorities</rdfs:label>
+    </Class>
+    
+
+
+    <!-- https://w3id.org/dpv/legal/eu/aiact#chapter_8 -->
+
+    <Class rdf:about="https://w3id.org/dpv/legal/eu/aiact#chapter_8">
+        <rdfs:subClassOf rdf:resource="https://w3id.org/dpv/legal/eu/aiact#enacting_terms"/>
+        <rdfs:label>chapter VIII - EU DATABASE FOR HIGH-RISK AI SYSTEMS</rdfs:label>
+    </Class>
+    
+
+
+    <!-- https://w3id.org/dpv/legal/eu/aiact#chapter_9 -->
+
+    <Class rdf:about="https://w3id.org/dpv/legal/eu/aiact#chapter_9">
+        <rdfs:subClassOf rdf:resource="https://w3id.org/dpv/legal/eu/aiact#enacting_terms"/>
+        <rdfs:label>chapter IX - POST-MARKET MONITORING, SURVEILLANCE AND ENFORCEMENT</rdfs:label>
+    </Class>
+    
+
+
+    <!-- https://w3id.org/dpv/legal/eu/aiact#chapter_9_section_1 -->
+
+    <Class rdf:about="https://w3id.org/dpv/legal/eu/aiact#chapter_9_section_1">
+        <rdfs:subClassOf rdf:resource="https://w3id.org/dpv/legal/eu/aiact#chapter_9"/>
+        <rdfs:label>section 1 - Post-market monitoring</rdfs:label>
+    </Class>
+    
+
+
+    <!-- https://w3id.org/dpv/legal/eu/aiact#chapter_9_section_2 -->
+
+    <Class rdf:about="https://w3id.org/dpv/legal/eu/aiact#chapter_9_section_2">
+        <rdfs:subClassOf rdf:resource="https://w3id.org/dpv/legal/eu/aiact#chapter_9"/>
+        <rdfs:label>section 2 - Sharing of information</rdfs:label>
+    </Class>
+    
+
+
+    <!-- https://w3id.org/dpv/legal/eu/aiact#chapter_9_section_3 -->
+
+    <Class rdf:about="https://w3id.org/dpv/legal/eu/aiact#chapter_9_section_3">
+        <rdfs:subClassOf rdf:resource="https://w3id.org/dpv/legal/eu/aiact#chapter_9"/>
+        <rdfs:label>section 3 - Enforcement</rdfs:label>
+    </Class>
+    
+
+
+    <!-- https://w3id.org/dpv/legal/eu/aiact#chapter_9_section_4 -->
+
+    <Class rdf:about="https://w3id.org/dpv/legal/eu/aiact#chapter_9_section_4">
+        <rdfs:subClassOf rdf:resource="https://w3id.org/dpv/legal/eu/aiact#chapter_9"/>
+        <rdfs:label>section 4 - Remedies</rdfs:label>
+    </Class>
+    
+
+
+    <!-- https://w3id.org/dpv/legal/eu/aiact#chapter_9_section_5 -->
+
+    <Class rdf:about="https://w3id.org/dpv/legal/eu/aiact#chapter_9_section_5">
+        <rdfs:subClassOf rdf:resource="https://w3id.org/dpv/legal/eu/aiact#chapter_9"/>
+        <rdfs:label>section 5 - Supervision, monitoring and coordination</rdfs:label>
+    </Class>
+    
+
+
+    <!-- https://w3id.org/dpv/legal/eu/aiact#citation -->
+
+    <Class rdf:about="https://w3id.org/dpv/legal/eu/aiact#citation">
+        <rdfs:subClassOf rdf:resource="https://w3id.org/dpv/legal/eu/aiact#preamble"/>
+        <rdfs:label>citation</rdfs:label>
+    </Class>
+    
+
+
+    <!-- https://w3id.org/dpv/legal/eu/aiact#concluding_formulas -->
+
+    <Class rdf:about="https://w3id.org/dpv/legal/eu/aiact#concluding_formulas">
+        <rdfs:subClassOf rdf:resource="https://w3id.org/dpv/legal/eu/aiact#regulation_eu"/>
+        <rdfs:label>Concluding formulas</rdfs:label>
+    </Class>
+    
+
+
+    <!-- https://w3id.org/dpv/legal/eu/aiact#enacting_terms -->
+
+    <Class rdf:about="https://w3id.org/dpv/legal/eu/aiact#enacting_terms">
+        <rdfs:subClassOf rdf:resource="https://w3id.org/dpv/legal/eu/aiact#regulation_eu"/>
+        <rdfs:label>enacting terms</rdfs:label>
+    </Class>
+    
+
+
+    <!-- https://w3id.org/dpv/legal/eu/aiact#preamble -->
+
+    <Class rdf:about="https://w3id.org/dpv/legal/eu/aiact#preamble">
+        <rdfs:subClassOf rdf:resource="https://w3id.org/dpv/legal/eu/aiact#regulation_eu"/>
+        <rdfs:label>preamble</rdfs:label>
+    </Class>
+    
+
+
+    <!-- https://w3id.org/dpv/legal/eu/aiact#recital_1 -->
+
+    <Class rdf:about="https://w3id.org/dpv/legal/eu/aiact#recital_1">
+        <rdfs:subClassOf rdf:resource="https://w3id.org/dpv/legal/eu/aiact#preamble"/>
+        <rdfs:label>recital 1</rdfs:label>
+    </Class>
+    
+
+
+    <!-- https://w3id.org/dpv/legal/eu/aiact#recital_10 -->
+
+    <Class rdf:about="https://w3id.org/dpv/legal/eu/aiact#recital_10">
+        <rdfs:subClassOf rdf:resource="https://w3id.org/dpv/legal/eu/aiact#preamble"/>
+        <rdfs:label>recital 10</rdfs:label>
+    </Class>
+    
+
+
+    <!-- https://w3id.org/dpv/legal/eu/aiact#recital_100 -->
+
+    <Class rdf:about="https://w3id.org/dpv/legal/eu/aiact#recital_100">
+        <rdfs:subClassOf rdf:resource="https://w3id.org/dpv/legal/eu/aiact#preamble"/>
+        <rdfs:label>recital 100</rdfs:label>
+    </Class>
+    
+
+
+    <!-- https://w3id.org/dpv/legal/eu/aiact#recital_101 -->
+
+    <Class rdf:about="https://w3id.org/dpv/legal/eu/aiact#recital_101">
+        <rdfs:subClassOf rdf:resource="https://w3id.org/dpv/legal/eu/aiact#preamble"/>
+        <rdfs:label>recital 101</rdfs:label>
+    </Class>
+    
+
+
+    <!-- https://w3id.org/dpv/legal/eu/aiact#recital_102 -->
+
+    <Class rdf:about="https://w3id.org/dpv/legal/eu/aiact#recital_102">
+        <rdfs:subClassOf rdf:resource="https://w3id.org/dpv/legal/eu/aiact#preamble"/>
+        <rdfs:label>recital 102</rdfs:label>
+    </Class>
+    
+
+
+    <!-- https://w3id.org/dpv/legal/eu/aiact#recital_103 -->
+
+    <Class rdf:about="https://w3id.org/dpv/legal/eu/aiact#recital_103">
+        <rdfs:subClassOf rdf:resource="https://w3id.org/dpv/legal/eu/aiact#preamble"/>
+        <rdfs:label>recital 103</rdfs:label>
+    </Class>
+    
+
+
+    <!-- https://w3id.org/dpv/legal/eu/aiact#recital_104 -->
+
+    <Class rdf:about="https://w3id.org/dpv/legal/eu/aiact#recital_104">
+        <rdfs:subClassOf rdf:resource="https://w3id.org/dpv/legal/eu/aiact#preamble"/>
+        <rdfs:label>recital 104</rdfs:label>
+    </Class>
+    
+
+
+    <!-- https://w3id.org/dpv/legal/eu/aiact#recital_105 -->
+
+    <Class rdf:about="https://w3id.org/dpv/legal/eu/aiact#recital_105">
+        <rdfs:subClassOf rdf:resource="https://w3id.org/dpv/legal/eu/aiact#preamble"/>
+        <rdfs:label>recital 105</rdfs:label>
+    </Class>
+    
+
+
+    <!-- https://w3id.org/dpv/legal/eu/aiact#recital_106 -->
+
+    <Class rdf:about="https://w3id.org/dpv/legal/eu/aiact#recital_106">
+        <rdfs:subClassOf rdf:resource="https://w3id.org/dpv/legal/eu/aiact#preamble"/>
+        <rdfs:label>recital 106</rdfs:label>
+    </Class>
+    
+
+
+    <!-- https://w3id.org/dpv/legal/eu/aiact#recital_107 -->
+
+    <Class rdf:about="https://w3id.org/dpv/legal/eu/aiact#recital_107">
+        <rdfs:subClassOf rdf:resource="https://w3id.org/dpv/legal/eu/aiact#preamble"/>
+        <rdfs:label>recital 107</rdfs:label>
+    </Class>
+    
+
+
+    <!-- https://w3id.org/dpv/legal/eu/aiact#recital_108 -->
+
+    <Class rdf:about="https://w3id.org/dpv/legal/eu/aiact#recital_108">
+        <rdfs:subClassOf rdf:resource="https://w3id.org/dpv/legal/eu/aiact#preamble"/>
+        <rdfs:label>recital 108</rdfs:label>
+    </Class>
+    
+
+
+    <!-- https://w3id.org/dpv/legal/eu/aiact#recital_109 -->
+
+    <Class rdf:about="https://w3id.org/dpv/legal/eu/aiact#recital_109">
+        <rdfs:subClassOf rdf:resource="https://w3id.org/dpv/legal/eu/aiact#preamble"/>
+        <rdfs:label>recital 109</rdfs:label>
+    </Class>
+    
+
+
+    <!-- https://w3id.org/dpv/legal/eu/aiact#recital_11 -->
+
+    <Class rdf:about="https://w3id.org/dpv/legal/eu/aiact#recital_11">
+        <rdfs:subClassOf rdf:resource="https://w3id.org/dpv/legal/eu/aiact#preamble"/>
+        <rdfs:label>recital 11</rdfs:label>
+    </Class>
+    
+
+
+    <!-- https://w3id.org/dpv/legal/eu/aiact#recital_110 -->
+
+    <Class rdf:about="https://w3id.org/dpv/legal/eu/aiact#recital_110">
+        <rdfs:subClassOf rdf:resource="https://w3id.org/dpv/legal/eu/aiact#preamble"/>
+        <rdfs:label>recital 110</rdfs:label>
+    </Class>
+    
+
+
+    <!-- https://w3id.org/dpv/legal/eu/aiact#recital_111 -->
+
+    <Class rdf:about="https://w3id.org/dpv/legal/eu/aiact#recital_111">
+        <rdfs:subClassOf rdf:resource="https://w3id.org/dpv/legal/eu/aiact#preamble"/>
+        <rdfs:label>recital 111</rdfs:label>
+    </Class>
+    
+
+
+    <!-- https://w3id.org/dpv/legal/eu/aiact#recital_112 -->
+
+    <Class rdf:about="https://w3id.org/dpv/legal/eu/aiact#recital_112">
+        <rdfs:subClassOf rdf:resource="https://w3id.org/dpv/legal/eu/aiact#preamble"/>
+        <rdfs:label>recital 112</rdfs:label>
+    </Class>
+    
+
+
+    <!-- https://w3id.org/dpv/legal/eu/aiact#recital_113 -->
+
+    <Class rdf:about="https://w3id.org/dpv/legal/eu/aiact#recital_113">
+        <rdfs:subClassOf rdf:resource="https://w3id.org/dpv/legal/eu/aiact#preamble"/>
+        <rdfs:label>recital 113</rdfs:label>
+    </Class>
+    
+
+
+    <!-- https://w3id.org/dpv/legal/eu/aiact#recital_114 -->
+
+    <Class rdf:about="https://w3id.org/dpv/legal/eu/aiact#recital_114">
+        <rdfs:subClassOf rdf:resource="https://w3id.org/dpv/legal/eu/aiact#preamble"/>
+        <rdfs:label>recital 114</rdfs:label>
+    </Class>
+    
+
+
+    <!-- https://w3id.org/dpv/legal/eu/aiact#recital_115 -->
+
+    <Class rdf:about="https://w3id.org/dpv/legal/eu/aiact#recital_115">
+        <rdfs:subClassOf rdf:resource="https://w3id.org/dpv/legal/eu/aiact#preamble"/>
+        <rdfs:label>recital 115</rdfs:label>
+    </Class>
+    
+
+
+    <!-- https://w3id.org/dpv/legal/eu/aiact#recital_116 -->
+
+    <Class rdf:about="https://w3id.org/dpv/legal/eu/aiact#recital_116">
+        <rdfs:subClassOf rdf:resource="https://w3id.org/dpv/legal/eu/aiact#preamble"/>
+        <rdfs:label>recital 116</rdfs:label>
+    </Class>
+    
+
+
+    <!-- https://w3id.org/dpv/legal/eu/aiact#recital_117 -->
+
+    <Class rdf:about="https://w3id.org/dpv/legal/eu/aiact#recital_117">
+        <rdfs:subClassOf rdf:resource="https://w3id.org/dpv/legal/eu/aiact#preamble"/>
+        <rdfs:label>recital 117</rdfs:label>
+    </Class>
+    
+
+
+    <!-- https://w3id.org/dpv/legal/eu/aiact#recital_118 -->
+
+    <Class rdf:about="https://w3id.org/dpv/legal/eu/aiact#recital_118">
+        <rdfs:subClassOf rdf:resource="https://w3id.org/dpv/legal/eu/aiact#preamble"/>
+        <rdfs:label>recital 118</rdfs:label>
+    </Class>
+    
+
+
+    <!-- https://w3id.org/dpv/legal/eu/aiact#recital_119 -->
+
+    <Class rdf:about="https://w3id.org/dpv/legal/eu/aiact#recital_119">
+        <rdfs:subClassOf rdf:resource="https://w3id.org/dpv/legal/eu/aiact#preamble"/>
+        <rdfs:label>recital 119</rdfs:label>
+    </Class>
+    
+
+
+    <!-- https://w3id.org/dpv/legal/eu/aiact#recital_12 -->
+
+    <Class rdf:about="https://w3id.org/dpv/legal/eu/aiact#recital_12">
+        <rdfs:subClassOf rdf:resource="https://w3id.org/dpv/legal/eu/aiact#preamble"/>
+        <rdfs:label>recital 12</rdfs:label>
+    </Class>
+    
+
+
+    <!-- https://w3id.org/dpv/legal/eu/aiact#recital_120 -->
+
+    <Class rdf:about="https://w3id.org/dpv/legal/eu/aiact#recital_120">
+        <rdfs:subClassOf rdf:resource="https://w3id.org/dpv/legal/eu/aiact#preamble"/>
+        <rdfs:label>recital 120</rdfs:label>
+    </Class>
+    
+
+
+    <!-- https://w3id.org/dpv/legal/eu/aiact#recital_121 -->
+
+    <Class rdf:about="https://w3id.org/dpv/legal/eu/aiact#recital_121">
+        <rdfs:subClassOf rdf:resource="https://w3id.org/dpv/legal/eu/aiact#preamble"/>
+        <rdfs:label>recital 121</rdfs:label>
+    </Class>
+    
+
+
+    <!-- https://w3id.org/dpv/legal/eu/aiact#recital_122 -->
+
+    <Class rdf:about="https://w3id.org/dpv/legal/eu/aiact#recital_122">
+        <rdfs:subClassOf rdf:resource="https://w3id.org/dpv/legal/eu/aiact#preamble"/>
+        <rdfs:label>recital 122</rdfs:label>
+    </Class>
+    
+
+
+    <!-- https://w3id.org/dpv/legal/eu/aiact#recital_123 -->
+
+    <Class rdf:about="https://w3id.org/dpv/legal/eu/aiact#recital_123">
+        <rdfs:subClassOf rdf:resource="https://w3id.org/dpv/legal/eu/aiact#preamble"/>
+        <rdfs:label>recital 123</rdfs:label>
+    </Class>
+    
+
+
+    <!-- https://w3id.org/dpv/legal/eu/aiact#recital_124 -->
+
+    <Class rdf:about="https://w3id.org/dpv/legal/eu/aiact#recital_124">
+        <rdfs:subClassOf rdf:resource="https://w3id.org/dpv/legal/eu/aiact#preamble"/>
+        <rdfs:label>recital 124</rdfs:label>
+    </Class>
+    
+
+
+    <!-- https://w3id.org/dpv/legal/eu/aiact#recital_125 -->
+
+    <Class rdf:about="https://w3id.org/dpv/legal/eu/aiact#recital_125">
+        <rdfs:subClassOf rdf:resource="https://w3id.org/dpv/legal/eu/aiact#preamble"/>
+        <rdfs:label>recital 125</rdfs:label>
+    </Class>
+    
+
+
+    <!-- https://w3id.org/dpv/legal/eu/aiact#recital_126 -->
+
+    <Class rdf:about="https://w3id.org/dpv/legal/eu/aiact#recital_126">
+        <rdfs:subClassOf rdf:resource="https://w3id.org/dpv/legal/eu/aiact#preamble"/>
+        <rdfs:label>recital 126</rdfs:label>
+    </Class>
+    
+
+
+    <!-- https://w3id.org/dpv/legal/eu/aiact#recital_127 -->
+
+    <Class rdf:about="https://w3id.org/dpv/legal/eu/aiact#recital_127">
+        <rdfs:subClassOf rdf:resource="https://w3id.org/dpv/legal/eu/aiact#preamble"/>
+        <rdfs:label>recital 127</rdfs:label>
+    </Class>
+    
+
+
+    <!-- https://w3id.org/dpv/legal/eu/aiact#recital_128 -->
+
+    <Class rdf:about="https://w3id.org/dpv/legal/eu/aiact#recital_128">
+        <rdfs:subClassOf rdf:resource="https://w3id.org/dpv/legal/eu/aiact#preamble"/>
+        <rdfs:label>recital 128</rdfs:label>
+    </Class>
+    
+
+
+    <!-- https://w3id.org/dpv/legal/eu/aiact#recital_129 -->
+
+    <Class rdf:about="https://w3id.org/dpv/legal/eu/aiact#recital_129">
+        <rdfs:subClassOf rdf:resource="https://w3id.org/dpv/legal/eu/aiact#preamble"/>
+        <rdfs:label>recital 129</rdfs:label>
+    </Class>
+    
+
+
+    <!-- https://w3id.org/dpv/legal/eu/aiact#recital_13 -->
+
+    <Class rdf:about="https://w3id.org/dpv/legal/eu/aiact#recital_13">
+        <rdfs:subClassOf rdf:resource="https://w3id.org/dpv/legal/eu/aiact#preamble"/>
+        <rdfs:label>recital 13</rdfs:label>
+    </Class>
+    
+
+
+    <!-- https://w3id.org/dpv/legal/eu/aiact#recital_130 -->
+
+    <Class rdf:about="https://w3id.org/dpv/legal/eu/aiact#recital_130">
+        <rdfs:subClassOf rdf:resource="https://w3id.org/dpv/legal/eu/aiact#preamble"/>
+        <rdfs:label>recital 130</rdfs:label>
+    </Class>
+    
+
+
+    <!-- https://w3id.org/dpv/legal/eu/aiact#recital_131 -->
+
+    <Class rdf:about="https://w3id.org/dpv/legal/eu/aiact#recital_131">
+        <rdfs:subClassOf rdf:resource="https://w3id.org/dpv/legal/eu/aiact#preamble"/>
+        <rdfs:label>recital 131</rdfs:label>
+    </Class>
+    
+
+
+    <!-- https://w3id.org/dpv/legal/eu/aiact#recital_132 -->
+
+    <Class rdf:about="https://w3id.org/dpv/legal/eu/aiact#recital_132">
+        <rdfs:subClassOf rdf:resource="https://w3id.org/dpv/legal/eu/aiact#preamble"/>
+        <rdfs:label>recital 132</rdfs:label>
+    </Class>
+    
+
+
+    <!-- https://w3id.org/dpv/legal/eu/aiact#recital_133 -->
+
+    <Class rdf:about="https://w3id.org/dpv/legal/eu/aiact#recital_133">
+        <rdfs:subClassOf rdf:resource="https://w3id.org/dpv/legal/eu/aiact#preamble"/>
+        <rdfs:label>recital 133</rdfs:label>
+    </Class>
+    
+
+
+    <!-- https://w3id.org/dpv/legal/eu/aiact#recital_134 -->
+
+    <Class rdf:about="https://w3id.org/dpv/legal/eu/aiact#recital_134">
+        <rdfs:subClassOf rdf:resource="https://w3id.org/dpv/legal/eu/aiact#preamble"/>
+        <rdfs:label>recital 134</rdfs:label>
+    </Class>
+    
+
+
+    <!-- https://w3id.org/dpv/legal/eu/aiact#recital_135 -->
+
+    <Class rdf:about="https://w3id.org/dpv/legal/eu/aiact#recital_135">
+        <rdfs:subClassOf rdf:resource="https://w3id.org/dpv/legal/eu/aiact#preamble"/>
+        <rdfs:label>recital 135</rdfs:label>
+    </Class>
+    
+
+
+    <!-- https://w3id.org/dpv/legal/eu/aiact#recital_136 -->
+
+    <Class rdf:about="https://w3id.org/dpv/legal/eu/aiact#recital_136">
+        <rdfs:subClassOf rdf:resource="https://w3id.org/dpv/legal/eu/aiact#preamble"/>
+        <rdfs:label>recital 136</rdfs:label>
+    </Class>
+    
+
+
+    <!-- https://w3id.org/dpv/legal/eu/aiact#recital_137 -->
+
+    <Class rdf:about="https://w3id.org/dpv/legal/eu/aiact#recital_137">
+        <rdfs:subClassOf rdf:resource="https://w3id.org/dpv/legal/eu/aiact#preamble"/>
+        <rdfs:label>recital 137</rdfs:label>
+    </Class>
+    
+
+
+    <!-- https://w3id.org/dpv/legal/eu/aiact#recital_138 -->
+
+    <Class rdf:about="https://w3id.org/dpv/legal/eu/aiact#recital_138">
+        <rdfs:subClassOf rdf:resource="https://w3id.org/dpv/legal/eu/aiact#preamble"/>
+        <rdfs:label>recital 138</rdfs:label>
+    </Class>
+    
+
+
+    <!-- https://w3id.org/dpv/legal/eu/aiact#recital_139 -->
+
+    <Class rdf:about="https://w3id.org/dpv/legal/eu/aiact#recital_139">
+        <rdfs:subClassOf rdf:resource="https://w3id.org/dpv/legal/eu/aiact#preamble"/>
+        <rdfs:label>recital 139</rdfs:label>
+    </Class>
+    
+
+
+    <!-- https://w3id.org/dpv/legal/eu/aiact#recital_14 -->
+
+    <Class rdf:about="https://w3id.org/dpv/legal/eu/aiact#recital_14">
+        <rdfs:subClassOf rdf:resource="https://w3id.org/dpv/legal/eu/aiact#preamble"/>
+        <rdfs:label>recital 14</rdfs:label>
+    </Class>
+    
+
+
+    <!-- https://w3id.org/dpv/legal/eu/aiact#recital_140 -->
+
+    <Class rdf:about="https://w3id.org/dpv/legal/eu/aiact#recital_140">
+        <rdfs:subClassOf rdf:resource="https://w3id.org/dpv/legal/eu/aiact#preamble"/>
+        <rdfs:label>recital 140</rdfs:label>
+    </Class>
+    
+
+
+    <!-- https://w3id.org/dpv/legal/eu/aiact#recital_141 -->
+
+    <Class rdf:about="https://w3id.org/dpv/legal/eu/aiact#recital_141">
+        <rdfs:subClassOf rdf:resource="https://w3id.org/dpv/legal/eu/aiact#preamble"/>
+        <rdfs:label>recital 141</rdfs:label>
+    </Class>
+    
+
+
+    <!-- https://w3id.org/dpv/legal/eu/aiact#recital_142 -->
+
+    <Class rdf:about="https://w3id.org/dpv/legal/eu/aiact#recital_142">
+        <rdfs:subClassOf rdf:resource="https://w3id.org/dpv/legal/eu/aiact#preamble"/>
+        <rdfs:label>recital 142</rdfs:label>
+    </Class>
+    
+
+
+    <!-- https://w3id.org/dpv/legal/eu/aiact#recital_143 -->
+
+    <Class rdf:about="https://w3id.org/dpv/legal/eu/aiact#recital_143">
+        <rdfs:subClassOf rdf:resource="https://w3id.org/dpv/legal/eu/aiact#preamble"/>
+        <rdfs:label>recital 143</rdfs:label>
+    </Class>
+    
+
+
+    <!-- https://w3id.org/dpv/legal/eu/aiact#recital_144 -->
+
+    <Class rdf:about="https://w3id.org/dpv/legal/eu/aiact#recital_144">
+        <rdfs:subClassOf rdf:resource="https://w3id.org/dpv/legal/eu/aiact#preamble"/>
+        <rdfs:label>recital 144</rdfs:label>
+    </Class>
+    
+
+
+    <!-- https://w3id.org/dpv/legal/eu/aiact#recital_145 -->
+
+    <Class rdf:about="https://w3id.org/dpv/legal/eu/aiact#recital_145">
+        <rdfs:subClassOf rdf:resource="https://w3id.org/dpv/legal/eu/aiact#preamble"/>
+        <rdfs:label>recital 145</rdfs:label>
+    </Class>
+    
+
+
+    <!-- https://w3id.org/dpv/legal/eu/aiact#recital_146 -->
+
+    <Class rdf:about="https://w3id.org/dpv/legal/eu/aiact#recital_146">
+        <rdfs:subClassOf rdf:resource="https://w3id.org/dpv/legal/eu/aiact#preamble"/>
+        <rdfs:label>recital 146</rdfs:label>
+    </Class>
+    
+
+
+    <!-- https://w3id.org/dpv/legal/eu/aiact#recital_147 -->
+
+    <Class rdf:about="https://w3id.org/dpv/legal/eu/aiact#recital_147">
+        <rdfs:subClassOf rdf:resource="https://w3id.org/dpv/legal/eu/aiact#preamble"/>
+        <rdfs:label>recital 147</rdfs:label>
+    </Class>
+    
+
+
+    <!-- https://w3id.org/dpv/legal/eu/aiact#recital_148 -->
+
+    <Class rdf:about="https://w3id.org/dpv/legal/eu/aiact#recital_148">
+        <rdfs:subClassOf rdf:resource="https://w3id.org/dpv/legal/eu/aiact#preamble"/>
+        <rdfs:label>recital 148</rdfs:label>
+    </Class>
+    
+
+
+    <!-- https://w3id.org/dpv/legal/eu/aiact#recital_149 -->
+
+    <Class rdf:about="https://w3id.org/dpv/legal/eu/aiact#recital_149">
+        <rdfs:subClassOf rdf:resource="https://w3id.org/dpv/legal/eu/aiact#preamble"/>
+        <rdfs:label>recital 149</rdfs:label>
+    </Class>
+    
+
+
+    <!-- https://w3id.org/dpv/legal/eu/aiact#recital_15 -->
+
+    <Class rdf:about="https://w3id.org/dpv/legal/eu/aiact#recital_15">
+        <rdfs:subClassOf rdf:resource="https://w3id.org/dpv/legal/eu/aiact#preamble"/>
+        <rdfs:label>recital 15</rdfs:label>
+    </Class>
+    
+
+
+    <!-- https://w3id.org/dpv/legal/eu/aiact#recital_150 -->
+
+    <Class rdf:about="https://w3id.org/dpv/legal/eu/aiact#recital_150">
+        <rdfs:subClassOf rdf:resource="https://w3id.org/dpv/legal/eu/aiact#preamble"/>
+        <rdfs:label>recital 150</rdfs:label>
+    </Class>
+    
+
+
+    <!-- https://w3id.org/dpv/legal/eu/aiact#recital_151 -->
+
+    <Class rdf:about="https://w3id.org/dpv/legal/eu/aiact#recital_151">
+        <rdfs:subClassOf rdf:resource="https://w3id.org/dpv/legal/eu/aiact#preamble"/>
+        <rdfs:label>recital 151</rdfs:label>
+    </Class>
+    
+
+
+    <!-- https://w3id.org/dpv/legal/eu/aiact#recital_152 -->
+
+    <Class rdf:about="https://w3id.org/dpv/legal/eu/aiact#recital_152">
+        <rdfs:subClassOf rdf:resource="https://w3id.org/dpv/legal/eu/aiact#preamble"/>
+        <rdfs:label>recital 152</rdfs:label>
+    </Class>
+    
+
+
+    <!-- https://w3id.org/dpv/legal/eu/aiact#recital_153 -->
+
+    <Class rdf:about="https://w3id.org/dpv/legal/eu/aiact#recital_153">
+        <rdfs:subClassOf rdf:resource="https://w3id.org/dpv/legal/eu/aiact#preamble"/>
+        <rdfs:label>recital 153</rdfs:label>
+    </Class>
+    
+
+
+    <!-- https://w3id.org/dpv/legal/eu/aiact#recital_154 -->
+
+    <Class rdf:about="https://w3id.org/dpv/legal/eu/aiact#recital_154">
+        <rdfs:subClassOf rdf:resource="https://w3id.org/dpv/legal/eu/aiact#preamble"/>
+        <rdfs:label>recital 154</rdfs:label>
+    </Class>
+    
+
+
+    <!-- https://w3id.org/dpv/legal/eu/aiact#recital_155 -->
+
+    <Class rdf:about="https://w3id.org/dpv/legal/eu/aiact#recital_155">
+        <rdfs:subClassOf rdf:resource="https://w3id.org/dpv/legal/eu/aiact#preamble"/>
+        <rdfs:label>recital 155</rdfs:label>
+    </Class>
+    
+
+
+    <!-- https://w3id.org/dpv/legal/eu/aiact#recital_156 -->
+
+    <Class rdf:about="https://w3id.org/dpv/legal/eu/aiact#recital_156">
+        <rdfs:subClassOf rdf:resource="https://w3id.org/dpv/legal/eu/aiact#preamble"/>
+        <rdfs:label>recital 156</rdfs:label>
+    </Class>
+    
+
+
+    <!-- https://w3id.org/dpv/legal/eu/aiact#recital_157 -->
+
+    <Class rdf:about="https://w3id.org/dpv/legal/eu/aiact#recital_157">
+        <rdfs:subClassOf rdf:resource="https://w3id.org/dpv/legal/eu/aiact#preamble"/>
+        <rdfs:label>recital 157</rdfs:label>
+    </Class>
+    
+
+
+    <!-- https://w3id.org/dpv/legal/eu/aiact#recital_158 -->
+
+    <Class rdf:about="https://w3id.org/dpv/legal/eu/aiact#recital_158">
+        <rdfs:subClassOf rdf:resource="https://w3id.org/dpv/legal/eu/aiact#preamble"/>
+        <rdfs:label>recital 158</rdfs:label>
+    </Class>
+    
+
+
+    <!-- https://w3id.org/dpv/legal/eu/aiact#recital_159 -->
+
+    <Class rdf:about="https://w3id.org/dpv/legal/eu/aiact#recital_159">
+        <rdfs:subClassOf rdf:resource="https://w3id.org/dpv/legal/eu/aiact#preamble"/>
+        <rdfs:label>recital 159</rdfs:label>
+    </Class>
+    
+
+
+    <!-- https://w3id.org/dpv/legal/eu/aiact#recital_16 -->
+
+    <Class rdf:about="https://w3id.org/dpv/legal/eu/aiact#recital_16">
+        <rdfs:subClassOf rdf:resource="https://w3id.org/dpv/legal/eu/aiact#preamble"/>
+        <rdfs:label>recital 16</rdfs:label>
+    </Class>
+    
+
+
+    <!-- https://w3id.org/dpv/legal/eu/aiact#recital_160 -->
+
+    <Class rdf:about="https://w3id.org/dpv/legal/eu/aiact#recital_160">
+        <rdfs:subClassOf rdf:resource="https://w3id.org/dpv/legal/eu/aiact#preamble"/>
+        <rdfs:label>recital 160</rdfs:label>
+    </Class>
+    
+
+
+    <!-- https://w3id.org/dpv/legal/eu/aiact#recital_161 -->
+
+    <Class rdf:about="https://w3id.org/dpv/legal/eu/aiact#recital_161">
+        <rdfs:subClassOf rdf:resource="https://w3id.org/dpv/legal/eu/aiact#preamble"/>
+        <rdfs:label>recital 161</rdfs:label>
+    </Class>
+    
+
+
+    <!-- https://w3id.org/dpv/legal/eu/aiact#recital_162 -->
+
+    <Class rdf:about="https://w3id.org/dpv/legal/eu/aiact#recital_162">
+        <rdfs:subClassOf rdf:resource="https://w3id.org/dpv/legal/eu/aiact#preamble"/>
+        <rdfs:label>recital 162</rdfs:label>
+    </Class>
+    
+
+
+    <!-- https://w3id.org/dpv/legal/eu/aiact#recital_163 -->
+
+    <Class rdf:about="https://w3id.org/dpv/legal/eu/aiact#recital_163">
+        <rdfs:subClassOf rdf:resource="https://w3id.org/dpv/legal/eu/aiact#preamble"/>
+        <rdfs:label>recital 163</rdfs:label>
+    </Class>
+    
+
+
+    <!-- https://w3id.org/dpv/legal/eu/aiact#recital_164 -->
+
+    <Class rdf:about="https://w3id.org/dpv/legal/eu/aiact#recital_164">
+        <rdfs:subClassOf rdf:resource="https://w3id.org/dpv/legal/eu/aiact#preamble"/>
+        <rdfs:label>recital 164</rdfs:label>
+    </Class>
+    
+
+
+    <!-- https://w3id.org/dpv/legal/eu/aiact#recital_165 -->
+
+    <Class rdf:about="https://w3id.org/dpv/legal/eu/aiact#recital_165">
+        <rdfs:subClassOf rdf:resource="https://w3id.org/dpv/legal/eu/aiact#preamble"/>
+        <rdfs:label>recital 165</rdfs:label>
+    </Class>
+    
+
+
+    <!-- https://w3id.org/dpv/legal/eu/aiact#recital_166 -->
+
+    <Class rdf:about="https://w3id.org/dpv/legal/eu/aiact#recital_166">
+        <rdfs:subClassOf rdf:resource="https://w3id.org/dpv/legal/eu/aiact#preamble"/>
+        <rdfs:label>recital 166</rdfs:label>
+    </Class>
+    
+
+
+    <!-- https://w3id.org/dpv/legal/eu/aiact#recital_167 -->
+
+    <Class rdf:about="https://w3id.org/dpv/legal/eu/aiact#recital_167">
+        <rdfs:subClassOf rdf:resource="https://w3id.org/dpv/legal/eu/aiact#preamble"/>
+        <rdfs:label>recital 167</rdfs:label>
+    </Class>
+    
+
+
+    <!-- https://w3id.org/dpv/legal/eu/aiact#recital_168 -->
+
+    <Class rdf:about="https://w3id.org/dpv/legal/eu/aiact#recital_168">
+        <rdfs:subClassOf rdf:resource="https://w3id.org/dpv/legal/eu/aiact#preamble"/>
+        <rdfs:label>recital 168</rdfs:label>
+    </Class>
+    
+
+
+    <!-- https://w3id.org/dpv/legal/eu/aiact#recital_169 -->
+
+    <Class rdf:about="https://w3id.org/dpv/legal/eu/aiact#recital_169">
+        <rdfs:subClassOf rdf:resource="https://w3id.org/dpv/legal/eu/aiact#preamble"/>
+        <rdfs:label>recital 169</rdfs:label>
+    </Class>
+    
+
+
+    <!-- https://w3id.org/dpv/legal/eu/aiact#recital_17 -->
+
+    <Class rdf:about="https://w3id.org/dpv/legal/eu/aiact#recital_17">
+        <rdfs:subClassOf rdf:resource="https://w3id.org/dpv/legal/eu/aiact#preamble"/>
+        <rdfs:label>recital 17</rdfs:label>
+    </Class>
+    
+
+
+    <!-- https://w3id.org/dpv/legal/eu/aiact#recital_170 -->
+
+    <Class rdf:about="https://w3id.org/dpv/legal/eu/aiact#recital_170">
+        <rdfs:subClassOf rdf:resource="https://w3id.org/dpv/legal/eu/aiact#preamble"/>
+        <rdfs:label>recital 170</rdfs:label>
+    </Class>
+    
+
+
+    <!-- https://w3id.org/dpv/legal/eu/aiact#recital_171 -->
+
+    <Class rdf:about="https://w3id.org/dpv/legal/eu/aiact#recital_171">
+        <rdfs:subClassOf rdf:resource="https://w3id.org/dpv/legal/eu/aiact#preamble"/>
+        <rdfs:label>recital 171</rdfs:label>
+    </Class>
+    
+
+
+    <!-- https://w3id.org/dpv/legal/eu/aiact#recital_172 -->
+
+    <Class rdf:about="https://w3id.org/dpv/legal/eu/aiact#recital_172">
+        <rdfs:subClassOf rdf:resource="https://w3id.org/dpv/legal/eu/aiact#preamble"/>
+        <rdfs:label>recital 172</rdfs:label>
+    </Class>
+    
+
+
+    <!-- https://w3id.org/dpv/legal/eu/aiact#recital_173 -->
+
+    <Class rdf:about="https://w3id.org/dpv/legal/eu/aiact#recital_173">
+        <rdfs:subClassOf rdf:resource="https://w3id.org/dpv/legal/eu/aiact#preamble"/>
+        <rdfs:label>recital 173</rdfs:label>
+    </Class>
+    
+
+
+    <!-- https://w3id.org/dpv/legal/eu/aiact#recital_174 -->
+
+    <Class rdf:about="https://w3id.org/dpv/legal/eu/aiact#recital_174">
+        <rdfs:subClassOf rdf:resource="https://w3id.org/dpv/legal/eu/aiact#preamble"/>
+        <rdfs:label>recital 174</rdfs:label>
+    </Class>
+    
+
+
+    <!-- https://w3id.org/dpv/legal/eu/aiact#recital_175 -->
+
+    <Class rdf:about="https://w3id.org/dpv/legal/eu/aiact#recital_175">
+        <rdfs:subClassOf rdf:resource="https://w3id.org/dpv/legal/eu/aiact#preamble"/>
+        <rdfs:label>recital 175</rdfs:label>
+    </Class>
+    
+
+
+    <!-- https://w3id.org/dpv/legal/eu/aiact#recital_176 -->
+
+    <Class rdf:about="https://w3id.org/dpv/legal/eu/aiact#recital_176">
+        <rdfs:subClassOf rdf:resource="https://w3id.org/dpv/legal/eu/aiact#preamble"/>
+        <rdfs:label>recital 176</rdfs:label>
+    </Class>
+    
+
+
+    <!-- https://w3id.org/dpv/legal/eu/aiact#recital_177 -->
+
+    <Class rdf:about="https://w3id.org/dpv/legal/eu/aiact#recital_177">
+        <rdfs:subClassOf rdf:resource="https://w3id.org/dpv/legal/eu/aiact#preamble"/>
+        <rdfs:label>recital 177</rdfs:label>
+    </Class>
+    
+
+
+    <!-- https://w3id.org/dpv/legal/eu/aiact#recital_178 -->
+
+    <Class rdf:about="https://w3id.org/dpv/legal/eu/aiact#recital_178">
+        <rdfs:subClassOf rdf:resource="https://w3id.org/dpv/legal/eu/aiact#preamble"/>
+        <rdfs:label>recital 178</rdfs:label>
+    </Class>
+    
+
+
+    <!-- https://w3id.org/dpv/legal/eu/aiact#recital_179 -->
+
+    <Class rdf:about="https://w3id.org/dpv/legal/eu/aiact#recital_179">
+        <rdfs:subClassOf rdf:resource="https://w3id.org/dpv/legal/eu/aiact#preamble"/>
+        <rdfs:label>recital 179</rdfs:label>
+    </Class>
+    
+
+
+    <!-- https://w3id.org/dpv/legal/eu/aiact#recital_18 -->
+
+    <Class rdf:about="https://w3id.org/dpv/legal/eu/aiact#recital_18">
+        <rdfs:subClassOf rdf:resource="https://w3id.org/dpv/legal/eu/aiact#preamble"/>
+        <rdfs:label>recital 18</rdfs:label>
+    </Class>
+    
+
+
+    <!-- https://w3id.org/dpv/legal/eu/aiact#recital_180 -->
+
+    <Class rdf:about="https://w3id.org/dpv/legal/eu/aiact#recital_180">
+        <rdfs:subClassOf rdf:resource="https://w3id.org/dpv/legal/eu/aiact#preamble"/>
+        <rdfs:label>recital 180</rdfs:label>
+    </Class>
+    
+
+
+    <!-- https://w3id.org/dpv/legal/eu/aiact#recital_19 -->
+
+    <Class rdf:about="https://w3id.org/dpv/legal/eu/aiact#recital_19">
+        <rdfs:subClassOf rdf:resource="https://w3id.org/dpv/legal/eu/aiact#preamble"/>
+        <rdfs:label>recital 19</rdfs:label>
+    </Class>
+    
+
+
+    <!-- https://w3id.org/dpv/legal/eu/aiact#recital_2 -->
+
+    <Class rdf:about="https://w3id.org/dpv/legal/eu/aiact#recital_2">
+        <rdfs:subClassOf rdf:resource="https://w3id.org/dpv/legal/eu/aiact#preamble"/>
+        <rdfs:label>recital 2</rdfs:label>
+    </Class>
+    
+
+
+    <!-- https://w3id.org/dpv/legal/eu/aiact#recital_20 -->
+
+    <Class rdf:about="https://w3id.org/dpv/legal/eu/aiact#recital_20">
+        <rdfs:subClassOf rdf:resource="https://w3id.org/dpv/legal/eu/aiact#preamble"/>
+        <rdfs:label>recital 20</rdfs:label>
+    </Class>
+    
+
+
+    <!-- https://w3id.org/dpv/legal/eu/aiact#recital_21 -->
+
+    <Class rdf:about="https://w3id.org/dpv/legal/eu/aiact#recital_21">
+        <rdfs:subClassOf rdf:resource="https://w3id.org/dpv/legal/eu/aiact#preamble"/>
+        <rdfs:label>recital 21</rdfs:label>
+    </Class>
+    
+
+
+    <!-- https://w3id.org/dpv/legal/eu/aiact#recital_22 -->
+
+    <Class rdf:about="https://w3id.org/dpv/legal/eu/aiact#recital_22">
+        <rdfs:subClassOf rdf:resource="https://w3id.org/dpv/legal/eu/aiact#preamble"/>
+        <rdfs:label>recital 22</rdfs:label>
+    </Class>
+    
+
+
+    <!-- https://w3id.org/dpv/legal/eu/aiact#recital_23 -->
+
+    <Class rdf:about="https://w3id.org/dpv/legal/eu/aiact#recital_23">
+        <rdfs:subClassOf rdf:resource="https://w3id.org/dpv/legal/eu/aiact#preamble"/>
+        <rdfs:label>recital 23</rdfs:label>
+    </Class>
+    
+
+
+    <!-- https://w3id.org/dpv/legal/eu/aiact#recital_24 -->
+
+    <Class rdf:about="https://w3id.org/dpv/legal/eu/aiact#recital_24">
+        <rdfs:subClassOf rdf:resource="https://w3id.org/dpv/legal/eu/aiact#preamble"/>
+        <rdfs:label>recital 24</rdfs:label>
+    </Class>
+    
+
+
+    <!-- https://w3id.org/dpv/legal/eu/aiact#recital_25 -->
+
+    <Class rdf:about="https://w3id.org/dpv/legal/eu/aiact#recital_25">
+        <rdfs:subClassOf rdf:resource="https://w3id.org/dpv/legal/eu/aiact#preamble"/>
+        <rdfs:label>recital 25</rdfs:label>
+    </Class>
+    
+
+
+    <!-- https://w3id.org/dpv/legal/eu/aiact#recital_26 -->
+
+    <Class rdf:about="https://w3id.org/dpv/legal/eu/aiact#recital_26">
+        <rdfs:subClassOf rdf:resource="https://w3id.org/dpv/legal/eu/aiact#preamble"/>
+        <rdfs:label>recital 26</rdfs:label>
+    </Class>
+    
+
+
+    <!-- https://w3id.org/dpv/legal/eu/aiact#recital_27 -->
+
+    <Class rdf:about="https://w3id.org/dpv/legal/eu/aiact#recital_27">
+        <rdfs:subClassOf rdf:resource="https://w3id.org/dpv/legal/eu/aiact#preamble"/>
+        <rdfs:label>recital 27</rdfs:label>
+    </Class>
+    
+
+
+    <!-- https://w3id.org/dpv/legal/eu/aiact#recital_28 -->
+
+    <Class rdf:about="https://w3id.org/dpv/legal/eu/aiact#recital_28">
+        <rdfs:subClassOf rdf:resource="https://w3id.org/dpv/legal/eu/aiact#preamble"/>
+        <rdfs:label>recital 28</rdfs:label>
+    </Class>
+    
+
+
+    <!-- https://w3id.org/dpv/legal/eu/aiact#recital_29 -->
+
+    <Class rdf:about="https://w3id.org/dpv/legal/eu/aiact#recital_29">
+        <rdfs:subClassOf rdf:resource="https://w3id.org/dpv/legal/eu/aiact#preamble"/>
+        <rdfs:label>recital 29</rdfs:label>
+    </Class>
+    
+
+
+    <!-- https://w3id.org/dpv/legal/eu/aiact#recital_3 -->
+
+    <Class rdf:about="https://w3id.org/dpv/legal/eu/aiact#recital_3">
+        <rdfs:subClassOf rdf:resource="https://w3id.org/dpv/legal/eu/aiact#preamble"/>
+        <rdfs:label>recital 3</rdfs:label>
+    </Class>
+    
+
+
+    <!-- https://w3id.org/dpv/legal/eu/aiact#recital_30 -->
+
+    <Class rdf:about="https://w3id.org/dpv/legal/eu/aiact#recital_30">
+        <rdfs:subClassOf rdf:resource="https://w3id.org/dpv/legal/eu/aiact#preamble"/>
+        <rdfs:label>recital 30</rdfs:label>
+    </Class>
+    
+
+
+    <!-- https://w3id.org/dpv/legal/eu/aiact#recital_31 -->
+
+    <Class rdf:about="https://w3id.org/dpv/legal/eu/aiact#recital_31">
+        <rdfs:subClassOf rdf:resource="https://w3id.org/dpv/legal/eu/aiact#preamble"/>
+        <rdfs:label>recital 31</rdfs:label>
+    </Class>
+    
+
+
+    <!-- https://w3id.org/dpv/legal/eu/aiact#recital_32 -->
+
+    <Class rdf:about="https://w3id.org/dpv/legal/eu/aiact#recital_32">
+        <rdfs:subClassOf rdf:resource="https://w3id.org/dpv/legal/eu/aiact#preamble"/>
+        <rdfs:label>recital 32</rdfs:label>
+    </Class>
+    
+
+
+    <!-- https://w3id.org/dpv/legal/eu/aiact#recital_33 -->
+
+    <Class rdf:about="https://w3id.org/dpv/legal/eu/aiact#recital_33">
+        <rdfs:subClassOf rdf:resource="https://w3id.org/dpv/legal/eu/aiact#preamble"/>
+        <rdfs:label>recital 33</rdfs:label>
+    </Class>
+    
+
+
+    <!-- https://w3id.org/dpv/legal/eu/aiact#recital_34 -->
+
+    <Class rdf:about="https://w3id.org/dpv/legal/eu/aiact#recital_34">
+        <rdfs:subClassOf rdf:resource="https://w3id.org/dpv/legal/eu/aiact#preamble"/>
+        <rdfs:label>recital 34</rdfs:label>
+    </Class>
+    
+
+
+    <!-- https://w3id.org/dpv/legal/eu/aiact#recital_35 -->
+
+    <Class rdf:about="https://w3id.org/dpv/legal/eu/aiact#recital_35">
+        <rdfs:subClassOf rdf:resource="https://w3id.org/dpv/legal/eu/aiact#preamble"/>
+        <rdfs:label>recital 35</rdfs:label>
+    </Class>
+    
+
+
+    <!-- https://w3id.org/dpv/legal/eu/aiact#recital_36 -->
+
+    <Class rdf:about="https://w3id.org/dpv/legal/eu/aiact#recital_36">
+        <rdfs:subClassOf rdf:resource="https://w3id.org/dpv/legal/eu/aiact#preamble"/>
+        <rdfs:label>recital 36</rdfs:label>
+    </Class>
+    
+
+
+    <!-- https://w3id.org/dpv/legal/eu/aiact#recital_37 -->
+
+    <Class rdf:about="https://w3id.org/dpv/legal/eu/aiact#recital_37">
+        <rdfs:subClassOf rdf:resource="https://w3id.org/dpv/legal/eu/aiact#preamble"/>
+        <rdfs:label>recital 37</rdfs:label>
+    </Class>
+    
+
+
+    <!-- https://w3id.org/dpv/legal/eu/aiact#recital_38 -->
+
+    <Class rdf:about="https://w3id.org/dpv/legal/eu/aiact#recital_38">
+        <rdfs:subClassOf rdf:resource="https://w3id.org/dpv/legal/eu/aiact#preamble"/>
+        <rdfs:label>recital 38</rdfs:label>
+    </Class>
+    
+
+
+    <!-- https://w3id.org/dpv/legal/eu/aiact#recital_39 -->
+
+    <Class rdf:about="https://w3id.org/dpv/legal/eu/aiact#recital_39">
+        <rdfs:subClassOf rdf:resource="https://w3id.org/dpv/legal/eu/aiact#preamble"/>
+        <rdfs:label>recital 39</rdfs:label>
+    </Class>
+    
+
+
+    <!-- https://w3id.org/dpv/legal/eu/aiact#recital_4 -->
+
+    <Class rdf:about="https://w3id.org/dpv/legal/eu/aiact#recital_4">
+        <rdfs:subClassOf rdf:resource="https://w3id.org/dpv/legal/eu/aiact#preamble"/>
+        <rdfs:label>recital 4</rdfs:label>
+    </Class>
+    
+
+
+    <!-- https://w3id.org/dpv/legal/eu/aiact#recital_40 -->
+
+    <Class rdf:about="https://w3id.org/dpv/legal/eu/aiact#recital_40">
+        <rdfs:subClassOf rdf:resource="https://w3id.org/dpv/legal/eu/aiact#preamble"/>
+        <rdfs:label>recital 40</rdfs:label>
+    </Class>
+    
+
+
+    <!-- https://w3id.org/dpv/legal/eu/aiact#recital_41 -->
+
+    <Class rdf:about="https://w3id.org/dpv/legal/eu/aiact#recital_41">
+        <rdfs:subClassOf rdf:resource="https://w3id.org/dpv/legal/eu/aiact#preamble"/>
+        <rdfs:label>recital 41</rdfs:label>
+    </Class>
+    
+
+
+    <!-- https://w3id.org/dpv/legal/eu/aiact#recital_42 -->
+
+    <Class rdf:about="https://w3id.org/dpv/legal/eu/aiact#recital_42">
+        <rdfs:subClassOf rdf:resource="https://w3id.org/dpv/legal/eu/aiact#preamble"/>
+        <rdfs:label>recital 42</rdfs:label>
+    </Class>
+    
+
+
+    <!-- https://w3id.org/dpv/legal/eu/aiact#recital_43 -->
+
+    <Class rdf:about="https://w3id.org/dpv/legal/eu/aiact#recital_43">
+        <rdfs:subClassOf rdf:resource="https://w3id.org/dpv/legal/eu/aiact#preamble"/>
+        <rdfs:label>recital 43</rdfs:label>
+    </Class>
+    
+
+
+    <!-- https://w3id.org/dpv/legal/eu/aiact#recital_44 -->
+
+    <Class rdf:about="https://w3id.org/dpv/legal/eu/aiact#recital_44">
+        <rdfs:subClassOf rdf:resource="https://w3id.org/dpv/legal/eu/aiact#preamble"/>
+        <rdfs:label>recital 44</rdfs:label>
+    </Class>
+    
+
+
+    <!-- https://w3id.org/dpv/legal/eu/aiact#recital_45 -->
+
+    <Class rdf:about="https://w3id.org/dpv/legal/eu/aiact#recital_45">
+        <rdfs:subClassOf rdf:resource="https://w3id.org/dpv/legal/eu/aiact#preamble"/>
+        <rdfs:label>recital 45</rdfs:label>
+    </Class>
+    
+
+
+    <!-- https://w3id.org/dpv/legal/eu/aiact#recital_46 -->
+
+    <Class rdf:about="https://w3id.org/dpv/legal/eu/aiact#recital_46">
+        <rdfs:subClassOf rdf:resource="https://w3id.org/dpv/legal/eu/aiact#preamble"/>
+        <rdfs:label>recital 46</rdfs:label>
+    </Class>
+    
+
+
+    <!-- https://w3id.org/dpv/legal/eu/aiact#recital_47 -->
+
+    <Class rdf:about="https://w3id.org/dpv/legal/eu/aiact#recital_47">
+        <rdfs:subClassOf rdf:resource="https://w3id.org/dpv/legal/eu/aiact#preamble"/>
+        <rdfs:label>recital 47</rdfs:label>
+    </Class>
+    
+
+
+    <!-- https://w3id.org/dpv/legal/eu/aiact#recital_48 -->
+
+    <Class rdf:about="https://w3id.org/dpv/legal/eu/aiact#recital_48">
+        <rdfs:subClassOf rdf:resource="https://w3id.org/dpv/legal/eu/aiact#preamble"/>
+        <rdfs:label>recital 48</rdfs:label>
+    </Class>
+    
+
+
+    <!-- https://w3id.org/dpv/legal/eu/aiact#recital_49 -->
+
+    <Class rdf:about="https://w3id.org/dpv/legal/eu/aiact#recital_49">
+        <rdfs:subClassOf rdf:resource="https://w3id.org/dpv/legal/eu/aiact#preamble"/>
+        <rdfs:label>recital 49</rdfs:label>
+    </Class>
+    
+
+
+    <!-- https://w3id.org/dpv/legal/eu/aiact#recital_5 -->
+
+    <Class rdf:about="https://w3id.org/dpv/legal/eu/aiact#recital_5">
+        <rdfs:subClassOf rdf:resource="https://w3id.org/dpv/legal/eu/aiact#preamble"/>
+        <rdfs:label>recital 5</rdfs:label>
+    </Class>
+    
+
+
+    <!-- https://w3id.org/dpv/legal/eu/aiact#recital_50 -->
+
+    <Class rdf:about="https://w3id.org/dpv/legal/eu/aiact#recital_50">
+        <rdfs:subClassOf rdf:resource="https://w3id.org/dpv/legal/eu/aiact#preamble"/>
+        <rdfs:label>recital 50</rdfs:label>
+    </Class>
+    
+
+
+    <!-- https://w3id.org/dpv/legal/eu/aiact#recital_51 -->
+
+    <Class rdf:about="https://w3id.org/dpv/legal/eu/aiact#recital_51">
+        <rdfs:subClassOf rdf:resource="https://w3id.org/dpv/legal/eu/aiact#preamble"/>
+        <rdfs:label>recital 51</rdfs:label>
+    </Class>
+    
+
+
+    <!-- https://w3id.org/dpv/legal/eu/aiact#recital_52 -->
+
+    <Class rdf:about="https://w3id.org/dpv/legal/eu/aiact#recital_52">
+        <rdfs:subClassOf rdf:resource="https://w3id.org/dpv/legal/eu/aiact#preamble"/>
+        <rdfs:label>recital 52</rdfs:label>
+    </Class>
+    
+
+
+    <!-- https://w3id.org/dpv/legal/eu/aiact#recital_53 -->
+
+    <Class rdf:about="https://w3id.org/dpv/legal/eu/aiact#recital_53">
+        <rdfs:subClassOf rdf:resource="https://w3id.org/dpv/legal/eu/aiact#preamble"/>
+        <rdfs:label>recital 53</rdfs:label>
+    </Class>
+    
+
+
+    <!-- https://w3id.org/dpv/legal/eu/aiact#recital_54 -->
+
+    <Class rdf:about="https://w3id.org/dpv/legal/eu/aiact#recital_54">
+        <rdfs:subClassOf rdf:resource="https://w3id.org/dpv/legal/eu/aiact#preamble"/>
+        <rdfs:label>recital 54</rdfs:label>
+    </Class>
+    
+
+
+    <!-- https://w3id.org/dpv/legal/eu/aiact#recital_55 -->
+
+    <Class rdf:about="https://w3id.org/dpv/legal/eu/aiact#recital_55">
+        <rdfs:subClassOf rdf:resource="https://w3id.org/dpv/legal/eu/aiact#preamble"/>
+        <rdfs:label>recital 55</rdfs:label>
+    </Class>
+    
+
+
+    <!-- https://w3id.org/dpv/legal/eu/aiact#recital_56 -->
+
+    <Class rdf:about="https://w3id.org/dpv/legal/eu/aiact#recital_56">
+        <rdfs:subClassOf rdf:resource="https://w3id.org/dpv/legal/eu/aiact#preamble"/>
+        <rdfs:label>recital 56</rdfs:label>
+    </Class>
+    
+
+
+    <!-- https://w3id.org/dpv/legal/eu/aiact#recital_57 -->
+
+    <Class rdf:about="https://w3id.org/dpv/legal/eu/aiact#recital_57">
+        <rdfs:subClassOf rdf:resource="https://w3id.org/dpv/legal/eu/aiact#preamble"/>
+        <rdfs:label>recital 57</rdfs:label>
+    </Class>
+    
+
+
+    <!-- https://w3id.org/dpv/legal/eu/aiact#recital_58 -->
+
+    <Class rdf:about="https://w3id.org/dpv/legal/eu/aiact#recital_58">
+        <rdfs:subClassOf rdf:resource="https://w3id.org/dpv/legal/eu/aiact#preamble"/>
+        <rdfs:label>recital 58</rdfs:label>
+    </Class>
+    
+
+
+    <!-- https://w3id.org/dpv/legal/eu/aiact#recital_59 -->
+
+    <Class rdf:about="https://w3id.org/dpv/legal/eu/aiact#recital_59">
+        <rdfs:subClassOf rdf:resource="https://w3id.org/dpv/legal/eu/aiact#preamble"/>
+        <rdfs:label>recital 59</rdfs:label>
+    </Class>
+    
+
+
+    <!-- https://w3id.org/dpv/legal/eu/aiact#recital_6 -->
+
+    <Class rdf:about="https://w3id.org/dpv/legal/eu/aiact#recital_6">
+        <rdfs:subClassOf rdf:resource="https://w3id.org/dpv/legal/eu/aiact#preamble"/>
+        <rdfs:label>recital 6</rdfs:label>
+    </Class>
+    
+
+
+    <!-- https://w3id.org/dpv/legal/eu/aiact#recital_60 -->
+
+    <Class rdf:about="https://w3id.org/dpv/legal/eu/aiact#recital_60">
+        <rdfs:subClassOf rdf:resource="https://w3id.org/dpv/legal/eu/aiact#preamble"/>
+        <rdfs:label>recital 60</rdfs:label>
+    </Class>
+    
+
+
+    <!-- https://w3id.org/dpv/legal/eu/aiact#recital_61 -->
+
+    <Class rdf:about="https://w3id.org/dpv/legal/eu/aiact#recital_61">
+        <rdfs:subClassOf rdf:resource="https://w3id.org/dpv/legal/eu/aiact#preamble"/>
+        <rdfs:label>recital 61</rdfs:label>
+    </Class>
+    
+
+
+    <!-- https://w3id.org/dpv/legal/eu/aiact#recital_62 -->
+
+    <Class rdf:about="https://w3id.org/dpv/legal/eu/aiact#recital_62">
+        <rdfs:subClassOf rdf:resource="https://w3id.org/dpv/legal/eu/aiact#preamble"/>
+        <rdfs:label>recital 62</rdfs:label>
+    </Class>
+    
+
+
+    <!-- https://w3id.org/dpv/legal/eu/aiact#recital_63 -->
+
+    <Class rdf:about="https://w3id.org/dpv/legal/eu/aiact#recital_63">
+        <rdfs:subClassOf rdf:resource="https://w3id.org/dpv/legal/eu/aiact#preamble"/>
+        <rdfs:label>recital 63</rdfs:label>
+    </Class>
+    
+
+
+    <!-- https://w3id.org/dpv/legal/eu/aiact#recital_64 -->
+
+    <Class rdf:about="https://w3id.org/dpv/legal/eu/aiact#recital_64">
+        <rdfs:subClassOf rdf:resource="https://w3id.org/dpv/legal/eu/aiact#preamble"/>
+        <rdfs:label>recital 64</rdfs:label>
+    </Class>
+    
+
+
+    <!-- https://w3id.org/dpv/legal/eu/aiact#recital_65 -->
+
+    <Class rdf:about="https://w3id.org/dpv/legal/eu/aiact#recital_65">
+        <rdfs:subClassOf rdf:resource="https://w3id.org/dpv/legal/eu/aiact#preamble"/>
+        <rdfs:label>recital 65</rdfs:label>
+    </Class>
+    
+
+
+    <!-- https://w3id.org/dpv/legal/eu/aiact#recital_66 -->
+
+    <Class rdf:about="https://w3id.org/dpv/legal/eu/aiact#recital_66">
+        <rdfs:subClassOf rdf:resource="https://w3id.org/dpv/legal/eu/aiact#preamble"/>
+        <rdfs:label>recital 66</rdfs:label>
+    </Class>
+    
+
+
+    <!-- https://w3id.org/dpv/legal/eu/aiact#recital_67 -->
+
+    <Class rdf:about="https://w3id.org/dpv/legal/eu/aiact#recital_67">
+        <rdfs:subClassOf rdf:resource="https://w3id.org/dpv/legal/eu/aiact#preamble"/>
+        <rdfs:label>recital 67</rdfs:label>
+    </Class>
+    
+
+
+    <!-- https://w3id.org/dpv/legal/eu/aiact#recital_68 -->
+
+    <Class rdf:about="https://w3id.org/dpv/legal/eu/aiact#recital_68">
+        <rdfs:subClassOf rdf:resource="https://w3id.org/dpv/legal/eu/aiact#preamble"/>
+        <rdfs:label>recital 68</rdfs:label>
+    </Class>
+    
+
+
+    <!-- https://w3id.org/dpv/legal/eu/aiact#recital_69 -->
+
+    <Class rdf:about="https://w3id.org/dpv/legal/eu/aiact#recital_69">
+        <rdfs:subClassOf rdf:resource="https://w3id.org/dpv/legal/eu/aiact#preamble"/>
+        <rdfs:label>recital 69</rdfs:label>
+    </Class>
+    
+
+
+    <!-- https://w3id.org/dpv/legal/eu/aiact#recital_7 -->
+
+    <Class rdf:about="https://w3id.org/dpv/legal/eu/aiact#recital_7">
+        <rdfs:subClassOf rdf:resource="https://w3id.org/dpv/legal/eu/aiact#preamble"/>
+        <rdfs:label>recital 7</rdfs:label>
+    </Class>
+    
+
+
+    <!-- https://w3id.org/dpv/legal/eu/aiact#recital_70 -->
+
+    <Class rdf:about="https://w3id.org/dpv/legal/eu/aiact#recital_70">
+        <rdfs:subClassOf rdf:resource="https://w3id.org/dpv/legal/eu/aiact#preamble"/>
+        <rdfs:label>recital 70</rdfs:label>
+    </Class>
+    
+
+
+    <!-- https://w3id.org/dpv/legal/eu/aiact#recital_71 -->
+
+    <Class rdf:about="https://w3id.org/dpv/legal/eu/aiact#recital_71">
+        <rdfs:subClassOf rdf:resource="https://w3id.org/dpv/legal/eu/aiact#preamble"/>
+        <rdfs:label>recital 71</rdfs:label>
+    </Class>
+    
+
+
+    <!-- https://w3id.org/dpv/legal/eu/aiact#recital_72 -->
+
+    <Class rdf:about="https://w3id.org/dpv/legal/eu/aiact#recital_72">
+        <rdfs:subClassOf rdf:resource="https://w3id.org/dpv/legal/eu/aiact#preamble"/>
+        <rdfs:label>recital 72</rdfs:label>
+    </Class>
+    
+
+
+    <!-- https://w3id.org/dpv/legal/eu/aiact#recital_73 -->
+
+    <Class rdf:about="https://w3id.org/dpv/legal/eu/aiact#recital_73">
+        <rdfs:subClassOf rdf:resource="https://w3id.org/dpv/legal/eu/aiact#preamble"/>
+        <rdfs:label>recital 73</rdfs:label>
+    </Class>
+    
+
+
+    <!-- https://w3id.org/dpv/legal/eu/aiact#recital_74 -->
+
+    <Class rdf:about="https://w3id.org/dpv/legal/eu/aiact#recital_74">
+        <rdfs:subClassOf rdf:resource="https://w3id.org/dpv/legal/eu/aiact#preamble"/>
+        <rdfs:label>recital 74</rdfs:label>
+    </Class>
+    
+
+
+    <!-- https://w3id.org/dpv/legal/eu/aiact#recital_75 -->
+
+    <Class rdf:about="https://w3id.org/dpv/legal/eu/aiact#recital_75">
+        <rdfs:subClassOf rdf:resource="https://w3id.org/dpv/legal/eu/aiact#preamble"/>
+        <rdfs:label>recital 75</rdfs:label>
+    </Class>
+    
+
+
+    <!-- https://w3id.org/dpv/legal/eu/aiact#recital_76 -->
+
+    <Class rdf:about="https://w3id.org/dpv/legal/eu/aiact#recital_76">
+        <rdfs:subClassOf rdf:resource="https://w3id.org/dpv/legal/eu/aiact#preamble"/>
+        <rdfs:label>recital 76</rdfs:label>
+    </Class>
+    
+
+
+    <!-- https://w3id.org/dpv/legal/eu/aiact#recital_77 -->
+
+    <Class rdf:about="https://w3id.org/dpv/legal/eu/aiact#recital_77">
+        <rdfs:subClassOf rdf:resource="https://w3id.org/dpv/legal/eu/aiact#preamble"/>
+        <rdfs:label>recital 77</rdfs:label>
+    </Class>
+    
+
+
+    <!-- https://w3id.org/dpv/legal/eu/aiact#recital_78 -->
+
+    <Class rdf:about="https://w3id.org/dpv/legal/eu/aiact#recital_78">
+        <rdfs:subClassOf rdf:resource="https://w3id.org/dpv/legal/eu/aiact#preamble"/>
+        <rdfs:label>recital 78</rdfs:label>
+    </Class>
+    
+
+
+    <!-- https://w3id.org/dpv/legal/eu/aiact#recital_79 -->
+
+    <Class rdf:about="https://w3id.org/dpv/legal/eu/aiact#recital_79">
+        <rdfs:subClassOf rdf:resource="https://w3id.org/dpv/legal/eu/aiact#preamble"/>
+        <rdfs:label>recital 79</rdfs:label>
+    </Class>
+    
+
+
+    <!-- https://w3id.org/dpv/legal/eu/aiact#recital_8 -->
+
+    <Class rdf:about="https://w3id.org/dpv/legal/eu/aiact#recital_8">
+        <rdfs:subClassOf rdf:resource="https://w3id.org/dpv/legal/eu/aiact#preamble"/>
+        <rdfs:label>recital 8</rdfs:label>
+    </Class>
+    
+
+
+    <!-- https://w3id.org/dpv/legal/eu/aiact#recital_80 -->
+
+    <Class rdf:about="https://w3id.org/dpv/legal/eu/aiact#recital_80">
+        <rdfs:subClassOf rdf:resource="https://w3id.org/dpv/legal/eu/aiact#preamble"/>
+        <rdfs:label>recital 80</rdfs:label>
+    </Class>
+    
+
+
+    <!-- https://w3id.org/dpv/legal/eu/aiact#recital_81 -->
+
+    <Class rdf:about="https://w3id.org/dpv/legal/eu/aiact#recital_81">
+        <rdfs:subClassOf rdf:resource="https://w3id.org/dpv/legal/eu/aiact#preamble"/>
+        <rdfs:label>recital 81</rdfs:label>
+    </Class>
+    
+
+
+    <!-- https://w3id.org/dpv/legal/eu/aiact#recital_82 -->
+
+    <Class rdf:about="https://w3id.org/dpv/legal/eu/aiact#recital_82">
+        <rdfs:subClassOf rdf:resource="https://w3id.org/dpv/legal/eu/aiact#preamble"/>
+        <rdfs:label>recital 82</rdfs:label>
+    </Class>
+    
+
+
+    <!-- https://w3id.org/dpv/legal/eu/aiact#recital_83 -->
+
+    <Class rdf:about="https://w3id.org/dpv/legal/eu/aiact#recital_83">
+        <rdfs:subClassOf rdf:resource="https://w3id.org/dpv/legal/eu/aiact#preamble"/>
+        <rdfs:label>recital 83</rdfs:label>
+    </Class>
+    
+
+
+    <!-- https://w3id.org/dpv/legal/eu/aiact#recital_84 -->
+
+    <Class rdf:about="https://w3id.org/dpv/legal/eu/aiact#recital_84">
+        <rdfs:subClassOf rdf:resource="https://w3id.org/dpv/legal/eu/aiact#preamble"/>
+        <rdfs:label>recital 84</rdfs:label>
+    </Class>
+    
+
+
+    <!-- https://w3id.org/dpv/legal/eu/aiact#recital_85 -->
+
+    <Class rdf:about="https://w3id.org/dpv/legal/eu/aiact#recital_85">
+        <rdfs:subClassOf rdf:resource="https://w3id.org/dpv/legal/eu/aiact#preamble"/>
+        <rdfs:label>recital 85</rdfs:label>
+    </Class>
+    
+
+
+    <!-- https://w3id.org/dpv/legal/eu/aiact#recital_86 -->
+
+    <Class rdf:about="https://w3id.org/dpv/legal/eu/aiact#recital_86">
+        <rdfs:subClassOf rdf:resource="https://w3id.org/dpv/legal/eu/aiact#preamble"/>
+        <rdfs:label>recital 86</rdfs:label>
+    </Class>
+    
+
+
+    <!-- https://w3id.org/dpv/legal/eu/aiact#recital_87 -->
+
+    <Class rdf:about="https://w3id.org/dpv/legal/eu/aiact#recital_87">
+        <rdfs:subClassOf rdf:resource="https://w3id.org/dpv/legal/eu/aiact#preamble"/>
+        <rdfs:label>recital 87</rdfs:label>
+    </Class>
+    
+
+
+    <!-- https://w3id.org/dpv/legal/eu/aiact#recital_88 -->
+
+    <Class rdf:about="https://w3id.org/dpv/legal/eu/aiact#recital_88">
+        <rdfs:subClassOf rdf:resource="https://w3id.org/dpv/legal/eu/aiact#preamble"/>
+        <rdfs:label>recital 88</rdfs:label>
+    </Class>
+    
+
+
+    <!-- https://w3id.org/dpv/legal/eu/aiact#recital_89 -->
+
+    <Class rdf:about="https://w3id.org/dpv/legal/eu/aiact#recital_89">
+        <rdfs:subClassOf rdf:resource="https://w3id.org/dpv/legal/eu/aiact#preamble"/>
+        <rdfs:label>recital 89</rdfs:label>
+    </Class>
+    
+
+
+    <!-- https://w3id.org/dpv/legal/eu/aiact#recital_9 -->
+
+    <Class rdf:about="https://w3id.org/dpv/legal/eu/aiact#recital_9">
+        <rdfs:subClassOf rdf:resource="https://w3id.org/dpv/legal/eu/aiact#preamble"/>
+        <rdfs:label>recital 9</rdfs:label>
+    </Class>
+    
+
+
+    <!-- https://w3id.org/dpv/legal/eu/aiact#recital_90 -->
+
+    <Class rdf:about="https://w3id.org/dpv/legal/eu/aiact#recital_90">
+        <rdfs:subClassOf rdf:resource="https://w3id.org/dpv/legal/eu/aiact#preamble"/>
+        <rdfs:label>recital 90</rdfs:label>
+    </Class>
+    
+
+
+    <!-- https://w3id.org/dpv/legal/eu/aiact#recital_91 -->
+
+    <Class rdf:about="https://w3id.org/dpv/legal/eu/aiact#recital_91">
+        <rdfs:subClassOf rdf:resource="https://w3id.org/dpv/legal/eu/aiact#preamble"/>
+        <rdfs:label>recital 91</rdfs:label>
+    </Class>
+    
+
+
+    <!-- https://w3id.org/dpv/legal/eu/aiact#recital_92 -->
+
+    <Class rdf:about="https://w3id.org/dpv/legal/eu/aiact#recital_92">
+        <rdfs:subClassOf rdf:resource="https://w3id.org/dpv/legal/eu/aiact#preamble"/>
+        <rdfs:label>recital 92</rdfs:label>
+    </Class>
+    
+
+
+    <!-- https://w3id.org/dpv/legal/eu/aiact#recital_93 -->
+
+    <Class rdf:about="https://w3id.org/dpv/legal/eu/aiact#recital_93">
+        <rdfs:subClassOf rdf:resource="https://w3id.org/dpv/legal/eu/aiact#preamble"/>
+        <rdfs:label>recital 93</rdfs:label>
+    </Class>
+    
+
+
+    <!-- https://w3id.org/dpv/legal/eu/aiact#recital_94 -->
+
+    <Class rdf:about="https://w3id.org/dpv/legal/eu/aiact#recital_94">
+        <rdfs:subClassOf rdf:resource="https://w3id.org/dpv/legal/eu/aiact#preamble"/>
+        <rdfs:label>recital 94</rdfs:label>
+    </Class>
+    
+
+
+    <!-- https://w3id.org/dpv/legal/eu/aiact#recital_95 -->
+
+    <Class rdf:about="https://w3id.org/dpv/legal/eu/aiact#recital_95">
+        <rdfs:subClassOf rdf:resource="https://w3id.org/dpv/legal/eu/aiact#preamble"/>
+        <rdfs:label>recital 95</rdfs:label>
+    </Class>
+    
+
+
+    <!-- https://w3id.org/dpv/legal/eu/aiact#recital_96 -->
+
+    <Class rdf:about="https://w3id.org/dpv/legal/eu/aiact#recital_96">
+        <rdfs:subClassOf rdf:resource="https://w3id.org/dpv/legal/eu/aiact#preamble"/>
+        <rdfs:label>recital 96</rdfs:label>
+    </Class>
+    
+
+
+    <!-- https://w3id.org/dpv/legal/eu/aiact#recital_97 -->
+
+    <Class rdf:about="https://w3id.org/dpv/legal/eu/aiact#recital_97">
+        <rdfs:subClassOf rdf:resource="https://w3id.org/dpv/legal/eu/aiact#preamble"/>
+        <rdfs:label>recital 97</rdfs:label>
+    </Class>
+    
+
+
+    <!-- https://w3id.org/dpv/legal/eu/aiact#recital_98 -->
+
+    <Class rdf:about="https://w3id.org/dpv/legal/eu/aiact#recital_98">
+        <rdfs:subClassOf rdf:resource="https://w3id.org/dpv/legal/eu/aiact#preamble"/>
+        <rdfs:label>recital 98</rdfs:label>
+    </Class>
+    
+
+
+    <!-- https://w3id.org/dpv/legal/eu/aiact#recital_99 -->
+
+    <Class rdf:about="https://w3id.org/dpv/legal/eu/aiact#recital_99">
+        <rdfs:subClassOf rdf:resource="https://w3id.org/dpv/legal/eu/aiact#preamble"/>
+        <rdfs:label>recital 99</rdfs:label>
+    </Class>
+    
+
+
+    <!-- https://w3id.org/dpv/legal/eu/aiact#regulation_eu -->
+
+    <Class rdf:about="https://w3id.org/dpv/legal/eu/aiact#regulation_eu">
+        <rdfs:subClassOf rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+        <rdfs:label>REGULATION (EU)</rdfs:label>
+    </Class>
+    
+
+
+    <!-- https://w3id.org/dpv/legal/eu/aiact#article_15__accuracy,_robustness_and_cybersecurity -->
+
+    <Class rdf:about="https://w3id.org/dpv/legal/eu/aiact#article_15__accuracy,_robustness_and_cybersecurity">
+        <rdfs:subClassOf rdf:resource="https://w3id.org/dpv/legal/eu/aiact#chapter_3_section_2"/>
+        <rdfs:label>article 15 - Accuracy, robustness and cybersecurity</rdfs:label>
+    </Class>
+    
+
+
+    <!-- https://w3id.org/dpv/legal/eu/aiact#article_36__changes_to_notified_bodies’_designation -->
+
+    <Class rdf:about="https://w3id.org/dpv/legal/eu/aiact#article_36__changes_to_notified_bodies’_designation">
+        <rdfs:subClassOf rdf:resource="https://w3id.org/dpv/legal/eu/aiact#chapter_3_section_4"/>
+        <rdfs:label>article 36 - Changes to notified bodies’ designation</rdfs:label>
+    </Class>
+    
+
+
+    <!-- https://w3id.org/dpv/legal/eu/aiact#article_75__mutual_assistance,_cooperation_and_exchange_of_information -->
+
+    <Class rdf:about="https://w3id.org/dpv/legal/eu/aiact#article_75__mutual_assistance,_cooperation_and_exchange_of_information">
+        <rdfs:subClassOf rdf:resource="https://w3id.org/dpv/legal/eu/aiact#chapter_9_section_3"/>
+        <rdfs:label>article 75 - Mutual assistance, cooperation and exchange of information</rdfs:label>
+    </Class>
+    
+
+
+    <!-- https://w3id.org/dpv/legal/eu/aiact#article_87__reporting_of_infringements_and_protection_of_reporting_persons -->
+
+    <Class rdf:about="https://w3id.org/dpv/legal/eu/aiact#article_87__reporting_of_infringements_and_protection_of_reporting_persons">
+        <rdfs:subClassOf rdf:resource="https://w3id.org/dpv/legal/eu/aiact#chapter_9_section_4"/>
+        <rdfs:label>article 87 - Reporting of infringements and protection of reporting persons</rdfs:label>
+    </Class>
+    
+
+
+    <!-- https://w3id.org/dpv/legal/eu/aiact#article_88__enforcement_of_the_obligations_of_providers_of_general_purpose_AI_models -->
+
+    <Class rdf:about="https://w3id.org/dpv/legal/eu/aiact#article_88__enforcement_of_the_obligations_of_providers_of_general_purpose_AI_models">
+        <rdfs:subClassOf rdf:resource="https://w3id.org/dpv/legal/eu/aiact#chapter_9_section_5"/>
+        <rdfs:label>article 88 - Enforcement of the obligations of providers of general-purpose AI models</rdfs:label>
+    </Class>
+    
+
+
+    <!-- https://w3id.org/dpv/legal/eu/aiact#article_90__alerts_of_systemic_risks_by_the_scientific_panel -->
+
+    <Class rdf:about="https://w3id.org/dpv/legal/eu/aiact#article_90__alerts_of_systemic_risks_by_the_scientific_panel">
+        <rdfs:subClassOf rdf:resource="https://w3id.org/dpv/legal/eu/aiact#chapter_9_section_5"/>
+        <rdfs:label>article 90 - Alerts of systemic risks by the scientific panel</rdfs:label>
+    </Class>
+    
+
+
+    <!-- https://w3id.org/dpv/legal/eu/aiact#article_91__power_to_request_documentation_and_information -->
+
+    <Class rdf:about="https://w3id.org/dpv/legal/eu/aiact#article_91__power_to_request_documentation_and_information">
+        <rdfs:subClassOf rdf:resource="https://w3id.org/dpv/legal/eu/aiact#chapter_9_section_5"/>
+        <rdfs:label>article 91 - Power to request documentation and information</rdfs:label>
+    </Class>
+    
+
+
+    <!-- https://w3id.org/dpv/legal/eu/aiact#article_92__power_to_conduct_evaluations -->
+
+    <Class rdf:about="https://w3id.org/dpv/legal/eu/aiact#article_92__power_to_conduct_evaluations">
+        <rdfs:subClassOf rdf:resource="https://w3id.org/dpv/legal/eu/aiact#chapter_9_section_5"/>
+        <rdfs:label>article 92 - Power to conduct evaluations</rdfs:label>
+    </Class>
+    
+
+
+    <!-- https://w3id.org/dpv/legal/eu/aiact#article_93__power_to_request_measures -->
+
+    <Class rdf:about="https://w3id.org/dpv/legal/eu/aiact#article_93__power_to_request_measures">
+        <rdfs:subClassOf rdf:resource="https://w3id.org/dpv/legal/eu/aiact#chapter_9_section_5"/>
+        <rdfs:label>article 93 - Power to request measures</rdfs:label>
+    </Class>
+    
+
+
+    <!-- https://w3id.org/dpv/legal/eu/aiact#article_94__procedural_rights_of_economic_operators_of_the_general_purpose_AI_model -->
+
+    <Class rdf:about="https://w3id.org/dpv/legal/eu/aiact#article_94__procedural_rights_of_economic_operators_of_the_general_purpose_AI_model">
+        <rdfs:subClassOf rdf:resource="https://w3id.org/dpv/legal/eu/aiact#chapter_9_section_5"/>
+        <rdfs:label>article 94 - Procedural rights of economic operators of the general-purpose AI model</rdfs:label>
+    </Class>
+    
+
+
+    <!-- https://w3id.org/dpv/legal/eu/aiact#article_96__guidelines_from_the_Commission_on_the_implementation_of_this_Regulation -->
+
+    <Class rdf:about="https://w3id.org/dpv/legal/eu/aiact#article_96__guidelines_from_the_Commission_on_the_implementation_of_this_Regulation">
+        <rdfs:subClassOf rdf:resource="https://w3id.org/dpv/legal/eu/aiact#chapter_10"/>
+        <rdfs:label>article 96 - Guidelines from the Commission on the implementation of this Regulation</rdfs:label>
+    </Class>
+    
+
+
+    <!-- https://w3id.org/dpv/legal/eu/aiact#article_97__exercise_of_the_delegation -->
+
+    <Class rdf:about="https://w3id.org/dpv/legal/eu/aiact#article_97__exercise_of_the_delegation">
+        <rdfs:subClassOf rdf:resource="https://w3id.org/dpv/legal/eu/aiact#chapter_11"/>
+        <rdfs:label>article 97 - Exercise of the delegation</rdfs:label>
+    </Class>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Individuals
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- http://www.co-ode.org/ontologies/ont.owl#AI_System -->
+
+    <NamedIndividual rdf:about="http://www.co-ode.org/ontologies/ont.owl#AI_System">
+        <rdf:type rdf:resource="https://w3id.org/dpv/legal/eu/aiact#article_3__definitions"/>
+        <rdfs:comment>
+        ‘AI system’ means a machine-based system that is designed to operate with varying levels of autonomy and that may exhibit adaptiveness after deployment, and that, for explicit or implicit objectives, infers, from the input it receives, how to generate outputs such as predictions, content, recommendations, or decisions that can influence physical or virtual environments. :contentReference[oaicite:0]{index=0}
+    </rdfs:comment>
+    </NamedIndividual>
+    
+
+
+    <!-- http://www.co-ode.org/ontologies/ont.owl#AccuracyRequirement -->
+
+    <NamedIndividual rdf:about="http://www.co-ode.org/ontologies/ont.owl#AccuracyRequirement">
+        <rdf:type rdf:resource="https://w3id.org/dpv/legal/eu/aiact#article_4__ai_literacy"/>
+        <rdfs:comment xml:lang="en">Ensuring appropriate level of accuracy. (Art. 4(a))</rdfs:comment>
+        <rdfs:label xml:lang="en">Accuracy Requirement</rdfs:label>
+    </NamedIndividual>
+    
+
+
+    <!-- http://www.co-ode.org/ontologies/ont.owl#Article_5__Prohibited_AI_Practices -->
+
+    <NamedIndividual rdf:about="http://www.co-ode.org/ontologies/ont.owl#Article_5__Prohibited_AI_Practices">
+        <rdf:type rdf:resource="https://w3id.org/dpv/legal/eu/aiact#article_5__prohibited_ai_practices"/>
+        <rdfs:comment>
+        Prohibits AI practices deemed unacceptable due to their potential harm to fundamental rights, safety or well‑being — including subliminal manipulation, exploitation of vulnerabilities, social scoring, and certain biometric identification or categorisation uses outside approved contexts.
+    </rdfs:comment>
+    </NamedIndividual>
+    
+
+
+    <!-- http://www.co-ode.org/ontologies/ont.owl#Article_6__High-Risk_AI_Systems -->
+
+    <NamedIndividual rdf:about="http://www.co-ode.org/ontologies/ont.owl#Article_6__High-Risk_AI_Systems">
+        <rdf:type rdf:resource="https://w3id.org/dpv/legal/eu/aiact#article_6__classification_rules_for_highrisk_ai_systems"/>
+        <rdfs:comment>
+        Sets out classification rules for “high‑risk” AI systems: any AI intended as a safety component of, or itself constituting, a product covered by Union harmonisation legislation (Annex I) is deemed high‑risk and subject to stringent obligations.
+    </rdfs:comment>
+    </NamedIndividual>
+    
+
+
+    <!-- http://www.co-ode.org/ontologies/ont.owl#Authorised_Representative -->
+
+    <NamedIndividual rdf:about="http://www.co-ode.org/ontologies/ont.owl#Authorised_Representative">
+        <rdf:type rdf:resource="https://w3id.org/dpv/legal/eu/aiact#article_3__definitions"/>
+        <rdfs:comment>
+        ‘authorised representative’ means any natural or legal person located or established in the Union who has received and accepted a written mandate from a provider of an AI system or of a general‑purpose AI model to perform on their behalf the obligations and procedures established by this Regulation. :contentReference[oaicite:5]{index=5}
+    </rdfs:comment>
+    </NamedIndividual>
+    
+
+
+    <!-- http://www.co-ode.org/ontologies/ont.owl#CE_marking -->
+
+    <NamedIndividual rdf:about="http://www.co-ode.org/ontologies/ont.owl#CE_marking">
+        <rdf:type rdf:resource="https://w3id.org/dpv/legal/eu/aiact#article_3__definitions"/>
+        <rdfs:comment>
+        ‘CE marking’ means a marking by which a provider indicates that an AI system is in conformity with the requirements set out in Chapter III, Section 2 and other applicable Union harmonisation legislation providing for its affixing;
+    </rdfs:comment>
+    </NamedIndividual>
+    
+
+
+    <!-- http://www.co-ode.org/ontologies/ont.owl#CorrectiveActionsAndUpdates -->
+
+    <NamedIndividual rdf:about="http://www.co-ode.org/ontologies/ont.owl#CorrectiveActionsAndUpdates">
+        <rdf:type rdf:resource="https://w3id.org/dpv/legal/eu/aiact#article_9__risk_management_system"/>
+        <rdfs:comment xml:lang="en">Processes to handle non-conformities and feedback for continuous improvement. (Art. 9)</rdfs:comment>
+        <rdfs:label xml:lang="en">Corrective Actions and Updates</rdfs:label>
+    </NamedIndividual>
+    
+
+
+    <!-- http://www.co-ode.org/ontologies/ont.owl#DataGovernanceAndQuality -->
+
+    <NamedIndividual rdf:about="http://www.co-ode.org/ontologies/ont.owl#DataGovernanceAndQuality">
+        <rdf:type rdf:resource="https://w3id.org/dpv/legal/eu/aiact#article_8__compliance_with_the_requirements"/>
+        <rdfs:comment xml:lang="en">Ensuring training, validation, and testing data are relevant, complete, and unbiased. (Art. 8)</rdfs:comment>
+        <rdfs:label xml:lang="en">Data Governance and Quality</rdfs:label>
+    </NamedIndividual>
+    
+
+
+    <!-- http://www.co-ode.org/ontologies/ont.owl#Deployer -->
+
+    <NamedIndividual rdf:about="http://www.co-ode.org/ontologies/ont.owl#Deployer">
+        <rdf:type rdf:resource="https://w3id.org/dpv/legal/eu/aiact#article_3__definitions"/>
+        <rdfs:comment>
+        ‘deployer’ means any natural or legal person, public authority, agency or other body using an AI system under its authority, except where the AI system is used in the course of a personal non‑professional activity. :contentReference[oaicite:3]{index=3}
+    </rdfs:comment>
+    </NamedIndividual>
+    
+
+
+    <!-- http://www.co-ode.org/ontologies/ont.owl#Distributor -->
+
+    <NamedIndividual rdf:about="http://www.co-ode.org/ontologies/ont.owl#Distributor">
+        <rdf:type rdf:resource="https://w3id.org/dpv/legal/eu/aiact#article_3__definitions"/>
+        <rdfs:comment>
+        ‘distributor’ means any natural or legal person in the supply chain, other than the provider or the importer, that makes an AI system or a general‑purpose AI model available on the Union market without affecting its properties. :contentReference[oaicite:7]{index=7}
+    </rdfs:comment>
+    </NamedIndividual>
+    
+
+
+    <!-- http://www.co-ode.org/ontologies/ont.owl#DocumentationContents -->
+
+    <NamedIndividual rdf:about="http://www.co-ode.org/ontologies/ont.owl#DocumentationContents">
+        <rdf:type rdf:resource="https://w3id.org/dpv/legal/eu/aiact#article_10__data_and_data_governance"/>
+        <rdfs:comment xml:lang="en">Content includes design, intended purpose, data usage, testing, and risk assessments. (Art. 10)</rdfs:comment>
+        <rdfs:label xml:lang="en">Documentation Contents</rdfs:label>
+    </NamedIndividual>
+    
+
+
+    <!-- http://www.co-ode.org/ontologies/ont.owl#General_Purpose_AI_Model -->
+
+    <NamedIndividual rdf:about="http://www.co-ode.org/ontologies/ont.owl#General_Purpose_AI_Model">
+        <rdf:type rdf:resource="https://w3id.org/dpv/legal/eu/aiact#article_3__definitions"/>
+        <rdfs:comment>
+        ‘general‑purpose AI model’ means an AI model that is not designed for a specific purpose or task, but that can be used in a variety of downstream applications. :contentReference[oaicite:4]{index=4}
+    </rdfs:comment>
+    </NamedIndividual>
+    
+
+
+    <!-- http://www.co-ode.org/ontologies/ont.owl#HighRiskClassification -->
+
+    <NamedIndividual rdf:about="http://www.co-ode.org/ontologies/ont.owl#HighRiskClassification">
+        <rdf:type rdf:resource="https://w3id.org/dpv/legal/eu/aiact#article_6__classification_rules_for_highrisk_ai_systems"/>
+        <rdfs:comment xml:lang="en">AI systems listed in Annex III or used as safety components under harmonised legislation are high-risk. (Art. 6)</rdfs:comment>
+        <rdfs:label xml:lang="en">High-Risk Classification</rdfs:label>
+    </NamedIndividual>
+    
+
+
+    <!-- http://www.co-ode.org/ontologies/ont.owl#Importer -->
+
+    <NamedIndividual rdf:about="http://www.co-ode.org/ontologies/ont.owl#Importer">
+        <rdf:type rdf:resource="https://w3id.org/dpv/legal/eu/aiact#article_3__definitions"/>
+        <rdfs:comment>
+        ‘importer’ means any natural or legal person located or established in the Union that places on the market an AI system or a general‑purpose AI model that bears the name or trademark of a natural or legal person established in a third country. :contentReference[oaicite:6]{index=6}
+    </rdfs:comment>
+    </NamedIndividual>
+    
+
+
+    <!-- http://www.co-ode.org/ontologies/ont.owl#LogDataIntegrity -->
+
+    <NamedIndividual rdf:about="http://www.co-ode.org/ontologies/ont.owl#LogDataIntegrity">
+        <rdf:type rdf:resource="https://w3id.org/dpv/legal/eu/aiact#article_11__technical_documentation"/>
+        <rdfs:comment xml:lang="en">Logs must be stored securely, tamper-resistant, and retained for the system’s expected lifetime. (Art. 11)</rdfs:comment>
+        <rdfs:label xml:lang="en">Log Data Integrity</rdfs:label>
+    </NamedIndividual>
+    
+
+
+    <!-- http://www.co-ode.org/ontologies/ont.owl#LoggingCapabilities -->
+
+    <NamedIndividual rdf:about="http://www.co-ode.org/ontologies/ont.owl#LoggingCapabilities">
+        <rdf:type rdf:resource="https://w3id.org/dpv/legal/eu/aiact#article_11__technical_documentation"/>
+        <rdfs:comment xml:lang="en">High-risk AI systems must log events to ensure traceability and incident investigation. (Art. 11)</rdfs:comment>
+        <rdfs:label xml:lang="en">Logging Capabilities</rdfs:label>
+    </NamedIndividual>
+    
+
+
+    <!-- http://www.co-ode.org/ontologies/ont.owl#Operator -->
+
+    <NamedIndividual rdf:about="http://www.co-ode.org/ontologies/ont.owl#Operator">
+        <rdf:type rdf:resource="https://w3id.org/dpv/legal/eu/aiact#article_3__definitions"/>
+        <rdfs:comment>A provider, product manufacturer, deployer, authorised representative, importer or distributor</rdfs:comment>
+    </NamedIndividual>
+    
+
+
+    <!-- http://www.co-ode.org/ontologies/ont.owl#Provider -->
+
+    <NamedIndividual rdf:about="http://www.co-ode.org/ontologies/ont.owl#Provider">
+        <rdf:type rdf:resource="https://w3id.org/dpv/legal/eu/aiact#article_3__definitions"/>
+        <rdfs:comment>
+        ‘provider’ means a natural or legal person, public authority, agency or other body that develops an AI system or a general-purpose AI model or that has an AI system or a general-purpose AI model developed and places it on the market or puts the AI system into service under its own name or trademark, whether for payment or free of charge. :contentReference[oaicite:2]{index=2}
+    </rdfs:comment>
+    </NamedIndividual>
+    
+
+
+    <!-- http://www.co-ode.org/ontologies/ont.owl#QualityManagementSystem -->
+
+    <NamedIndividual rdf:about="http://www.co-ode.org/ontologies/ont.owl#QualityManagementSystem">
+        <rdf:type rdf:resource="https://w3id.org/dpv/legal/eu/aiact#article_9__risk_management_system"/>
+        <rdfs:comment xml:lang="en">Documented system to ensure conformity with AI Act requirements. (Art. 9)</rdfs:comment>
+        <rdfs:label xml:lang="en">Quality Management System</rdfs:label>
+    </NamedIndividual>
+    
+
+
+    <!-- http://www.co-ode.org/ontologies/ont.owl#Risk -->
+
+    <NamedIndividual rdf:about="http://www.co-ode.org/ontologies/ont.owl#Risk">
+        <rdf:type rdf:resource="https://w3id.org/dpv/legal/eu/aiact#article_3__definitions"/>
+        <rdfs:comment>
+        ‘risk’ means the combination of the probability of an occurrence of harm and the severity of that harm. :contentReference[oaicite:1]{index=1}
+    </rdfs:comment>
+    </NamedIndividual>
+    
+
+
+    <!-- http://www.co-ode.org/ontologies/ont.owl#RiskManagementSystem -->
+
+    <NamedIndividual rdf:about="http://www.co-ode.org/ontologies/ont.owl#RiskManagementSystem">
+        <rdf:type rdf:resource="https://w3id.org/dpv/legal/eu/aiact#article_8__compliance_with_the_requirements"/>
+        <rdfs:comment xml:lang="en">Processes to identify, analyse and mitigate risks. (Art. 8)</rdfs:comment>
+        <rdfs:label xml:lang="en">Risk Management System</rdfs:label>
+    </NamedIndividual>
+    
+
+
+    <!-- http://www.co-ode.org/ontologies/ont.owl#RobustnessRequirement -->
+
+    <NamedIndividual rdf:about="http://www.co-ode.org/ontologies/ont.owl#RobustnessRequirement">
+        <rdf:type rdf:resource="https://w3id.org/dpv/legal/eu/aiact#article_4__ai_literacy"/>
+        <rdfs:comment xml:lang="en">Ensuring robustness and resilience. (Art. 4(b))</rdfs:comment>
+        <rdfs:label xml:lang="en">Robustness Requirement</rdfs:label>
+    </NamedIndividual>
+    
+
+
+    <!-- http://www.co-ode.org/ontologies/ont.owl#TechnicalDocumentation -->
+
+    <NamedIndividual rdf:about="http://www.co-ode.org/ontologies/ont.owl#TechnicalDocumentation">
+        <rdf:type rdf:resource="https://w3id.org/dpv/legal/eu/aiact#article_10__data_and_data_governance"/>
+        <rdfs:comment xml:lang="en">Documentation to demonstrate conformity with the requirements of Chapter III, Section 2. (Art. 10)</rdfs:comment>
+        <rdfs:label xml:lang="en">Technical Documentation</rdfs:label>
+    </NamedIndividual>
+    
+
+
+    <!-- http://www.co-ode.org/ontologies/ont.owl#TransparencyInformation -->
+
+    <NamedIndividual rdf:about="http://www.co-ode.org/ontologies/ont.owl#TransparencyInformation">
+        <rdf:type rdf:resource="https://w3id.org/dpv/legal/eu/aiact#article_7__amendments_to_annex_iii"/>
+        <rdfs:comment xml:lang="en">Information to be provided to users of limited-risk AI systems. (Art. 7)</rdfs:comment>
+        <rdfs:label xml:lang="en">Transparency Information</rdfs:label>
+    </NamedIndividual>
+    
+
+
+    <!-- http://www.co-ode.org/ontologies/ont.owl#biometric_data -->
+
+    <NamedIndividual rdf:about="http://www.co-ode.org/ontologies/ont.owl#biometric_data">
+        <rdf:type rdf:resource="https://w3id.org/dpv/legal/eu/aiact#article_3__definitions"/>
+        <rdfs:comment>
+        ‘biometric data’ means personal data resulting from specific technical processing relating to the physical, physiological or behavioural characteristics of a natural person, such as facial images or dactyloscopic data;
+    </rdfs:comment>
+    </NamedIndividual>
+    
+
+
+    <!-- http://www.co-ode.org/ontologies/ont.owl#biometric_identification -->
+
+    <NamedIndividual rdf:about="http://www.co-ode.org/ontologies/ont.owl#biometric_identification">
+        <rdf:type rdf:resource="https://w3id.org/dpv/legal/eu/aiact#article_3__definitions"/>
+        <rdfs:comment>
+        ‘biometric identification’ means the automated recognition of physical, physiological, behavioural, or psychological human features for the purpose of establishing the identity of a natural person by comparing biometric data of that individual to biometric data of individuals stored in a database;
+    </rdfs:comment>
+    </NamedIndividual>
+    
+
+
+    <!-- http://www.co-ode.org/ontologies/ont.owl#common_specification -->
+
+    <NamedIndividual rdf:about="http://www.co-ode.org/ontologies/ont.owl#common_specification">
+        <rdf:type rdf:resource="https://w3id.org/dpv/legal/eu/aiact#article_3__definitions"/>
+        <rdfs:comment>
+        ‘common specification’ means a set of technical specifications as defined in Article 2, point (4) of Regulation (EU) No 1025/2012, providing means to comply with certain requirements established under this Regulation;
+    </rdfs:comment>
+    </NamedIndividual>
+    
+
+
+    <!-- http://www.co-ode.org/ontologies/ont.owl#conformity_assessment -->
+
+    <NamedIndividual rdf:about="http://www.co-ode.org/ontologies/ont.owl#conformity_assessment">
+        <rdf:type rdf:resource="https://w3id.org/dpv/legal/eu/aiact#article_3__definitions"/>
+        <rdfs:comment>
+        ‘conformity assessment’ means the process of demonstrating whether the requirements set out in Chapter III, Section 2 relating to a high‑risk AI system have been fulfilled;
+    </rdfs:comment>
+    </NamedIndividual>
+    
+
+
+    <!-- http://www.co-ode.org/ontologies/ont.owl#conformity_assessment_body -->
+
+    <NamedIndividual rdf:about="http://www.co-ode.org/ontologies/ont.owl#conformity_assessment_body">
+        <rdf:type rdf:resource="https://w3id.org/dpv/legal/eu/aiact#article_3__definitions"/>
+        <rdfs:comment>
+        ‘conformity assessment body’ means a body that performs third-party conformity assessment activities, including testing, certification and inspection;
+    </rdfs:comment>
+    </NamedIndividual>
+    
+
+
+    <!-- http://www.co-ode.org/ontologies/ont.owl#harmonised_standard -->
+
+    <NamedIndividual rdf:about="http://www.co-ode.org/ontologies/ont.owl#harmonised_standard">
+        <rdf:type rdf:resource="https://w3id.org/dpv/legal/eu/aiact#article_3__definitions"/>
+        <rdfs:comment>
+        ‘harmonised standard’ means a harmonised standard as defined in Article 2(1), point (c), of Regulation (EU) No 1025/2012;
+    </rdfs:comment>
+    </NamedIndividual>
+    
+
+
+    <!-- http://www.co-ode.org/ontologies/ont.owl#input_data -->
+
+    <NamedIndividual rdf:about="http://www.co-ode.org/ontologies/ont.owl#input_data">
+        <rdf:type rdf:resource="https://w3id.org/dpv/legal/eu/aiact#article_3__definitions"/>
+        <rdfs:comment>
+        ‘input data’ means data provided to or directly acquired by an AI system on the basis of which the system produces an output;
+    </rdfs:comment>
+    </NamedIndividual>
+    
+
+
+    <!-- http://www.co-ode.org/ontologies/ont.owl#instructions_for_use -->
+
+    <NamedIndividual rdf:about="http://www.co-ode.org/ontologies/ont.owl#instructions_for_use">
+        <rdf:type rdf:resource="https://w3id.org/dpv/legal/eu/aiact#article_3__definitions"/>
+        <rdfs:comment>
+        ‘instructions for use’ means the information provided by the provider to inform the deployer of, in particular, an AI system’s intended purpose and proper use;
+    </rdfs:comment>
+    </NamedIndividual>
+    
+
+
+    <!-- http://www.co-ode.org/ontologies/ont.owl#intended_purpose -->
+
+    <NamedIndividual rdf:about="http://www.co-ode.org/ontologies/ont.owl#intended_purpose">
+        <rdf:type rdf:resource="https://w3id.org/dpv/legal/eu/aiact#article_3__definitions"/>
+        <rdfs:comment>
+        ‘intended purpose’ means the use for which an AI system is intended by the provider, including the specific context and conditions of use, as specified in the information supplied by the provider in the instructions for use, promotional or sales materials and statements, as well as in the technical documentation;
+    </rdfs:comment>
+    </NamedIndividual>
+    
+
+
+    <!-- http://www.co-ode.org/ontologies/ont.owl#making_available_on_the_market -->
+
+    <NamedIndividual rdf:about="http://www.co-ode.org/ontologies/ont.owl#making_available_on_the_market">
+        <rdf:type rdf:resource="https://w3id.org/dpv/legal/eu/aiact#article_3__definitions"/>
+        <rdfs:comment>
+        ‘making available on the market’ means the supply of an AI system or a general-purpose AI model for distribution or use on the Union market in the course of a commercial activity, whether in return for payment or free of charge;
+    </rdfs:comment>
+    </NamedIndividual>
+    
+
+
+    <!-- http://www.co-ode.org/ontologies/ont.owl#market_surveillance_authority -->
+
+    <NamedIndividual rdf:about="http://www.co-ode.org/ontologies/ont.owl#market_surveillance_authority">
+        <rdf:type rdf:resource="https://w3id.org/dpv/legal/eu/aiact#article_3__definitions"/>
+        <rdfs:comment>
+        ‘market surveillance authority’ means the national authority carrying out the activities and taking the measures pursuant to Regulation (EU) 2019/1020;
+    </rdfs:comment>
+    </NamedIndividual>
+    
+
+
+    <!-- http://www.co-ode.org/ontologies/ont.owl#notified_body -->
+
+    <NamedIndividual rdf:about="http://www.co-ode.org/ontologies/ont.owl#notified_body">
+        <rdf:type rdf:resource="https://w3id.org/dpv/legal/eu/aiact#article_3__definitions"/>
+        <rdfs:comment>
+        ‘notified body’ means a conformity assessment body notified in accordance with this Regulation and other relevant Union harmonisation legislation;
+    </rdfs:comment>
+    </NamedIndividual>
+    
+
+
+    <!-- http://www.co-ode.org/ontologies/ont.owl#notifying_authority -->
+
+    <NamedIndividual rdf:about="http://www.co-ode.org/ontologies/ont.owl#notifying_authority">
+        <rdf:type rdf:resource="https://w3id.org/dpv/legal/eu/aiact#article_3__definitions"/>
+        <rdfs:comment>
+        ‘notifying authority’ means the national authority responsible for setting up and carrying out the necessary procedures for the assessment, designation and notification of conformity assessment bodies and for their monitoring;
+    </rdfs:comment>
+    </NamedIndividual>
+    
+
+
+    <!-- http://www.co-ode.org/ontologies/ont.owl#performance_of_an_AI_system -->
+
+    <NamedIndividual rdf:about="http://www.co-ode.org/ontologies/ont.owl#performance_of_an_AI_system">
+        <rdf:type rdf:resource="https://w3id.org/dpv/legal/eu/aiact#article_3__definitions"/>
+        <rdfs:comment>
+        ‘performance of an AI system’ means the ability of an AI system to achieve its intended purpose;
+    </rdfs:comment>
+    </NamedIndividual>
+    
+
+
+    <!-- http://www.co-ode.org/ontologies/ont.owl#placing_on_the_market -->
+
+    <NamedIndividual rdf:about="http://www.co-ode.org/ontologies/ont.owl#placing_on_the_market">
+        <rdf:type rdf:resource="https://w3id.org/dpv/legal/eu/aiact#article_3__definitions"/>
+        <rdfs:comment>
+        ‘placing on the market’ means the first making available of an AI system or a general-purpose AI model on the Union market;
+    </rdfs:comment>
+    </NamedIndividual>
+    
+
+
+    <!-- http://www.co-ode.org/ontologies/ont.owl#post-market_monitoring_system -->
+
+    <NamedIndividual rdf:about="http://www.co-ode.org/ontologies/ont.owl#post-market_monitoring_system">
+        <rdf:type rdf:resource="https://w3id.org/dpv/legal/eu/aiact#article_3__definitions"/>
+        <rdfs:comment>
+        ‘post-market monitoring system’ means all activities carried out by providers of AI systems to collect and review experience gained from the use of AI systems they place on the market or put into service for the purpose of identifying any need to immediately apply any necessary corrective or preventive actions;
+    </rdfs:comment>
+    </NamedIndividual>
+    
+
+
+    <!-- http://www.co-ode.org/ontologies/ont.owl#putting_into_service -->
+
+    <NamedIndividual rdf:about="http://www.co-ode.org/ontologies/ont.owl#putting_into_service">
+        <rdf:type rdf:resource="https://w3id.org/dpv/legal/eu/aiact#article_3__definitions"/>
+        <rdfs:comment>
+        ‘putting into service’ means the supply of an AI system for first use directly to the deployer or for own use in the Union for its intended purpose;
+    </rdfs:comment>
+    </NamedIndividual>
+    
+
+
+    <!-- http://www.co-ode.org/ontologies/ont.owl#reasonably_foreseeable_misuse -->
+
+    <NamedIndividual rdf:about="http://www.co-ode.org/ontologies/ont.owl#reasonably_foreseeable_misuse">
+        <rdf:type rdf:resource="https://w3id.org/dpv/legal/eu/aiact#article_3__definitions"/>
+        <rdfs:comment>
+        ‘reasonably foreseeable misuse’ means the use of an AI system in a way that is not in accordance with its intended purpose, but which may result from reasonably foreseeable human behaviour or interaction with other systems, including other AI systems;
+    </rdfs:comment>
+    </NamedIndividual>
+    
+
+
+    <!-- http://www.co-ode.org/ontologies/ont.owl#recall_of_an_AI_system -->
+
+    <NamedIndividual rdf:about="http://www.co-ode.org/ontologies/ont.owl#recall_of_an_AI_system">
+        <rdf:type rdf:resource="https://w3id.org/dpv/legal/eu/aiact#article_3__definitions"/>
+        <rdfs:comment>
+        ‘recall of an AI system’ means any measure aiming to achieve the return to the provider or taking out of service or disabling the use of an AI system made available to deployers;
+    </rdfs:comment>
+    </NamedIndividual>
+    
+
+
+    <!-- http://www.co-ode.org/ontologies/ont.owl#safety_component -->
+
+    <NamedIndividual rdf:about="http://www.co-ode.org/ontologies/ont.owl#safety_component">
+        <rdf:type rdf:resource="https://w3id.org/dpv/legal/eu/aiact#article_3__definitions"/>
+        <rdfs:comment>
+        ‘safety component’ means a component of a product or of an AI system which fulfils a safety function for that product or AI system, or the failure or malfunctioning of which endangers the health and safety of persons or property;
+    </rdfs:comment>
+    </NamedIndividual>
+    
+
+
+    <!-- http://www.co-ode.org/ontologies/ont.owl#substantial_modification -->
+
+    <NamedIndividual rdf:about="http://www.co-ode.org/ontologies/ont.owl#substantial_modification">
+        <rdf:type rdf:resource="https://w3id.org/dpv/legal/eu/aiact#article_3__definitions"/>
+        <rdfs:comment>
+        ‘substantial modification’ means a change to an AI system after its placing on the market or putting into service which is not foreseen or planned in the initial conformity assessment carried out by the provider and as a result of which the compliance of the AI system with the requirements set out in Chapter III, Section 2 is affected or results in a modification to the intended purpose for which the AI system has been assessed;
+    </rdfs:comment>
+    </NamedIndividual>
+    
+
+
+    <!-- http://www.co-ode.org/ontologies/ont.owl#testing_data -->
+
+    <NamedIndividual rdf:about="http://www.co-ode.org/ontologies/ont.owl#testing_data">
+        <rdf:type rdf:resource="https://w3id.org/dpv/legal/eu/aiact#article_3__definitions"/>
+        <rdfs:comment>
+        ‘testing data’ means data used for providing an independent evaluation of the AI system in order to confirm the expected performance of that system before its placing on the market or putting into service;
+    </rdfs:comment>
+    </NamedIndividual>
+    
+
+
+    <!-- http://www.co-ode.org/ontologies/ont.owl#training_data -->
+
+    <NamedIndividual rdf:about="http://www.co-ode.org/ontologies/ont.owl#training_data">
+        <rdf:type rdf:resource="https://w3id.org/dpv/legal/eu/aiact#article_3__definitions"/>
+        <rdfs:comment>
+        ‘training data’ means data used for training an AI system through fitting its learnable parameters;
+    </rdfs:comment>
+    </NamedIndividual>
+    
+
+
+    <!-- http://www.co-ode.org/ontologies/ont.owl#validation_data -->
+
+    <NamedIndividual rdf:about="http://www.co-ode.org/ontologies/ont.owl#validation_data">
+        <rdf:type rdf:resource="https://w3id.org/dpv/legal/eu/aiact#article_3__definitions"/>
+        <rdfs:comment>
+        ‘validation data’ means data used for providing an evaluation of the trained AI system and for tuning its non‑learnable parameters and its learning process in order, inter alia, to prevent underfitting or overfitting;
+    </rdfs:comment>
+    </NamedIndividual>
+    
+
+
+    <!-- http://www.co-ode.org/ontologies/ont.owl#validation_data_set -->
+
+    <NamedIndividual rdf:about="http://www.co-ode.org/ontologies/ont.owl#validation_data_set">
+        <rdf:type rdf:resource="https://w3id.org/dpv/legal/eu/aiact#article_3__definitions"/>
+        <rdfs:comment>
+        ‘validation data set’ means a separate data set or part of the training data set, either as a fixed or variable split;
+    </rdfs:comment>
+    </NamedIndividual>
+    
+
+
+    <!-- http://www.co-ode.org/ontologies/ont.owl#withdrawal_of_an_AI_system -->
+
+    <NamedIndividual rdf:about="http://www.co-ode.org/ontologies/ont.owl#withdrawal_of_an_AI_system">
+        <rdf:type rdf:resource="https://w3id.org/dpv/legal/eu/aiact#article_3__definitions"/>
+        <rdfs:comment>
+        ‘withdrawal of an AI system’ means any measure aiming to prevent an AI system in the supply chain being made available on the market;
+    </rdfs:comment>
+    </NamedIndividual>
+
+
+ <!-- Article 12 -->
+  <owl:NamedIndividual rdf:about="http://www.co-ode.org/ontologies/ont.owl#HumanOversight">
+    <rdf:type rdf:resource="https://w3id.org/dpv/legal/eu/aiact#article_12__recordkeeping"/>
+    <rdfs:label xml:lang="en">Human Oversight</rdfs:label>
+    <rdfs:comment xml:lang="en">High-risk AI systems must be designed with appropriate human oversight to minimize risks to health, safety, and fundamental rights. (Art. 12)</rdfs:comment>
+  </owl:NamedIndividual>
+
+  <!-- Article 13 -->
+  <owl:NamedIndividual rdf:about="http://www.co-ode.org/ontologies/ont.owl#TransparencyForHighRiskAI">
+    <rdf:type rdf:resource="https://w3id.org/dpv/legal/eu/aiact#article_13__transparency_and_provision_of_information_to_users"/>
+    <rdfs:label xml:lang="en">Transparency for High-Risk AI</rdfs:label>
+    <rdfs:comment xml:lang="en">High-risk AI systems must be understandable to users, including information about capabilities, limitations, and performance. (Art. 13)</rdfs:comment>
+  </owl:NamedIndividual>
+
+  <!-- Article 14 -->
+  <owl:NamedIndividual rdf:about="http://www.co-ode.org/ontologies/ont.owl#AccuracyAndPerformanceMonitoring">
+    <rdf:type rdf:resource="https://w3id.org/dpv/legal/eu/aiact#article_14__human_oversight"/>
+    <rdfs:label xml:lang="en">Accuracy and Performance Monitoring</rdfs:label>
+    <rdfs:comment xml:lang="en">High-risk AI systems must be designed to achieve consistent accuracy, robustness, and cybersecurity appropriate for their intended purpose. (Art. 14)</rdfs:comment>
+  </owl:NamedIndividual>
+
+  <!-- Article 15 -->
+  <owl:NamedIndividual rdf:about="http://www.co-ode.org/ontologies/ont.owl#CybersecurityAndResilience">
+    <rdf:type rdf:resource="https://w3id.org/dpv/legal/eu/aiact#article_15__accuracy,_robustness_and_cybersecurity"/>
+    <rdfs:label xml:lang="en">Cybersecurity and Resilience</rdfs:label>
+    <rdfs:comment xml:lang="en">High-risk AI systems must be secure against attempts to alter their use, performance, or functionality. (Art. 15)</rdfs:comment>
+  </owl:NamedIndividual>
+
+  <!-- Article 16 -->
+  <owl:NamedIndividual rdf:about="http://www.co-ode.org/ontologies/ont.owl#ProviderObligations">
+    <rdf:type rdf:resource="https://w3id.org/dpv/legal/eu/aiact#article_16__obligations_of_providers"/>
+    <rdfs:label xml:lang="en">Provider Obligations</rdfs:label>
+    <rdfs:comment xml:lang="en">Providers of high-risk AI systems are responsible for ensuring compliance before placing them on the market. (Art. 16)</rdfs:comment>
+  </owl:NamedIndividual>
+
+  <!-- Article 17 -->
+  <owl:NamedIndividual rdf:about="http://www.co-ode.org/ontologies/ont.owl#QualityManagementMonitoring">
+    <rdf:type rdf:resource="https://w3id.org/dpv/legal/eu/aiact#article_17__quality_management_system"/>
+    <rdfs:label xml:lang="en">Quality Management Monitoring</rdfs:label>
+    <rdfs:comment xml:lang="en">Providers must maintain and document a quality management system for ongoing conformity. (Art. 17)</rdfs:comment>
+  </owl:NamedIndividual>
+
+  <!-- Article 18 -->
+  <owl:NamedIndividual rdf:about="http://www.co-ode.org/ontologies/ont.owl#PostMarketMonitoringPlan">
+    <rdf:type rdf:resource="https://w3id.org/dpv/legal/eu/aiact#article_18__documentation_obligations"/>
+    <rdfs:label xml:lang="en">Post-Market Monitoring Plan</rdfs:label>
+    <rdfs:comment xml:lang="en">Providers must implement and update a post-market monitoring plan for high-risk AI systems. (Art. 18)</rdfs:comment>
+  </owl:NamedIndividual>
+
+  <!-- Article 19 -->
+  <owl:NamedIndividual rdf:about="http://www.co-ode.org/ontologies/ont.owl#ReportingSeriousIncidents">
+    <rdf:type rdf:resource="https://w3id.org/dpv/legal/eu/aiact#article_19__automatic_monitoring_and_control_systems"/>
+    <rdfs:label xml:lang="en">Reporting Serious Incidents</rdfs:label>
+    <rdfs:comment xml:lang="en">Providers must report serious incidents and malfunctioning of AI systems to national authorities. (Art. 19)</rdfs:comment>
+  </owl:NamedIndividual>
+
+  <!-- Article 20 -->
+  <owl:NamedIndividual rdf:about="http://www.co-ode.org/ontologies/ont.owl#CorrectiveActionsByProviders">
+    <rdf:type rdf:resource="https://w3id.org/dpv/legal/eu/aiact#article_20__corrective_actions"/>
+    <rdfs:label xml:lang="en">Corrective Actions by Providers</rdfs:label>
+    <rdfs:comment xml:lang="en">Providers must take corrective action for non-compliant AI systems and inform relevant authorities. (Art. 20)</rdfs:comment>
+  </owl:NamedIndividual>
+
+<!-- Article 21 - Cooperation with national authorities -->
+<NamedIndividual rdf:about="http://www.co-ode.org/ontologies/ont.owl#NationalAuthorityCooperation">
+    <rdf:type rdf:resource="https://w3id.org/dpv/legal/eu/aiact#article_21__cooperation_with_national_authorities"/>
+    <rdfs:comment xml:lang="en">Obligation of providers, importers, and distributors to cooperate with competent national authorities. (Art. 21)</rdfs:comment>
+    <rdfs:label xml:lang="en">National Authority Cooperation</rdfs:label>
+</NamedIndividual>
+
+<!-- Article 22 - Authorised representatives -->
+<NamedIndividual rdf:about="http://www.co-ode.org/ontologies/ont.owl#MandatedAuthorisedRepresentative">
+    <rdf:type rdf:resource="https://w3id.org/dpv/legal/eu/aiact#article_22__authorised_representatives"/>
+    <rdfs:comment xml:lang="en">Natural or legal person mandated to act on behalf of a provider established outside the EU. (Art. 22)</rdfs:comment>
+    <rdfs:label xml:lang="en">Mandated Authorised Representative</rdfs:label>
+</NamedIndividual>
+
+<!-- Article 23 - Obligations of importers -->
+<NamedIndividual rdf:about="http://www.co-ode.org/ontologies/ont.owl#ImporterObligations">
+    <rdf:type rdf:resource="https://w3id.org/dpv/legal/eu/aiact#article_23__obligations_of_importers"/>
+    <rdfs:comment xml:lang="en">Importers must ensure compliance before placing AI systems on the market. (Art. 23)</rdfs:comment>
+    <rdfs:label xml:lang="en">Importer Obligations</rdfs:label>
+</NamedIndividual>
+
+<!-- Article 24 - Obligations of distributors -->
+<NamedIndividual rdf:about="http://www.co-ode.org/ontologies/ont.owl#DistributorObligations">
+    <rdf:type rdf:resource="https://w3id.org/dpv/legal/eu/aiact#article_24__obligations_of_distributors"/>
+    <rdfs:comment xml:lang="en">Distributors must verify that AI systems bear CE marking and include proper documentation. (Art. 24)</rdfs:comment>
+    <rdfs:label xml:lang="en">Distributor Obligations</rdfs:label>
+</NamedIndividual>
+
+<!-- Article 25 - Operators in third countries -->
+<NamedIndividual rdf:about="http://www.co-ode.org/ontologies/ont.owl#ThirdCountryOperators">
+    <rdf:type rdf:resource="https://w3id.org/dpv/legal/eu/aiact#article_25__responsibilities_of_operators_placing_on_the_market_in_third_countries"/>
+    <rdfs:comment xml:lang="en">Operators in third countries must designate an authorised representative in the EU. (Art. 25)</rdfs:comment>
+    <rdfs:label xml:lang="en">Third-Country Operators</rdfs:label>
+</NamedIndividual>
+
+<!-- Article 26 - Obligations of users -->
+<NamedIndividual rdf:about="http://www.co-ode.org/ontologies/ont.owl#UserResponsibilities">
+    <rdf:type rdf:resource="https://w3id.org/dpv/legal/eu/aiact#article_26__obligations_of_users"/>
+    <rdfs:comment xml:lang="en">Users must use AI systems according to the instructions and monitor performance. (Art. 26)</rdfs:comment>
+    <rdfs:label xml:lang="en">User Responsibilities</rdfs:label>
+</NamedIndividual>
+
+<!-- Article 27 - Fundamental rights impact assessments -->
+<NamedIndividual rdf:about="http://www.co-ode.org/ontologies/ont.owl#FundamentalRightsAssessment">
+    <rdf:type rdf:resource="https://w3id.org/dpv/legal/eu/aiact#article_27__fundamental_rights_impact_assessments"/>
+    <rdfs:comment xml:lang="en">Obligation to perform impact assessments before deploying high-risk AI systems. (Art. 27)</rdfs:comment>
+    <rdfs:label xml:lang="en">Fundamental Rights Assessment</rdfs:label>
+</NamedIndividual>
+
+<!-- Article 28 - Notifying high-risk AI systems -->
+<NamedIndividual rdf:about="http://www.co-ode.org/ontologies/ont.owl#HighRiskNotification">
+    <rdf:type rdf:resource="https://w3id.org/dpv/legal/eu/aiact#article_28__notifying_highrisk_ai_systems"/>
+    <rdfs:comment xml:lang="en">Providers must notify high-risk AI systems to the EU database prior to placing them on the market. (Art. 28)</rdfs:comment>
+    <rdfs:label xml:lang="en">High-Risk Notification</rdfs:label>
+</NamedIndividual>
+
+<!-- Article 29 - Simplified conformity assessment procedure -->
+<NamedIndividual rdf:about="http://www.co-ode.org/ontologies/ont.owl#SimplifiedConformityProcedure">
+    <rdf:type rdf:resource="https://w3id.org/dpv/legal/eu/aiact#article_29__application_of_simplified_procedure"/>
+    <rdfs:comment xml:lang="en">Applies when harmonised standards or common specifications are used. (Art. 29)</rdfs:comment>
+    <rdfs:label xml:lang="en">Simplified Conformity Procedure</rdfs:label>
+</NamedIndividual>
+
+<!-- Article 30 - Notification by providers -->
+<NamedIndividual rdf:about="http://www.co-ode.org/ontologies/ont.owl#ProviderNotification">
+    <rdf:type rdf:resource="https://w3id.org/dpv/legal/eu/aiact#article_30__notification_by_providers"/>
+    <rdfs:comment xml:lang="en">Providers must notify competent authorities and update the EU database when there are substantial modifications. (Art. 30)</rdfs:comment>
+    <rdfs:label xml:lang="en">Provider Notification</rdfs:label>
+</NamedIndividual>
+
+
+
+  <!-- Article 16 -->
+  <owl:NamedIndividual rdf:about="eu-aiact:PreMarketTesting">
+    <rdf:type rdf:resource="https://w3id.org/dpv/legal/eu/aiact#article_16__obligations_of_providers"/>
+    <rdfs:label xml:lang="en">Pre-Market Testing</rdfs:label>
+    <rdfs:comment xml:lang="en">Pre-market testing activities. </rdfs:comment>
+  </owl:NamedIndividual>
+
+  <!-- Article 17 -->
+  <owl:NamedIndividual rdf:about="eu-aiact:PostMarketMonitoring">
+    <rdf:type rdf:resource="https://w3id.org/dpv/legal/eu/aiact#article_17__quality_management_system"/>
+    <rdfs:label xml:lang="en">Post-Market Monitoring</rdfs:label>
+    <rdfs:comment xml:lang="en">Ongoing monitoring after placement. </rdfs:comment>
+  </owl:NamedIndividual>
+
+  <!-- Article 18 -->
+  <owl:NamedIndividual rdf:about="eu-aiact:SeriousIncidentReport">
+    <rdf:type rdf:resource="https://w3id.org/dpv/legal/eu/aiact#article_18__documentation_obligations"/>
+    <rdfs:label xml:lang="en">Serious Incident Report</rdfs:label>
+    <rdfs:comment xml:lang="en">Reports of serious incidents. (Art. 18)</rdfs:comment>
+  </owl:NamedIndividual>
+
+  <!-- Article 19 -->
+  <owl:NamedIndividual rdf:about="eu-aiact:CorrectiveMeasure">
+    <rdf:type rdf:resource="https://w3id.org/dpv/legal/eu/aiact#article_19__automatic_monitoring_and_control_systems"/>
+    <rdfs:label xml:lang="en">Corrective Measure</rdfs:label>
+    <rdfs:comment xml:lang="en">Actions to restore compliance. (Art. 19)</rdfs:comment>
+  </owl:NamedIndividual>
+
+  <!-- Article 20 -->
+  <owl:NamedIndividual rdf:about="eu-aiact:mayRequireWithdrawalOrRecall">
+    <rdf:type rdf:resource="https://w3id.org/dpv/legal/eu/aiact#article_20__corrective_actions"/>
+    <rdfs:domain rdf:resource="eu-aiact:HighRiskAISystem"/>
+    <rdfs:label xml:lang="en">may Require Withdrawal or Recall</rdfs:label>
+    <rdfs:comment xml:lang="en">Authority to order withdrawal/recall. (Art. 20)</rdfs:comment>
+  </owl:NamedIndividual>
+
+  <!-- Article 21 -->
+  <owl:NamedIndividual rdf:about="eu-aiact:requiresAuthorityCooperation">
+    <rdf:type rdf:resource="https://w3id.org/dpv/legal/eu/aiact#article_21__cooperation_with_national_authorities"/>
+    <rdfs:label xml:lang="en">requires Cooperation with Notified Body</rdfs:label>
+    <rdfs:comment xml:lang="en">Cooperation obligations.</rdfs:comment>
+  </owl:NamedIndividual>
+
+  <!-- Articles 22–23 -->
+  <owl:NamedIndividual rdf:about="eu-aiact:UserRight">
+    <rdf:type rdf:resource="https://w3id.org/dpv/legal/eu/aiact#article_22__authorised_representatives"/>
+    <rdf:type rdf:resource="https://w3id.org/dpv/legal/eu/aiact#article_23__obligations_of_importers"/>
+    <rdfs:label xml:lang="en">User Right</rdfs:label>
+    <rdfs:comment xml:lang="en">Rights (access, explanation).</rdfs:comment>
+  </owl:NamedIndividual>
+
+  <!-- Article 24 -->
+  <owl:NamedIndividual rdf:about="eu-aiact:ComplaintMechanism">
+    <rdf:type rdf:resource="https://w3id.org/dpv/legal/eu/aiact#article_24__obligations_of_distributors"/>
+    <rdfs:label xml:lang="en">Complaint Mechanism</rdfs:label>
+    <rdfs:comment xml:lang="en">Complaint and redress procedures.</rdfs:comment>
+  </owl:NamedIndividual>
+
+  <!-- Articles 25–27 -->
+  <owl:NamedIndividual rdf:about="eu-aiact:requiresNationalAuthorityNotification">
+    <rdf:type rdf:resource="https://w3id.org/dpv/legal/eu/aiact#article_25__responsibilities_of_operators_placing_on_the_market_in_third_countries"/>
+    <rdf:type rdf:resource="https://w3id.org/dpv/legal/eu/aiact#article_26__obligations_of_users"/>
+    <rdf:type rdf:resource="https://w3id.org/dpv/legal/eu/aiact#article_27__fundamental_rights_impact_assessments"/>
+    <rdfs:label xml:lang="en">requires Notification to National Authority</rdfs:label>
+    <rdfs:comment xml:lang="en">Notification requirements.</rdfs:comment>
+  </owl:NamedIndividual>
+
+  <!-- Article 28 -->
+  <owl:NamedIndividual rdf:about="eu-aiact:MarketSurveillanceAuthority">
+    <rdf:type rdf:resource="https://w3id.org/dpv/legal/eu/aiact#article_28__notifying_highrisk_ai_systems"/>
+    <rdfs:label xml:lang="en">Market Surveillance Authority</rdfs:label>
+    <rdfs:comment xml:lang="en">National authorities designated under Article 28 to carry out market surveillance.</rdfs:comment>
+  </owl:NamedIndividual>
+
+  <!-- Article 29 -->
+  <owl:NamedIndividual rdf:about="eu-aiact:MarketSurveillanceActivity">
+    <rdf:type rdf:resource="https://w3id.org/dpv/legal/eu/aiact#article_29__application_of_simplified_procedure"/>
+    <rdfs:label xml:lang="en">Market Surveillance Activity</rdfs:label>
+    <rdfs:comment xml:lang="en">Activities such as on-site inspections, sample testing, document review (Art. 29).</rdfs:comment>
+  </owl:NamedIndividual>
+
+  <!-- Article 30 -->
+  <owl:NamedIndividual rdf:about="eu-aiact:EnforcementMeasure">
+    <rdf:type rdf:resource="https://w3id.org/dpv/legal/eu/aiact#article_30__notification_by_providers"/>
+    <rdfs:label xml:lang="en">Enforcement Measure</rdfs:label>
+    <rdfs:comment xml:lang="en">Measures such as withdrawal, recall, temporary banning .</rdfs:comment>
+  </owl:NamedIndividual>
+
+
+  <!-- Article 31 -->
+  <owl:NamedIndividual rdf:about="eu-aiact:AdministrativeFine">
+    <rdf:type rdf:resource="https://w3id.org/dpv/legal/eu/aiact#article_31__requirements_for_notifying_bodies"/>
+    <rdfs:label xml:lang="en">Administrative Fine</rdfs:label>
+    <rdfs:comment xml:lang="en">Financial penalties for non‑compliance.</rdfs:comment>
+  </owl:NamedIndividual>
+
+
+  <!-- Article 32 -->
+  <owl:NamedIndividual rdf:about="eu-aiact:CorrectiveAction">
+    <rdf:type rdf:resource="https://w3id.org/dpv/legal/eu/aiact#article_32__presumption_of_conformity"/>
+    <rdfs:label xml:lang="en">Corrective Action</rdfs:label>
+    <rdfs:comment xml:lang="en">Actions ordered to achieve compliance.</rdfs:comment>
+  </owl:NamedIndividual>
+
+  <!-- Article 33 -->
+  <owl:NamedIndividual rdf:about="eu-aiact:CriminalSanction">
+    <rdf:type rdf:resource="https://w3id.org/dpv/legal/eu/aiact#article_33__subsidiaries_of_providers"/>
+    <rdfs:label xml:lang="en">Criminal Sanction</rdfs:label>
+    <rdfs:comment xml:lang="en">Penalties under national law for serious breaches.</rdfs:comment>
+  </owl:NamedIndividual>
+
+  <!-- Article 34 -->
+  <owl:NamedIndividual rdf:about="eu-aiact:CoordinationGroup">
+    <rdf:type rdf:resource="https://w3id.org/dpv/legal/eu/aiact#article_34__operational_cooperation"/>
+    <rdfs:label xml:lang="en">Coordination Group</rdfs:label>
+    <rdfs:comment xml:lang="en">EU-level market surveillance coordination group.</rdfs:comment>
+  </owl:NamedIndividual>
+
+  <!-- Article 35 -->
+  <owl:NamedIndividual rdf:about="eu-aiact:JointAction">
+    <rdf:type rdf:resource="https://w3id.org/dpv/legal/eu/aiact#article_35__identification_of_notified_bodies"/>
+    <rdfs:label xml:lang="en">Joint Action</rdfs:label>
+    <rdfs:comment xml:lang="en">Joint market checks or projects organized by the Commission (Art. 35).</rdfs:comment>
+  </owl:NamedIndividual>
+
+  <!-- Article 38 -->
+  <owl:NamedIndividual rdf:about="eu-aiact:AICommittee">
+    <rdf:type rdf:resource="https://w3id.org/dpv/legal/eu/aiact#article_38__coordination_of_notified_bodies"/>
+    <rdfs:label xml:lang="en">AI Committee</rdfs:label>
+    <rdfs:comment xml:lang="en">Committee assisting the Commission on AI Act implementation (Art. 38).</rdfs:comment>
+  </owl:NamedIndividual>
+
+  <!-- Article 39 -->
+  <owl:NamedIndividual rdf:about="eu-aiact:ImplementationReport">
+    <rdf:type rdf:resource="https://w3id.org/dpv/legal/eu/aiact#article_39__conformity_assessment_procedures"/>
+    <rdfs:label xml:lang="en">Implementation Report</rdfs:label>
+    <rdfs:comment xml:lang="en">Periodic report on AI Act application by Member States (Art. 39).</rdfs:comment>
+  </owl:NamedIndividual>
+
+  <!-- Articles 47–48 -->
+  <owl:NamedIndividual rdf:about="eu-aiact:ReviewClause">
+    <rdf:type rdf:resource="https://w3id.org/dpv/legal/eu/aiact#article_47__eu_declaration_of_conformity"/>
+    <rdf:type rdf:resource="https://w3id.org/dpv/legal/eu/aiact#article_48__ce_marking"/>
+    <rdfs:label xml:lang="en">Review Clause</rdfs:label>
+    <rdfs:comment xml:lang="en">Clause for Commission’s report on effectiveness.</rdfs:comment>
+  </owl:NamedIndividual>
+
+  <!-- Article 49 -->
+  <owl:NamedIndividual rdf:about="eu-aiact:RegistrationRequirement">
+    <rdf:type rdf:resource="https://w3id.org/dpv/legal/eu/aiact#article_49__registration_in_the_eu_database"/>
+    <rdfs:label xml:lang="en">Registration Requirement</rdfs:label>
+    <rdfs:comment xml:lang="en">
+      Obligations to register high-risk AI systems in the EU database.
+    </rdfs:comment>
+  </owl:NamedIndividual>
+
+  <!-- Article 60 -->
+  <owl:NamedIndividual rdf:about="eu-aiact:RealWorldTestingInformation">
+    <rdf:type rdf:resource="https://w3id.org/dpv/legal/eu/aiact#article_60__testing_of_ai_systems"/>
+    <rdfs:label xml:lang="en">Real-World Testing Information</rdfs:label>
+    <rdfs:comment xml:lang="en">
+      Information to be submitted and kept up to date for real-world testing of high‑risk AI systems. (Art. 60)
+    </rdfs:comment>
+  </owl:NamedIndividual>
+
+  <!-- Article 61 -->
+  <owl:NamedIndividual rdf:about="eu-aiact:SignificantChangeNotification">
+    <rdf:type rdf:resource="https://w3id.org/dpv/legal/eu/aiact#article_61__informed_consent_to_use_of_data"/>
+    <rdfs:label xml:lang="en">Significant Change Notification</rdfs:label>
+    <rdfs:comment xml:lang="en">
+      Notification duties upon making substantial changes to a registered high‑risk AI system. (Art. 61)
+    </rdfs:comment>
+  </owl:NamedIndividual>
+
+  <!-- Article 62 -->
+  <owl:NamedIndividual rdf:about="eu-aiact:VoluntaryRegistration">
+    <rdf:type rdf:resource="https://w3id.org/dpv/legal/eu/aiact#article_62__measures_for_small_and_mediumsized_enterprises"/>
+    <rdfs:label xml:lang="en">Voluntary Registration</rdfs:label>
+    <rdfs:comment xml:lang="en">
+      Option for providers to voluntarily register non‑high‑risk AI systems. (Art. 62)
+    </rdfs:comment>
+  </owl:NamedIndividual>
+
+  <!-- Article 63 -->
+  <owl:NamedIndividual rdf:about="eu-aiact:DeployerInformationObligation">
+    <rdf:type rdf:resource="https://w3id.org/dpv/legal/eu/aiact#article_63__derogations_for_certain_ai_systems"/>
+    <rdfs:label xml:lang="en">Deployer Information Obligation</rdfs:label>
+    <rdfs:comment xml:lang="en">
+      Requirements for deployers of high‑risk AI systems to submit and update information. (Art. 63)
+    </rdfs:comment>
+  </owl:NamedIndividual>
+
+<!-- ========== Article 64: Penalties ========== -->
+<owl:NamedIndividual rdf:about="eu-aiact:NonCompliancePenalty">
+  <rdf:type rdf:resource="https://w3id.org/dpv/legal/eu/aiact#article_64__ai_office"/>
+  <rdfs:label xml:lang="en">Non‑Compliance Penalty</rdfs:label>
+  <rdfs:comment xml:lang="en">
+    Administrative fines and penalties for breaches of Chapter VI obligations.  
+  </rdfs:comment>
+</owl:NamedIndividual>
+
+
+<!-- ========== Articles 65–70: Governance &amp; Coordination ========== -->
+<owl:NamedIndividual rdf:about="eu-aiact:EuropeanAICommittee">
+  <rdf:type rdf:resource="https://w3id.org/dpv/legal/eu/aiact#article_65__establishment_and_composition_of_the_european_ai_board"/>
+  <rdfs:label xml:lang="en">European Artificial Intelligence Board</rdfs:label>
+  <rdfs:comment xml:lang="en">
+    Establishment and structure of the EU AI Board to assist Commission.
+  </rdfs:comment>
+</owl:NamedIndividual>
+
+
+<owl:NamedIndividual rdf:about="eu-aiact:BoardTask">
+  <rdf:type rdf:resource="https://w3id.org/dpv/legal/eu/aiact#article_66__tasks_of_the_board"/>
+  <rdfs:label xml:lang="en">Board Task</rdfs:label>
+  <rdfs:comment xml:lang="en">
+    Specific tasks and functions of the AI Board.
+  </rdfs:comment>
+</owl:NamedIndividual>
+
+
+<owl:NamedIndividual rdf:about="eu-aiact:AdvisoryForum">
+  <rdf:type rdf:resource="https://w3id.org/dpv/legal/eu/aiact#article_67__advisory_forum"/>
+  <rdfs:label xml:lang="en">Advisory Forum</rdfs:label>
+  <rdfs:comment xml:lang="en">
+    Expert forum assisting the AI Board. 
+  </rdfs:comment>
+</owl:NamedIndividual>
+
+<owl:NamedIndividual rdf:about="eu-aiact:ScientificPanel">
+  <rdf:type rdf:resource="https://w3id.org/dpv/legal/eu/aiact#article_68__scientific_panel_of_the_board"/>
+  <rdfs:label xml:lang="en">Scientific Panel of Independent Experts</rdfs:label>
+  <rdfs:comment xml:lang="en">
+    Panel providing technical advice to the Commission.  
+  </rdfs:comment>
+</owl:NamedIndividual>
+
+<owl:NamedIndividual rdf:about="eu-aiact:ExpertsPool">
+  <rdf:type rdf:resource="https://w3id.org/dpv/legal/eu/aiact#article_69__access_to_the_pool_of_experts"/>
+  <rdfs:label xml:lang="en">Pool of Experts</rdfs:label>
+  <rdfs:comment xml:lang="en">
+    Roster of experts accessible by Member States.  
+  </rdfs:comment>
+</owl:NamedIndividual>
+
+<owl:NamedIndividual rdf:about="eu-aiact:NationalCompetentAuthorityDesignation">
+  <rdf:type rdf:resource="https://w3id.org/dpv/legal/eu/aiact#article_70__designation_of_national_competent_authorities"/>
+  <rdfs:label xml:lang="en">National Competent Authority Designation</rdfs:label>
+  <rdfs:comment xml:lang="en">
+    Rules for Member States to designate their competent authorities and single point of contact. 
+  </rdfs:comment>
+</owl:NamedIndividual>
+
+<!-- ========== Article 71: EU Database ========== -->
+<owl:NamedIndividual rdf:about="eu-aiact:EUDatabase">
+  <rdf:type rdf:resource="https://w3id.org/dpv/legal/eu/aiact#article_71__eu_database_for_highrisk_ai_systems"/>
+  <rdfs:label xml:lang="en">EU AI Systems Database</rdfs:label>
+  <rdfs:comment xml:lang="en">
+    The database containing registrations of high‑risk and other AI systems (Art. 71).
+  </rdfs:comment>
+</owl:NamedIndividual>
+
+
+<!-- ========== Articles 72–80: Post‑Market &amp; Documentation Obligations ========== -->
+
+<owl:NamedIndividual rdf:about="eu-aiact:PostMarketMonitoringSystem">
+  <rdf:type rdf:resource="https://w3id.org/dpv/legal/eu/aiact#article_72__postmarket_monitoring_obligations"/>
+  <rdfs:label xml:lang="en">Post‑Market Monitoring System</rdfs:label>
+  <rdfs:comment xml:lang="en">
+    Providers of high‑risk AI systems must establish a post‑market monitoring system,
+    collecting and analyzing performance data throughout the AI system’s lifecycle.
+  </rdfs:comment>
+</owl:NamedIndividual>
+
+<owl:NamedIndividual rdf:about="eu-aiact:TemplateForMonitoringPlan">
+  <rdf:type rdf:resource="https://w3id.org/dpv/legal/eu/aiact#article_73__reporting_of_serious_incidents_and_malfunctioning"/>
+  <rdfs:label xml:lang="en">Monitoring Plan Template</rdfs:label>
+  <rdfs:comment xml:lang="en">
+    Commission‑provided template for the post‑market monitoring plan
+    that must be part of the technical documentation.
+  </rdfs:comment>
+</owl:NamedIndividual>
+
+<owl:NamedIndividual rdf:about="eu-aiact:LoggingRequirement">
+  <rdf:type rdf:resource="https://w3id.org/dpv/legal/eu/aiact#article_74__market_surveillance_authorities"/>
+  <rdfs:label xml:lang="en">Logging Requirement</rdfs:label>
+  <rdfs:comment xml:lang="en">
+    Providers must keep logs of incidents and malfunctions for at least five years
+    after the AI system is placed on the market.
+  </rdfs:comment>
+</owl:NamedIndividual>
+
+<owl:NamedIndividual rdf:about="eu-aiact:RegistryUpdate">
+  <rdf:type rdf:resource="https://w3id.org/dpv/legal/eu/aiact#article_75__mutual_assistance,_cooperation_and_exchange_of_information"/>
+  <rdfs:label xml:lang="en">Registry Update Obligation</rdfs:label>
+  <rdfs:comment xml:lang="en">
+    Providers must update the EU database entry without undue delay upon substantial
+    modifications to a high‑risk AI system.
+  </rdfs:comment>
+</owl:NamedIndividual>
+
+<owl:NamedIndividual rdf:about="eu-aiact:TechnicalDocumentationAvailability">
+  <rdf:type rdf:resource="https://w3id.org/dpv/legal/eu/aiact#article_76__supervision_of_providers_and_users"/>
+  <rdfs:label xml:lang="en">Technical Documentation Availability</rdfs:label>
+  <rdfs:comment xml:lang="en">
+    Providers must make technical documentation available to national authorities
+    upon request.
+  </rdfs:comment>
+</owl:NamedIndividual>
+
+<owl:NamedIndividual rdf:about="eu-aiact:PeriodicReview">
+  <rdf:type rdf:resource="https://w3id.org/dpv/legal/eu/aiact#article_77__powers_of_national_authorities"/>
+  <rdfs:label xml:lang="en">Periodic Review Obligation</rdfs:label>
+  <rdfs:comment xml:lang="en">
+    Providers of general‑purpose AI models must conduct a periodic review of
+    their model’s compliance and publish a summary.
+  </rdfs:comment>
+</owl:NamedIndividual>
+
+<owl:NamedIndividual rdf:about="eu-aiact:IncidentNotificationRequirement">
+  <rdf:type rdf:resource="https://w3id.org/dpv/legal/eu/aiact#article_78__confidentiality"/>
+  <rdfs:label xml:lang="en">Incident Notification Requirement</rdfs:label>
+  <rdfs:comment xml:lang="en">
+    Providers must notify national authorities of serious incidents within
+    a specified timeframe.
+  </rdfs:comment>
+</owl:NamedIndividual>
+
+<owl:NamedIndividual rdf:about="eu-aiact:OversightReport">
+  <rdf:type rdf:resource="https://w3id.org/dpv/legal/eu/aiact#article_79__procedure_at_national_level"/>
+  <rdfs:label xml:lang="en">Oversight Report</rdfs:label>
+  <rdfs:comment xml:lang="en">
+    National authorities must submit annual oversight reports on high‑risk AI systems.
+  </rdfs:comment>
+</owl:NamedIndividual>
+
+<owl:NamedIndividual rdf:about="eu-aiact:StakeholderConsultation">
+  <rdf:type rdf:resource="https://w3id.org/dpv/legal/eu/aiact#article_80__procedure_for_implementing_union_safeguard_clause"/>
+  <rdfs:label xml:lang="en">Stakeholder Consultation</rdfs:label>
+  <rdfs:comment xml:lang="en">
+    The Commission shall consult stakeholders on draft delegated acts.
+  </rdfs:comment>
+</owl:NamedIndividual>
+
+<!-- ========== Article 81: Union Safeguard Procedure ========== -->
+<owl:NamedIndividual rdf:about="eu-aiact:UnionSafeguardProcedure">
+  <rdf:type rdf:resource="https://w3id.org/dpv/legal/eu/aiact#article_81__union_safeguard"/>
+  <rdfs:label xml:lang="en">Union Safeguard Procedure</rdfs:label>
+  <rdfs:comment xml:lang="en">
+    Procedure for addressing Member State measures conflicting with Union law.
+  </rdfs:comment>
+</owl:NamedIndividual>
+
+
+<!-- ========== Article 83: Formal Non‑Compliance ========== -->
+<owl:NamedIndividual rdf:about="eu-aiact:FormalNonCompliance">
+  <rdf:type rdf:resource="https://w3id.org/dpv/legal/eu/aiact#article_83__formal_notices_and_penalties"/>
+  <rdfs:label xml:lang="en">Formal Non‑Compliance Finding</rdfs:label>
+  <rdfs:comment xml:lang="en">
+    Findings requiring end to non‑compliance and corrective measures.
+  </rdfs:comment>
+</owl:NamedIndividual>
+
+<!-- ========== Article 84: Union AI Testing Support Structures ========== -->
+<owl:NamedIndividual rdf:about="eu-aiact:AITestingSupportStructure">
+  <rdf:type rdf:resource="https://w3id.org/dpv/legal/eu/aiact#article_84__union_ai_testing_and_evaluation"/>
+  <rdfs:label xml:lang="en">Union AI Testing Support Structure</rdfs:label>
+  <rdfs:comment xml:lang="en">
+    Bodies designated to provide technical/scientific advice and support.
+  </rdfs:comment>
+</owl:NamedIndividual>
+
+
+<!-- ========== Article 85: Right to Lodge Complaint ========== -->
+<owl:NamedIndividual rdf:about="eu-aiact:ComplaintRight">
+  <rdf:type rdf:resource="https://w3id.org/dpv/legal/eu/aiact#article_85__right_to_lodge_a_complaint"/>
+  <rdfs:label xml:lang="en">Right to Lodge Complaint</rdfs:label>
+  <rdfs:comment xml:lang="en">
+    Right for natural or legal persons to complain to market surveillance authorities.
+  </rdfs:comment>
+</owl:NamedIndividual>
+
+<!-- ========== Articles 86–96: Delegated Acts, Reporting &amp; Revisions ========== -->
+
+<!-- Article 86: Non‑binding Guidelines -->
+<owl:NamedIndividual rdf:about="eu-aiact:NonBindingGuidelines">
+  <rdf:type rdf:resource="https://w3id.org/dpv/legal/eu/aiact#article_86__right_to_an_effective_remedy"/>
+  <rdfs:label xml:lang="en">Non‑binding Guidelines</rdfs:label>
+  <rdfs:comment xml:lang="en">
+    The Commission may develop non‑binding guidelines to facilitate uniform
+    application of the AI Act. (Art. 86)
+  </rdfs:comment>
+</owl:NamedIndividual>
+
+<!-- Article 87: Implementing Powers -->
+<owl:NamedIndividual rdf:about="eu-aiact:ImplementingAct">
+  <rdf:type rdf:resource="https://w3id.org/dpv/legal/eu/aiact#article_87__reporting_of_infringements_and_protection_of_reporting_persons"/>
+  <rdfs:label xml:lang="en">Implementing Act</rdfs:label>
+  <rdfs:comment xml:lang="en">
+    Acts adopted under implementing powers as per Article 87 to specify
+    detailed rules. (e.g., templates for AI register). 
+  </rdfs:comment>
+</owl:NamedIndividual>
+
+<!-- Article 88: Report on Codes of Conduct -->
+<owl:NamedIndividual rdf:about="eu-aiact:CodesOfConductReport">
+  <rdf:type rdf:resource="https://w3id.org/dpv/legal/eu/aiact#article_88__enforcement_of_the_obligations_of_providers_of_general_purpose_AI_models"/>
+  <rdfs:label xml:lang="en">Codes of Conduct Report</rdfs:label>
+  <rdfs:comment xml:lang="en">
+    Report on uptake and effectiveness of codes of conduct.
+  </rdfs:comment>
+</owl:NamedIndividual>
+
+<!-- Article 89: Standardisation Requests -->
+<owl:NamedIndividual rdf:about="eu-aiact:StandardisationRequest">
+  <rdf:type rdf:resource="https://w3id.org/dpv/legal/eu/aiact#article_89__monitoring_actions"/>
+  <rdfs:label xml:lang="en">Standardisation Request</rdfs:label>
+  <rdfs:comment xml:lang="en">
+    Requests to standardisation bodies to develop harmonised standards.
+  </rdfs:comment>
+</owl:NamedIndividual>
+
+<!-- Article 90: Cooperation with Third Countries -->
+<owl:NamedIndividual rdf:about="eu-aiact:ThirdCountryCooperation">
+  <rdf:type rdf:resource="https://w3id.org/dpv/legal/eu/aiact#article_90__alerts_of_systemic_risks_by_the_scientific_panel"/>
+  <rdfs:label xml:lang="en">Cooperation with Third Countries</rdfs:label>
+  <rdfs:comment xml:lang="en">
+    Arrangements to promote global standards and interoperability.
+  </rdfs:comment>
+</owl:NamedIndividual>
+
+<!-- Article 91: International Organisations -->
+<owl:NamedIndividual rdf:about="eu-aiact:InternationalOrganisationCooperation">
+  <rdf:type rdf:resource="https://w3id.org/dpv/legal/eu/aiact#article_91__power_to_request_documentation_and_information"/>
+  <rdfs:label xml:lang="en">Cooperation with International Organisations</rdfs:label>
+  <rdfs:comment xml:lang="en">
+    Cooperation with international bodies like OECD, UN for AI governance.
+  </rdfs:comment>
+</owl:NamedIndividual>
+
+<!-- Article 92: Support for SMEs -->
+<owl:NamedIndividual rdf:about="eu-aiact:SMESupportMeasure">
+  <rdf:type rdf:resource="https://w3id.org/dpv/legal/eu/aiact#article_92__power_to_conduct_evaluations"/>
+  <rdfs:label xml:lang="en">SME Support Measure</rdfs:label>
+  <rdfs:comment xml:lang="en">
+    Measures to support small and medium enterprises in AI compliance.
+  </rdfs:comment>
+</owl:NamedIndividual>
+
+<!-- Article 93: High‑Level Expert Group -->
+<owl:NamedIndividual rdf:about="eu-aiact:HighLevelExpertGroup">
+  <rdf:type rdf:resource="https://w3id.org/dpv/legal/eu/aiact#article_93__power_to_request_measures"/>
+  <rdfs:label xml:lang="en">High‑Level Expert Group</rdfs:label>
+  <rdfs:comment xml:lang="en">
+    Expert group assisting the Commission in developing AI policy.
+  </rdfs:comment>
+</owl:NamedIndividual>
+
+<!-- Article 94: Annual AI Report -->
+<owl:NamedIndividual rdf:about="eu-aiact:AnnualAIReport">
+  <rdf:type rdf:resource="https://w3id.org/dpv/legal/eu/aiact#article_94__procedural_rights_of_economic_operators_of_the_general_purpose_AI_model"/>
+  <rdfs:label xml:lang="en">Annual AI Report</rdfs:label>
+  <rdfs:comment xml:lang="en">
+    Commission’s yearly report on AI developments and AI Act implementation.
+  </rdfs:comment>
+</owl:NamedIndividual>
+
+<!-- Article 95: Evaluation and Review Clause -->
+<owl:NamedIndividual rdf:about="eu-aiact:EvaluationAndReview">
+  <rdf:type rdf:resource="https://w3id.org/dpv/legal/eu/aiact#article_95__codes_of_conduct_for_voluntary_application_of_specific_requirements"/>
+  <rdfs:label xml:lang="en">Evaluation and Review</rdfs:label>
+  <rdfs:comment xml:lang="en">
+    Commission’s evaluation of the AI Act and possible amendments.
+    (Art. 95)
+  </rdfs:comment>
+</owl:NamedIndividual>
+
+<!-- Article 96: Entry into Force -->
+<owl:NamedIndividual rdf:about="eu-aiact:EntryIntoForceClause">
+  <rdf:type rdf:resource="https://w3id.org/dpv/legal/eu/aiact#article_96__guidelines_from_the_Commission_on_the_implementation_of_this_Regulation"/>
+  <rdfs:label xml:lang="en">Entry into Force Clause</rdfs:label>
+  <rdfs:comment xml:lang="en">
+    Date and conditions of entry into force of the AI Act.
+  </rdfs:comment>
+</owl:NamedIndividual>
+
+
+<!-- ========== Articles 97–100: Delegated &amp; Implementing Acts, Evaluation ========== -->
+<owl:NamedIndividual rdf:about="eu-aiact:DelegatedAct">
+  <rdf:type rdf:resource="https://w3id.org/dpv/legal/eu/aiact#article_97__exercise_of_the_delegation"/>
+  <rdfs:label xml:lang="en">Delegated Act</rdfs:label>
+  <rdfs:comment xml:lang="en">
+    Acts adopted under delegated powers.
+  </rdfs:comment>
+</owl:NamedIndividual>
+
+<owl:NamedIndividual rdf:about="eu-aiact:EvaluationReport">
+  <rdf:type rdf:resource="https://w3id.org/dpv/legal/eu/aiact#article_112__Evaluation_and_review"/>
+  <rdf:type rdf:resource="https://w3id.org/dpv/legal/eu/aiact#article_48__ce_marking"/>
+  <rdfs:label xml:lang="en">Evaluation Report</rdfs:label>
+  <rdfs:comment xml:lang="en">
+    Commission’s report on the application and effectiveness of the AI Act, including review clauses.
+  </rdfs:comment>
+</owl:NamedIndividual>
+
+<!-- ========== Article 101: Comitology Procedure ========== -->
+<owl:NamedIndividual rdf:about="eu-aiact:ComitologyProcedure">
+  <rdf:type rdf:resource="https://w3id.org/dpv/legal/eu/aiact#article_101__Fines_for_providers_of_general_purpose_AI_models"/>
+  <rdfs:label xml:lang="en">Comitology Procedure</rdfs:label>
+  <rdfs:comment xml:lang="en">
+    The procedure for the Regulatory Committee assisting the Commission.
+  </rdfs:comment>
+</owl:NamedIndividual>
+
+<!-- ========== Article 102: Repeal ========== -->
+<owl:NamedIndividual rdf:about="eu-aiact:RepealProvision">
+  <rdf:type rdf:resource="https://w3id.org/dpv/legal/eu/aiact#article_102__Amendment_to_Regulation_(EC)_No_300/2008"/>
+  <rdfs:label xml:lang="en">Repeal Provision</rdfs:label>
+  <rdfs:comment xml:lang="en">
+    Repeal of Regulation (EU) 2019/xxx .
+  </rdfs:comment>
+</owl:NamedIndividual>
+
+<!-- ========== Article 103: Entry into Force ========== -->
+<owl:NamedIndividual rdf:about="eu-aiact:EntryIntoForce">
+  <rdf:type rdf:resource="https://w3id.org/dpv/legal/eu/aiact#article_103__Amendment_to_Regulation_(EU)_No_167/2013"/>
+  <rdfs:label xml:lang="en">Entry Into Force</rdfs:label>
+  <rdfs:comment xml:lang="en">
+    The date on which the AI Act enters into force.
+  </rdfs:comment>
+</owl:NamedIndividual>
+
+<!-- ========== Article 104: Addressees ========== -->
+<owl:NamedIndividual rdf:about="eu-aiact:Addressee">
+  <rdf:type rdf:resource="https://w3id.org/dpv/legal/eu/aiact#article_104__Amendment_to_Regulation_(EU)_No_168/2013"/>
+  <rdfs:label xml:lang="en">Addressee</rdfs:label>
+  <rdfs:comment xml:lang="en">
+    Entities to whom the AI Act is addressed (Member States and Union institutions).
+  </rdfs:comment>
+</owl:NamedIndividual>
+
+<!-- ========== Article 105: Transmission of Acts ========== -->
+<owl:NamedIndividual rdf:about="eu-aiact:TransmissionOfRegulation">
+  <rdf:type rdf:resource="https://w3id.org/dpv/legal/eu/aiact#article_105__Amendment_to_Directive_2014/90/EU"/>
+  <rdfs:label xml:lang="en">Transmission of Regulation</rdfs:label>
+  <rdfs:comment xml:lang="en">
+    Transmission of this Regulation to the European Parliament and Council.
+  </rdfs:comment>
+</owl:NamedIndividual>
+
+<!-- ========== Article 106: Authentic Languages ========== -->
+<owl:NamedIndividual rdf:about="eu-aiact:AuthenticLanguageProvision">
+  <rdf:type rdf:resource="https://w3id.org/dpv/legal/eu/aiact#article_106__Amendment_to_Directive_(EU)_2016/797"/>
+  <rdfs:label xml:lang="en">Authentic Languages Provision</rdfs:label>
+  <rdfs:comment xml:lang="en">
+    Languages in which the Regulation is authentic.
+  </rdfs:comment>
+</owl:NamedIndividual>
+
+<!-- ========== Articles 107–113: Final Provisions ========== -->
+<owl:NamedIndividual rdf:about="eu-aiact:FinalProvision">
+  <rdf:type rdf:resource="https://w3id.org/dpv/legal/eu/aiact#article_107__Amendment_to_Regulation_(EU)_2018/858"/>
+  <rdf:type rdf:resource="https://w3id.org/dpv/legal/eu/aiact#article_108__Amendments_to_Regulation_(EU)_2018/1139"/>
+  <rdf:type rdf:resource="https://w3id.org/dpv/legal/eu/aiact#article_109__Amendment_to_Regulation_(EU)_2019/2144"/>
+  <rdf:type rdf:resource="https://w3id.org/dpv/legal/eu/aiact#article_110__Amendment_to_Directive_(EU)_2020/1828"/>
+  <rdf:type rdf:resource="https://w3id.org/dpv/legal/eu/aiact#article_111__AI_systems_already_placed_on_the_market_or_put_into_service_and_general_purpose_AI_models_already_placed_on_the_marked"/>
+  <rdf:type rdf:resource="https://w3id.org/dpv/legal/eu/aiact#article_112__Evaluation_and_review"/>
+  <rdf:type rdf:resource="https://w3id.org/dpv/legal/eu/aiact#article_113__Entry_into_force_and_application"/>
+  <rdfs:label xml:lang="en">Final Provision</rdfs:label>
+  <rdfs:comment xml:lang="en">
+    Articles 107–113 cover final provisions, including references to annexes, evaluation reports and cross‑references.
+  </rdfs:comment>
+</owl:NamedIndividual>
+
+<owl:NamedIndividual rdf:about="eu-aiact:ReferenceToAnnexesProvision">
+  <rdf:type rdf:resource="https://w3id.org/dpv/legal/eu/aiact#article_107__Amendment_to_Regulation_(EU)_2018/858"/>
+  <rdfs:label xml:lang="en">Reference to Annexes</rdfs:label>
+  <rdfs:comment xml:lang="en">
+    Provision referencing annexes and their applicability.
+  </rdfs:comment>
+</owl:NamedIndividual>
+
+<owl:NamedIndividual rdf:about="eu-aiact:EvaluationReportClause">
+  <rdf:type rdf:resource="https://w3id.org/dpv/legal/eu/aiact#article_112__Evaluation_and_review"/>
+  <rdfs:label xml:lang="en">Evaluation Report Clause</rdfs:label>
+  <rdfs:comment xml:lang="en">
+    Clause mandating Commission’s evaluation report by a specified date.
+  </rdfs:comment>
+</owl:NamedIndividual>
+
+<owl:NamedIndividual rdf:about="eu-aiact:CrossReferencesProvision">
+  <rdf:type rdf:resource="https://w3id.org/dpv/legal/eu/aiact#article_113__Entry_into_force_and_application"/>
+  <rdfs:label xml:lang="en">Cross‑References Provision</rdfs:label>
+  <rdfs:comment xml:lang="en">
+    Provisions for cross‑reference to other Union acts.
+  </rdfs:comment>
+</owl:NamedIndividual>
+
+</rdf:RDF>
+
+
+
+<!-- Generated by the OWL API (version 4.5.26.2023-07-17T20:34:13Z) https://github.com/owlcs/owlapi -->
+
