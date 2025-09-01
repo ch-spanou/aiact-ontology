@@ -8,10 +8,9 @@ This repository contains the code, prompts, and artifacts used to generate a hie
 ```
 /aiact-ontology-repo/
 ├── README.md
-├── requirements.txt
 ├── prompts/
 │   └── domain_spec_prompt.txt
-├── scripts/
+├── python_code/
 │   └── hierarchy.py
 │   └── ontology_classification.py
 ├── ontology4.0.txt/
