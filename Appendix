@@ -1,0 +1,276 @@
+# Appendix A — Prompt Templates & Reproducibility README
+
+> **Purpose:** This appendix collects the exact prompt templates used during the ontology construction process and a reproducibility README with step-by-step instructions to run the pipeline, regenerate the ontology, validate it, and reproduce the evaluation experiments.
+
+---
+
+## Table of contents
+
+* Appendix A.1 — Prompt usage guidelines
+* Appendix A.2 — Prompt templates (copy-paste ready)
+
+  * A.2.1 Domain specification
+  * A.2.2 Competency question generation
+  * A.2.3 Class & property extraction
+  * A.2.4 OWL / RDF/XML generation
+  * A.2.5 Error handling & refinement prompts
+* Appendix A.3 — Naming / IRI policy
+* Appendix B — Reproducibility README
+
+  * B.1 Environment & dependencies
+  * B.2 File layout (repo)
+  * B.3 How to run the pipeline (commands)
+  * B.4 Validation: OOPS! & HermiT (how-to)
+  * B.5 Evaluation protocol (small-sample experiment)
+  * B.6 Expected outputs & troubleshooting
+  * B.7 License & contact
+
+---
+
+## Appendix A.1 — Prompt usage guidelines
+
+* **Role priming:** Start prompts by assigning the model a role (e.g., `Act as a legal ontology engineer with experience in OWL and RDFLib`). This reduces hallucinations and encourages structured output.
+* **Structure and format:** Always request machine-parsable, minimal-ambiguity outputs. Use explicit format instructions (JSON, YAML, or Turtle-like blocks) and show a short example output (few-shot) when possible.
+* **Chunking:** For long legal texts, split the input into manageable chunks (by chapter or group of articles). Keep a manifest that maps chunk → prompt call so you can re-run a single chunk later.
+* **Context passing:** Include only necessary context and a short manifest (list of already-defined IRIs) if you want the model to preserve identity across multiple calls.
+* **Post-processing:** Expect to run scripts that canonicalize IRIs, remove duplicates, and validate RDF/XML. Don’t rely on the model for final cleaning.
+
+---
+
+## Appendix A.2 — Prompt templates (copy-paste ready)
+
+> **Note:** Replace `{{PLACEHOLDER}}` tokens with actual values. Keep the prompt size reasonable; for long texts use chunking.
+
+### A.2.1 Domain specification (single-shot)
+
+```
+System: You are a legal ontology engineer. You will read a short excerpt of an EU regulation and identify its structural elements (preamble/recitals, chapters, sections, articles, annexes) and propose candidate domain concepts.
+
+User: Context: Regulation reference: "Regulation (EU) 2024/1689 — AI Act". Excerpt: {{CHUNK_TEXT}}
+
+Task: Produce a JSON with three fields: {
+  "toc_entries": [ {"type": "Chapter|Section|Article|Annex|Recital", "id": "article_10", "title": "Article 10 - Data and data governance", "summary": "..." } , ... ],
+  "candidate_concepts": ["HighRiskAI","AI_System","Provider","User", ...],
+  "suggested_relations": [ {"label":"imposes","domain":"Authority","range":"Penalty"}, ... ]
+}
+
+Provide only the JSON block and nothing else.
+```
+
+### A.2.2 Competency questions (few-shot)
+
+```
+System: You are a legal ontology engineer who writes competency questions (CQs) for ontology-driven systems. For each CQ include an identifier and a short justification.
+
+User: Based on the following concepts: {{CONCEPT_LIST}} generate 8-12 competency questions relevant for compliance checking and governance. Output format: JSON list of {"id":"CQ1","question":"...","justification":"..."} only.
+```
+
+### A.2.3 Class & property extraction (structured)
+
+```
+System: You are an ontology generator. Given the following article text, identify candidate classes, properties (object/datatype), and named individuals. For each property give a suggested domain and range and whether it should be an object or datatype property.
+
+User: Article text: {{ARTICLE_TEXT}}
+
+Output format (JSON):
+{
+ "classes":[{"iri":"{{candidateIRI}}","label":"...","comment":"...","superclass":"..."}],
+ "object_properties":[{"iri":"{{propIRI}}","label":"...","domain":"...","range":"...","comment":"..."}],
+ "data_properties":[{"iri":"{{dpIRI}}","label":"...","domain":"...","rangeDatatype":"xsd:string"}],
+ "individuals":[{"iri":"{{indIRI}}","label":"...","type":"...","comment":"..."}]
+}
+
+Instruction: Provide only valid JSON. Use concise IRIs (no spaces). Prefer camelCase for labels.
+```
+
+### A.2.4 OWL / RDF/XML generation (Turtle optional)
+
+```
+System: You are a code generator for RDF/OWL. Convert the following JSON ontology fragment into Turtle (preferred) or RDF/XML. Maintain the provided IRIs and annotations. Use standard prefixes: rdf, rdfs, owl, xsd, schema, dpv, and a project namespace https://w3id.org/example/aiact#
+
+User: JSON fragment: {{JSON_FRAGMENT}}
+
+Task: Output a Turtle document containing the triples to define classes, subclass relations, objectProperties (with domain/range), and individuals. Do not include extraneous commentary.
+```
+
+### A.2.5 Error handling & refinement prompts
+
+```
+System: You are an assistant for ontology debugging. The following Turtle file failed the RDFLib parser with this error: {{PARSER_ERROR}}. The file content is: {{TURTLE_TEXT}}
+
+Task: Suggest up to 5 minimal edits to fix syntax issues and produce a corrected minimal Turtle fragment. Output only the corrected Turtle.
+```
+
+---
+
+## Appendix A.3 — Naming / IRI policy (recommended)
+
+* **Namespace:** `https://w3id.org/<your-project>/<ontology>#` (e.g., `https://w3id.org/charikleia/aiact#`).
+* **Class IRIs:** Use CamelCase, e.g., `HighRiskAI`, `AI_System` → prefer `AISystem` or `HighRiskAI`.
+* **Article / Recital individuals:** Use `article_10` or `recital_42` (snake\_case) but map them to readable `rdfs:label` values: `rdfs:label "Article 10 - Data and data governance"@en`.
+* **Object / Data properties:** Use verb-based camelCase, e.g., `imposesPenalty`, `hasConformityAssessment`.
+* **Avoid:** spaces, double underscores, punctuation in IRIs; canonicalize digits (Article 10 -> article\_10).
+
+---
+
+# Appendix B — Reproducibility README
+
+## B.1 Environment & dependencies
+
+Minimum tested environment (example):
+
+* Python 3.10+ (3.12 recommended)
+* pip
+
+Required Python packages (example `requirements.txt`):
+
+```text
+openai==0.27.0  # or the version you use
+rdflib==6.4.0
+lxml
+owlready2
+pandas
+pytest (optional for tests)
+python-dotenv
+```
+
+Install:
+
+```bash
+python -m venv venv
+source venv/bin/activate   # Linux / macOS
+venv\Scripts\activate     # Windows
+pip install -r requirements.txt
+```
+
+If you used a different LLM client (e.g., `openai` vs `openai-client`), adjust accordingly.
+
+## B.2 File layout (suggested repo)
+
+```
+/aiact-ontology-repo/
+├── README.md
+├── requirements.txt
+├── LICENSE
+├── data/
+│   ├── ai_act_toc.json          # table-of-contents / chunk manifest
+│   ├── chunks/                  # chunked legal texts (chapter/article-level)
+│   └── gold_annotations.json    # small sample gold set for evaluation
+├── prompts/
+│   ├── domain_spec_prompt.txt
+│   ├── class_extraction_prompt.txt
+│   └── owl_generation_prompt.txt
+├── scripts/
+│   ├── generate_ontology.py     # main pipeline orchestrator
+│   ├── parse_chunk.py           # chunk -> JSON extractor
+│   ├── rdflib_writer.py         # converts JSON -> RDFLib graph -> turtle/owl
+│   └── canonicalize_iris.py     # cleans up IRIs and naming
+├── outputs/
+│   ├── ontology4.0.owl
+│   └── logs/
+├── appendix/                    # this document and sample outputs
+└── tests/
+    └── test_pipeline.py
+```
+
+## B.3 How to run the pipeline (commands)
+
+1. **Set credentials:** create a `.env` file with your API keys (if using OpenAI):
+
+```text
+OPENAI_API_KEY=sk-xxxxxxxxxxxxxxxx
+```
+
+2. **Run the full pipeline (example):**
+
+```bash
+python scripts/generate_ontology.py --input data/ai_act_toc.json --out outputs/ontology4.0.owl --prompts prompts/
+```
+
+3. **Per-chunk run (recommended during development):**
+
+```bash
+python scripts/parse_chunk.py --chunk data/chunks/chapter_3.txt --out outputs/chapter_3.json
+python scripts/rdflib_writer.py --input outputs/chapter_3.json --out outputs/chapter_3.ttl
+```
+
+4. **Combine TTLs and serialize to OWL/XML:**
+
+```bash
+python scripts/merge_graphs.py --inputs outputs/*.ttl --out outputs/ontology4.0.owl
+```
+
+5. **Load in Protégé:** open `outputs/ontology4.0.owl` with Protégé (File → Open) for visualization and manual edits.
+
+## B.4 Validation: OOPS! & HermiT (how-to)
+
+### OOPS! (OntOlogy Pitfall Scanner)
+
+1. Go to the OOPS! online service: [https://oops.linkeddata.es/](https://oops.linkeddata.es/) (or use a local installation if available).
+2. Upload `outputs/ontology4.0.owl` or paste the Turtle.
+3. Inspect the list of pitfalls and severity, and save the report (JSON or HTML).
+4. Create a `appendix/oops_report.md` that lists the top 10 pitfalls and the corrective actions you applied (with diffs).
+
+### HermiT (Protégé reasoner)
+
+1. Open `ontology4.0.owl` in Protégé.
+2. In Protégé: Reasoner → HermiT (select) → Start reasoner.
+3. Check for inconsistent classes, unsatisfiable classes, and unexpected inferences.
+4. Save the Protégé snapshot and include a screenshot or the `*.omni` file in `appendix/`.
+
+Include both OOPS! and HermiT outputs in the appendix to show how you corrected issues discovered.
+
+## B.5 Evaluation protocol (small-sample experiment)
+
+**Goal:** Provide quantitative evidence for ChatGPT-assisted extraction quality.
+
+**Dataset:** Create `data/gold_annotations.json` with a small annotated sample (e.g., 20 articles): each entry contains the ground-truth classes/properties/individuals expected.
+
+**Metrics:**
+
+* **Precision/Recall** for class extraction: match extracted class labels to gold labels (string-normalized)
+* **Property correctness:** proportion of properties where both domain & range match gold
+* **IRI cleanliness:** count of malformed IRIs (non-canonical characters or double underscores)
+* **Reasoner failures found:** number of unsatisfiable classes after reasoning
+
+**Procedure:**
+
+1. Run the pipeline to extract from the chosen 20 articles → produce `outputs/extracted_sample.json`.
+2. Run `scripts/evaluate_sample.py --gold data/gold_annotations.json --pred outputs/extracted_sample.json` and record the metrics.
+3. Report results in a table and discuss common failure modes (e.g., missed domain/range, misclassified individuals).
+
+**Statistical note:** with a small sample, report absolute counts and qualitative examples rather than heavy statistical claims.
+
+## B.6 Expected outputs & troubleshooting
+
+* **Expected files after a successful run:** `outputs/ontology4.0.owl`, `outputs/ontology4.0.ttl`, `outputs/pipeline_log.txt`.
+* **Common errors & fixes:**
+
+  * *RDFLib parse errors:* run canonicalize\_iris.py to remove illegal characters, then reserialize.
+  * *Duplicated IRIs:* run dedupe step (scripts/canonicalize\_iris.py) to merge or rename duplicates.
+  * *Model forgetting IRIs across prompts:* include a persistent manifest (`data/ai_act_toc.json`) and pass `existing_iris` in the prompt to preserve identity.
+
+## B.7 License & contact
+
+* **License:** Add a license file (MIT or your preferred academic license) in the repo root.
+* **Contact:** For questions about the reproducibility steps contact: `charikleia.spanou@example.edu` (replace with your academic email).
+
+---
+
+## Appendix — Example minimal `generate_ontology.py` outline (pseudo-code)
+
+```python
+# PSEUDO-CODE
+# load toc.json
+# for chunk in chunks:
+#   call LLM with domain_spec_prompt + chunk
+#   save extraction json
+#   canonicalize IRIs
+#   convert json -> RDFLib Graph
+# merge Graphs
+# serialize to turtle and owl/xml
+```
+
+---
+
+*End of Appendix A & Reproducibility README*
