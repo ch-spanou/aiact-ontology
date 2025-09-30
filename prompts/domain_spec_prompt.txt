@@ -4,96 +4,63 @@ User: Context: Regulation reference: "Regulation (EU) 2024/1689 — AI Act". Exc
 
 Task: Produce a JSON with three fields:
 {
-  "toc_entries": [ {"type": "Article", "id": "article_10", "title": "Article 10 - Data and data governance", "summary": "..."} ],
+  "toc_entries": [
+    {"type": "Article", "id": "article_10", "title": "Article 10 - Data and data governance", "summary": "..."}
+  ],
   "candidate_concepts": ["HighRiskAI", "AI_System", "Provider", "User"],
-  "suggested_relations": [ {"label": "imposes", "domain": "Authority", "range": "Penalty"} ]
+  "suggested_relations": [
+    {"label": "imposes", "domain": "Authority", "range": "Penalty"}
+  ]
 }
 Provide only the JSON block and nothing else.
 
 ---
+
+Competency Questions Prompt:
 
 System: You are a legal ontology engineer who writes competency questions (CQs) for ontology-driven systems. For each CQ include an identifier and a short justification.
 
 User: Based on the following concepts: {{CONCEPT_LIST}}, generate 8–12 competency questions relevant for compliance checking and governance. Output format: JSON list of {"id":"CQ1","question":"...","justification":"..."} only.
 
+Example prompts include:
+- “Based on the ontology’s structure and class pattern for Articles 21–30 of the EU AI Act, give a set of new NamedIndividual definitions for those articles. Each individual should correspond to a key concept, role, or requirement articulated in Articles 21 through 30.”
+- “Show a more detailed article-level listing for particular parts (e.g. Transparency obligations, Enforcement, or Annex III).”
+- “Which articles define the obligations of providers of high-risk AI systems?”
+- “You are a legal ontology engineer. You will read a short excerpt of an EU regulation and identify its structural elements (preamble/recitals, chapters, sections, articles, annexes) and propose candidate domain concepts.”
+- “What obligations apply to providers of general-purpose AI systems?”
+
 ---
 
-System: You are an ontology generator. Given the following article text, identify candidate classes, properties (object/datatype), and named individuals. For each property give a suggested domain and range.
+Class & Property Extraction Prompt (per article):
+
+System: You are an ontology generator. Given the following article text, identify candidate classes, properties (object/datatype), and named individuals. For each property give a suggested domain and range and whether it should be an object or datatype property.
 
 User: Article text: {{ARTICLE_TEXT}}
 
 Output format (JSON):
 {
-  "classes":[{"iri":"HighRiskAISystem","label":"High-Risk AI System","superclass":"AISystem"}],
-  "object_properties":[{"iri":"hasProvider","domain":"HighRiskAISystem","range":"Provider"}],
-  "data_properties":[{"iri":"hasTitle","domain":"Article","rangeDatatype":"xsd:string"}],
-  "individuals":[{"iri":"Article_10","label":"Article 10","type":"Article"}]
+  "classes": [{"iri": "{{candidateIRI}}", "label": "...", "comment": "...", "superclass": "..."}],
+  "object_properties": [{"iri": "{{propIRI}}", "label": "...", "domain": "...", "range": "...", "comment": "..."}],
+  "data_properties": [{"iri": "{{dpIRI}}", "label": "...", "domain": "...", "rangeDatatype": "xsd:string"}],
+  "individuals": [{"iri": "{{indIRI}}", "label": "...", "type": "...", "comment": "..."}]
 }
-
----
-
-System: You are a code generator for RDF/OWL. Convert the following JSON ontology fragment into Turtle using standard prefixes (rdf, rdfs, owl, xsd, schema, dpv, aiact#). Maintain IRIs and annotations.
-
-User: JSON fragment: {{JSON_FRAGMENT}}
-
----
-
-System: You are a legal ontology engineer. You will read a short excerpt of an EU regulation and identify its structural elements (preamble/recitals, chapters, sections, articles, annexes) and propose candidate domain concepts.
-
-User: Context: Regulation reference: "Regulation (EU) 2024/1689 — AI Act". Excerpt: {{CHUNK\_TEXT}}
-
-Task: Produce a JSON with three fields:
-{
-"toc\_entries": \[ {"type": "Chapter|Section|Article|Annex|Recital", "id": "article\_10", "title": "Article 10 - Data and data governance", "summary": "..." } , ... ],
-"candidate\_concepts": \["HighRiskAI","AI\_System","Provider","User", ...],
-"suggested\_relations": \[ {"label":"imposes","domain":"Authority","range":"Penalty"}, ... ]
-}
-
-Provide only the JSON block and nothing else.
-
----
-
-Competency questions prompt (use when you have a list of concepts):
-
-System: You are a legal ontology engineer who writes competency questions (CQs) for ontology-driven systems. For each CQ include an identifier and a short justification.
-
-User: Based on the following concepts: {{CONCEPT\_LIST}} generate 8-12 competency questions relevant for compliance checking and governance. Output format: JSON list of {"id":"CQ1","question":"...","justification":"..."} only.
-
----
-
-Class & property extraction prompt (use per article):
-
-System: You are an ontology generator. Given the following article text, identify candidate classes, properties (object/datatype), and named individuals. For each property give a suggested domain and range and whether it should be an object or datatype property.
-
-User: Article text: {{ARTICLE\_TEXT}}
-
-Output format (JSON):
-{
-"classes":\[{"iri":"{{candidateIRI}}","label":"...","comment":"...","superclass":"..."}],
-"object\_properties":\[{"iri":"{{propIRI}}","label":"...","domain":"...","range":"...","comment":"..."}],
-"data\_properties":\[{"iri":"{{dpIRI}}","label":"...","domain":"...","rangeDatatype":"xsd\:string"}],
-"individuals":\[{"iri":"{{indIRI}}","label":"...","type":"...","comment":"..."}]
-}
-
 Instruction: Provide only valid JSON. Use concise IRIs (no spaces). Prefer camelCase for labels.
 
 ---
 
-OWL/Turtle generation prompt (convert JSON->Turtle):
+OWL/Turtle Generation Prompt (convert JSON -> Turtle):
 
-System: You are a code generator for RDF/OWL. Convert the following JSON ontology fragment into Turtle (preferred) or RDF/XML. Maintain the provided IRIs and annotations. Use standard prefixes: rdf, rdfs, owl, xsd, schema, dpv, and a project namespace [https://w3id.org/example/aiact#](https://w3id.org/example/aiact#)
+System: You are a code generator for RDF/OWL. Convert the following JSON ontology fragment into Turtle (preferred) or RDF/XML. Maintain the provided IRIs and annotations. Use standard prefixes: rdf, rdfs, owl, xsd, schema, dpv, and a project namespace https://w3id.org/example/aiact#
 
-User: JSON fragment: {{JSON\_FRAGMENT}}
+User: JSON fragment: {{JSON_FRAGMENT}}
 
 Task: Output a Turtle document containing the triples to define classes, subclass relations, objectProperties (with domain/range), and individuals. Do not include extraneous commentary.
 
 ---
 
-Error handling & refinement prompt (if parser fails):
+Error Handling & Refinement Prompt (if parser fails):
 
-System: You are an assistant for ontology debugging. The following Turtle file failed the RDFLib parser with this error: {{PARSER\_ERROR}}. The file content is: {{TURTLE\_TEXT}}
+System: You are an assistant for ontology debugging. The following Turtle file failed the RDFLib parser with this error: {{PARSER_ERROR}}.
+The file content is: {{TURTLE_TEXT}}
 
 Task: Suggest up to 5 minimal edits to fix syntax issues and produce a corrected minimal Turtle fragment. Output only the corrected Turtle.
-
----
-
