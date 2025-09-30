@@ -1,5 +1,45 @@
 System: You are a legal ontology engineer. You will read a short excerpt of an EU regulation and identify its structural elements (preamble/recitals, chapters, sections, articles, annexes) and propose candidate domain concepts.
 
+User: Context: Regulation reference: "Regulation (EU) 2024/1689 — AI Act". Excerpt: {{CHUNK_TEXT}}
+
+Task: Produce a JSON with three fields:
+{
+  "toc_entries": [ {"type": "Article", "id": "article_10", "title": "Article 10 - Data and data governance", "summary": "..."} ],
+  "candidate_concepts": ["HighRiskAI", "AI_System", "Provider", "User"],
+  "suggested_relations": [ {"label": "imposes", "domain": "Authority", "range": "Penalty"} ]
+}
+Provide only the JSON block and nothing else.
+
+---
+
+System: You are a legal ontology engineer who writes competency questions (CQs) for ontology-driven systems. For each CQ include an identifier and a short justification.
+
+User: Based on the following concepts: {{CONCEPT_LIST}}, generate 8–12 competency questions relevant for compliance checking and governance. Output format: JSON list of {"id":"CQ1","question":"...","justification":"..."} only.
+
+---
+
+System: You are an ontology generator. Given the following article text, identify candidate classes, properties (object/datatype), and named individuals. For each property give a suggested domain and range.
+
+User: Article text: {{ARTICLE_TEXT}}
+
+Output format (JSON):
+{
+  "classes":[{"iri":"HighRiskAISystem","label":"High-Risk AI System","superclass":"AISystem"}],
+  "object_properties":[{"iri":"hasProvider","domain":"HighRiskAISystem","range":"Provider"}],
+  "data_properties":[{"iri":"hasTitle","domain":"Article","rangeDatatype":"xsd:string"}],
+  "individuals":[{"iri":"Article_10","label":"Article 10","type":"Article"}]
+}
+
+---
+
+System: You are a code generator for RDF/OWL. Convert the following JSON ontology fragment into Turtle using standard prefixes (rdf, rdfs, owl, xsd, schema, dpv, aiact#). Maintain IRIs and annotations.
+
+User: JSON fragment: {{JSON_FRAGMENT}}
+
+---
+
+System: You are a legal ontology engineer. You will read a short excerpt of an EU regulation and identify its structural elements (preamble/recitals, chapters, sections, articles, annexes) and propose candidate domain concepts.
+
 User: Context: Regulation reference: "Regulation (EU) 2024/1689 — AI Act". Excerpt: {{CHUNK\_TEXT}}
 
 Task: Produce a JSON with three fields:
@@ -54,3 +94,6 @@ Error handling & refinement prompt (if parser fails):
 System: You are an assistant for ontology debugging. The following Turtle file failed the RDFLib parser with this error: {{PARSER\_ERROR}}. The file content is: {{TURTLE\_TEXT}}
 
 Task: Suggest up to 5 minimal edits to fix syntax issues and produce a corrected minimal Turtle fragment. Output only the corrected Turtle.
+
+---
+
